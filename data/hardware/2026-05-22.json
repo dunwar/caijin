@@ -1,0 +1,752 @@
+{
+  "updated": "2026-05-22",
+  "dram": {
+    "date": "2026-05-22",
+    "items": [
+      {
+        "name": "DDR5 16Gb (2Gx8) 4800/5600",
+        "avgPrice": 41.333,
+        "dayHigh": 52.5,
+        "dayLow": 30.5
+      },
+      {
+        "name": "DDR5 16Gb (2Gx8) eTT",
+        "avgPrice": 22.5,
+        "dayHigh": 24.8,
+        "dayLow": 22.0
+      },
+      {
+        "name": "DDR4 16Gb (2Gx8) 3200",
+        "avgPrice": 60.143,
+        "dayHigh": 70.5,
+        "dayLow": 33.8
+      },
+      {
+        "name": "DDR4 16Gb (2Gx8) eTT",
+        "avgPrice": 12.35,
+        "dayHigh": 13.0,
+        "dayLow": 10.5
+      },
+      {
+        "name": "DDR4 8Gb (1Gx8) 3200",
+        "avgPrice": 32.9,
+        "dayHigh": 53.5,
+        "dayLow": 16.5
+      },
+      {
+        "name": "DDR4 8Gb (1Gx8) eTT",
+        "avgPrice": 4.864,
+        "dayHigh": 5.4,
+        "dayLow": 4.25
+      },
+      {
+        "name": "DDR3 4Gb 512Mx8 1600/1866",
+        "avgPrice": 9.088,
+        "dayHigh": 11.5,
+        "dayLow": 5.5
+      },
+      {
+        "name": "DDR5 8GB SO-DIMM",
+        "avgPrice": 215.0,
+        "dayHigh": 220.0,
+        "dayLow": 195.0
+      },
+      {
+        "name": "DDR4 16GB SO-DIMM",
+        "avgPrice": 975.0,
+        "dayHigh": 1180.0,
+        "dayLow": 900.0
+      },
+      {
+        "name": "DDR4 8GB SO-DIMM",
+        "avgPrice": 150.761,
+        "dayHigh": 171.0,
+        "dayLow": 138.0
+      },
+      {
+        "name": "DDR4 16Gb 2Gx8",
+        "avgPrice": 11.636,
+        "dayHigh": 17.5,
+        "dayLow": 9.5
+      },
+      {
+        "name": "DDR4 8Gb 1Gx8",
+        "avgPrice": 11.633,
+        "dayHigh": 17.5,
+        "dayLow": 9.5
+      }
+    ],
+    "history": [
+      {
+        "date": "2026-05-18",
+        "DDR5_16Gb": 41.267,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.95
+      },
+      {
+        "date": "2026-05-19",
+        "DDR5_16Gb": 41.267,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.95
+      },
+      {
+        "date": "2026-05-20",
+        "DDR5_16Gb": 41.1,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.907
+      },
+      {
+        "date": "2026-05-21",
+        "DDR5_16Gb": 41.167,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.864
+      },
+      {
+        "date": "2026-05-22",
+        "DDR5_16Gb": 41.333,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.864
+      }
+    ],
+    "source": "TrendForce集邦"
+  },
+  "news": {
+    "articles": [
+      {
+        "title": "AMD deepens Taiwan supply chain ties with US$10B-plus push",
+        "link": "https://www.digitimes.com/news/a20260522PD200/amd-taiwan-taiwan-supply-chain-tsmc-ceo.html",
+        "date": "Thu, 21 May 2026",
+        "snippet": "AMD CEO Lisa Su arrived in Taiwan on May 20, 2026, on a private jet and largely followed the same itinerary as her April 2025 visit, including a meeti",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "US-Japan cooperation could protect Taiwan '99%', defense investors told at Silicon Valley summit",
+        "link": "https://www.digitimes.com/news/a20260521VL229/taiwan-silicon-valley-military-technology-semiconductor-industry.html",
+        "date": "Thu, 21 May 2026",
+        "snippet": "Taiwan's semiconductor industry and the military implications of a potential cross-strait conflict dominated the aerospace and defense track on the se",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Intel's foundry reset: 14A, 10A and tougher engineering rules",
+        "link": "https://www.digitimes.com/news/a20260521PD235/intel-ceo-high-na-euv-development-tsmc.html",
+        "date": "Thu, 21 May 2026",
+        "snippet": "Intel CEO Lip-Bu Tan is reshaping the chipmaker's engineering culture and foundry strategy, confirming that 14A remains on track while revealing that ",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Lam Research launches PLP Center of Excellence, replacing wafers with panels",
+        "link": "https://www.digitimes.com/news/a20260521PD237/packaging-lam-research-technology-manufacturing-chips.html",
+        "date": "Thu, 21 May 2026",
+        "snippet": "Advanced packaging designs are approaching the physical limitations of wafers as AI, HPC, and heterogeneous integration rapidly evolve. Subsequently, ",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Tech Forum 2026: AI agents drive Arm CPU demand surge; 2026 shipments expected to exceed 6 million units",
+        "link": "https://www.digitimes.com/news/a20260521PD238/2026-shipments-demand-cpu-arm.html",
+        "date": "Thu, 21 May 2026",
+        "snippet": "On May 20, 2026, DIGITIMES held its Tech Forum, where senior analyst Jim Hsiao delivered a presentation, \"AI server market outlook and trends amid the",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Nvidia characterizes LPX as niche silicon optimized for high-speed premium tokens",
+        "link": "https://www.digitimes.com/news/a20260521VL222/nvidia-niche-silicon-accelerator-hardware.html",
+        "date": "Thu, 21 May 2026",
+        "snippet": "Nvidia has positioned its specialized LPX accelerator as a niche product designed specifically for low-latency, high-speed token generation rather tha",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Innovation at the edge: Semiconductor startup highlights from Plug and Play Silicon Valley May Summit 2026",
+        "link": "https://www.digitimes.com/news/a20260521VL226/pnp-summit-2026-semiconductor-industry-startup-data-security.html",
+        "date": "Thu, 21 May 2026",
+        "snippet": "At the recent Plug and Play Silicon Valley May Summit, the semiconductor and supply chain sessions highlighted a critical shift toward hardware-level ",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Two-year-old Chinese robotics firm claims to supply nine of world's top ten tech giants",
+        "link": "https://www.digitimes.com/news/a20260521VL230/robotics-robot-hardware-commercial-amazon.html",
+        "date": "Thu, 21 May 2026",
+        "snippet": "Wayne Wang, senior director of commercialization at Robot Era, used the 5th Mobis Mobility Day in Sunnyvale to present a two-year-old Chinese robotics",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "AMD CEO meets with TSMC CEO in Taiwan as it expands US chip output",
+        "link": "https://www.digitimes.com/news/a20260521PD239.html",
+        "date": "Thu, 21 May 2026",
+        "snippet": "Advanced Micro Devices (AMD) CEO Lisa Su stated that the company plans to invest more than US$10 billion in Taiwan's industrial ecosystem to accelerat",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Commentary: Trump's Taiwan chip claim tests TSMC's silence",
+        "link": "https://www.digitimes.com/news/a20260521VL213/taiwan-ic-manufacturing-tsmc-donald-trump-geopolitics.html",
+        "date": "Thu, 21 May 2026",
+        "snippet": "US President Donald Trump, after recently concluding a visit to China, again publicly accused Taiwan of having \"stolen our chip industry.\" This was no",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Taiwan 5G FWA CPE industry, 1Q 2026: Rebounding shipments and AI-driven supply crunch",
+        "link": "https://www.digitimes.com/news/a20260511RS401/5g-fwa-cpe-2026-shipments.html?chid=2",
+        "date": "Thu, 21 May 2026",
+        "snippet": "Memory shortage drives up ASP; Global 5G FWA CPE shipments projected to decline 4% YoY in 2Q26; ASP, conversely, supports production value resilience",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Nvidia's China hopes dim as Beijing doubles down on domestic AI chips",
+        "link": "https://www.digitimes.com/news/a20260521PD230/chips-nvidia-beijing-sales-military.html",
+        "date": "Thu, 21 May 2026",
+        "snippet": "Nvidia's H200 was a major focus after the Trump-Xi meeting, but hopes for sales into China have faded after US President Donald Trump's latest remarks",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "AMD commits over US$10 billion to Taiwan ecosystem to expand AI packaging and infrastructure capacity",
+        "link": "https://www.digitimes.com/news/a20260521PR202/amd-packaging-capacity-taiwan-infrastructure.html",
+        "date": "Thu, 21 May 2026",
+        "snippet": "AMD said on May 21 that it plans to invest more than US$10 billion across Taiwan's semiconductor ecosystem to deepen strategic partnerships and expand",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "How Nvidia plans to sell Vera CPUs: Four deployment models explained",
+        "link": "https://www.digitimes.com/news/a20260521VL220/nvidia-silicon-sales-expansion-processor.html",
+        "date": "Thu, 21 May 2026",
+        "snippet": "Nvidia has unveiled a strategic expansion of its silicon portfolio, detailing a four-pronged commercial approach for its new Vera central processing u",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Nvidia targets long-term ACIE dominance as enterprise AI eclipses hyperscalers",
+        "link": "https://www.digitimes.com/news/a20260521VL221/nvidia-industrial-data-center-market-revenue.html",
+        "date": "Thu, 21 May 2026",
+        "snippet": "Nvidia has detailed a significant structural shift in its data center revenue reporting, introducing a new market segmentation that separates traditio",
+        "source": "DigiTimes"
+      }
+    ],
+    "total": 23,
+    "source": "DigiTimes RSS"
+  },
+  "gpuOptical": {
+    "date": "2026-05-22",
+    "gpuCloud": [
+      {
+        "name": "AWS H100",
+        "price": "$3.06/hr",
+        "note": "p5.48xlarge"
+      },
+      {
+        "name": "Azure H100",
+        "price": "$3.77/hr",
+        "note": "ND H100 v5"
+      },
+      {
+        "name": "GCP H100",
+        "price": "$3.36/hr",
+        "note": "A3 on-demand"
+      },
+      {
+        "name": "AWS A100",
+        "price": "$1.97/hr",
+        "note": "p4d.24xlarge"
+      }
+    ],
+    "opticalModules": [
+      {
+        "name": "800G SR8",
+        "price": "$1,222"
+      },
+      {
+        "name": "800G XDR8",
+        "price": "$8,873"
+      },
+      {
+        "name": "400G DR4",
+        "price": "$448"
+      },
+      {
+        "name": "1.6T OSFP(估)",
+        "price": "$1,970"
+      }
+    ],
+    "gpuHistory": [
+      {
+        "date": "2026-04-19",
+        "AWS H100": 3.09,
+        "Azure H100": 3.76,
+        "GCP H100": 3.31,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-04-20",
+        "AWS H100": 3.07,
+        "Azure H100": 3.73,
+        "GCP H100": 3.32,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-04-21",
+        "AWS H100": 3.06,
+        "Azure H100": 3.75,
+        "GCP H100": 3.35,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-04-22",
+        "AWS H100": 3.06,
+        "Azure H100": 3.8,
+        "GCP H100": 3.39,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-04-23",
+        "AWS H100": 3.05,
+        "Azure H100": 3.81,
+        "GCP H100": 3.3,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-04-24",
+        "AWS H100": 3.1,
+        "Azure H100": 3.79,
+        "GCP H100": 3.36,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-04-25",
+        "AWS H100": 3.1,
+        "Azure H100": 3.71,
+        "GCP H100": 3.38,
+        "AWS A100": 1.94
+      },
+      {
+        "date": "2026-04-26",
+        "AWS H100": 3.04,
+        "Azure H100": 3.78,
+        "GCP H100": 3.36,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-04-27",
+        "AWS H100": 3.06,
+        "Azure H100": 3.74,
+        "GCP H100": 3.3,
+        "AWS A100": 1.91
+      },
+      {
+        "date": "2026-04-28",
+        "AWS H100": 3.06,
+        "Azure H100": 3.77,
+        "GCP H100": 3.3,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-04-29",
+        "AWS H100": 3.1,
+        "Azure H100": 3.8,
+        "GCP H100": 3.32,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-04-30",
+        "AWS H100": 3.07,
+        "Azure H100": 3.73,
+        "GCP H100": 3.36,
+        "AWS A100": 1.91
+      },
+      {
+        "date": "2026-05-01",
+        "AWS H100": 3.04,
+        "Azure H100": 3.74,
+        "GCP H100": 3.33,
+        "AWS A100": 1.91
+      },
+      {
+        "date": "2026-05-02",
+        "AWS H100": 3.06,
+        "Azure H100": 3.72,
+        "GCP H100": 3.32,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-05-03",
+        "AWS H100": 3.02,
+        "Azure H100": 3.72,
+        "GCP H100": 3.32,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-05-04",
+        "AWS H100": 3.09,
+        "Azure H100": 3.73,
+        "GCP H100": 3.32,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-05-05",
+        "AWS H100": 3.04,
+        "Azure H100": 3.75,
+        "GCP H100": 3.29,
+        "AWS A100": 1.91
+      },
+      {
+        "date": "2026-05-06",
+        "AWS H100": 3.1,
+        "Azure H100": 3.75,
+        "GCP H100": 3.37,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-05-07",
+        "AWS H100": 3.1,
+        "Azure H100": 3.79,
+        "GCP H100": 3.34,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-05-08",
+        "AWS H100": 3.03,
+        "Azure H100": 3.71,
+        "GCP H100": 3.32,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-05-09",
+        "AWS H100": 3.05,
+        "Azure H100": 3.82,
+        "GCP H100": 3.3,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-05-10",
+        "AWS H100": 3.1,
+        "Azure H100": 3.76,
+        "GCP H100": 3.29,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-05-11",
+        "AWS H100": 3.06,
+        "Azure H100": 3.72,
+        "GCP H100": 3.3,
+        "AWS A100": 1.91
+      },
+      {
+        "date": "2026-05-12",
+        "AWS H100": 3.1,
+        "Azure H100": 3.8,
+        "GCP H100": 3.31,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-05-13",
+        "AWS H100": 3.06,
+        "Azure H100": 3.71,
+        "GCP H100": 3.33,
+        "AWS A100": 1.94
+      },
+      {
+        "date": "2026-05-14",
+        "AWS H100": 3.1,
+        "Azure H100": 3.78,
+        "GCP H100": 3.37,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-05-15",
+        "AWS H100": 3.1,
+        "Azure H100": 3.76,
+        "GCP H100": 3.32,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-05-16",
+        "AWS H100": 3.07,
+        "Azure H100": 3.8,
+        "GCP H100": 3.33,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-05-17",
+        "AWS H100": 3.04,
+        "Azure H100": 3.73,
+        "GCP H100": 3.37,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-05-18",
+        "AWS H100": 3.08,
+        "Azure H100": 3.82,
+        "GCP H100": 3.29,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-05-19",
+        "AWS H100": 3.01,
+        "Azure H100": 3.83,
+        "GCP H100": 3.41,
+        "AWS A100": 1.91
+      },
+      {
+        "date": "2026-05-20",
+        "AWS H100": 3.04,
+        "Azure H100": 3.78,
+        "GCP H100": 3.38,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-05-21",
+        "AWS H100": 3.03,
+        "Azure H100": 3.83,
+        "GCP H100": 3.38,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-05-22",
+        "AWS H100": 3.06,
+        "Azure H100": 3.77,
+        "GCP H100": 3.36,
+        "AWS A100": 1.97
+      }
+    ],
+    "opticalHistory": [
+      {
+        "date": "2026-04-19",
+        "800G SR8": 1243.0,
+        "800G XDR8": 8921.0,
+        "400G DR4": 448.0,
+        "1.6T OSFP(估)": 2030.0
+      },
+      {
+        "date": "2026-04-20",
+        "800G SR8": 1241.0,
+        "800G XDR8": 8805.0,
+        "400G DR4": 455.0,
+        "1.6T OSFP(估)": 1974.0
+      },
+      {
+        "date": "2026-04-21",
+        "800G SR8": 1230.0,
+        "800G XDR8": 8998.0,
+        "400G DR4": 453.0,
+        "1.6T OSFP(估)": 2009.0
+      },
+      {
+        "date": "2026-04-22",
+        "800G SR8": 1241.0,
+        "800G XDR8": 8862.0,
+        "400G DR4": 451.0,
+        "1.6T OSFP(估)": 2023.0
+      },
+      {
+        "date": "2026-04-23",
+        "800G SR8": 1241.0,
+        "800G XDR8": 8905.0,
+        "400G DR4": 454.0,
+        "1.6T OSFP(估)": 2018.0
+      },
+      {
+        "date": "2026-04-24",
+        "800G SR8": 1261.0,
+        "800G XDR8": 8751.0,
+        "400G DR4": 447.0,
+        "1.6T OSFP(估)": 2021.0
+      },
+      {
+        "date": "2026-04-25",
+        "800G SR8": 1243.0,
+        "800G XDR8": 8778.0,
+        "400G DR4": 454.0,
+        "1.6T OSFP(估)": 2028.0
+      },
+      {
+        "date": "2026-04-26",
+        "800G SR8": 1236.0,
+        "800G XDR8": 8809.0,
+        "400G DR4": 445.0,
+        "1.6T OSFP(估)": 2023.0
+      },
+      {
+        "date": "2026-04-27",
+        "800G SR8": 1262.0,
+        "800G XDR8": 8902.0,
+        "400G DR4": 454.0,
+        "1.6T OSFP(估)": 2020.0
+      },
+      {
+        "date": "2026-04-28",
+        "800G SR8": 1228.0,
+        "800G XDR8": 8975.0,
+        "400G DR4": 448.0,
+        "1.6T OSFP(估)": 2024.0
+      },
+      {
+        "date": "2026-04-29",
+        "800G SR8": 1258.0,
+        "800G XDR8": 8886.0,
+        "400G DR4": 449.0,
+        "1.6T OSFP(估)": 2005.0
+      },
+      {
+        "date": "2026-04-30",
+        "800G SR8": 1240.0,
+        "800G XDR8": 8741.0,
+        "400G DR4": 447.0,
+        "1.6T OSFP(估)": 2015.0
+      },
+      {
+        "date": "2026-05-01",
+        "800G SR8": 1232.0,
+        "800G XDR8": 8903.0,
+        "400G DR4": 446.0,
+        "1.6T OSFP(估)": 2015.0
+      },
+      {
+        "date": "2026-05-02",
+        "800G SR8": 1250.0,
+        "800G XDR8": 8901.0,
+        "400G DR4": 453.0,
+        "1.6T OSFP(估)": 2010.0
+      },
+      {
+        "date": "2026-05-03",
+        "800G SR8": 1248.0,
+        "800G XDR8": 8984.0,
+        "400G DR4": 452.0,
+        "1.6T OSFP(估)": 2018.0
+      },
+      {
+        "date": "2026-05-04",
+        "800G SR8": 1260.0,
+        "800G XDR8": 8806.0,
+        "400G DR4": 453.0,
+        "1.6T OSFP(估)": 2017.0
+      },
+      {
+        "date": "2026-05-05",
+        "800G SR8": 1235.0,
+        "800G XDR8": 8960.0,
+        "400G DR4": 447.0,
+        "1.6T OSFP(估)": 2019.0
+      },
+      {
+        "date": "2026-05-06",
+        "800G SR8": 1227.0,
+        "800G XDR8": 8948.0,
+        "400G DR4": 448.0,
+        "1.6T OSFP(估)": 2025.0
+      },
+      {
+        "date": "2026-05-07",
+        "800G SR8": 1226.0,
+        "800G XDR8": 8977.0,
+        "400G DR4": 454.0,
+        "1.6T OSFP(估)": 2011.0
+      },
+      {
+        "date": "2026-05-08",
+        "800G SR8": 1230.0,
+        "800G XDR8": 8849.0,
+        "400G DR4": 455.0,
+        "1.6T OSFP(估)": 1982.0
+      },
+      {
+        "date": "2026-05-09",
+        "800G SR8": 1260.0,
+        "800G XDR8": 8740.0,
+        "400G DR4": 452.0,
+        "1.6T OSFP(估)": 2021.0
+      },
+      {
+        "date": "2026-05-10",
+        "800G SR8": 1249.0,
+        "800G XDR8": 8749.0,
+        "400G DR4": 451.0,
+        "1.6T OSFP(估)": 1980.0
+      },
+      {
+        "date": "2026-05-11",
+        "800G SR8": 1239.0,
+        "800G XDR8": 8958.0,
+        "400G DR4": 452.0,
+        "1.6T OSFP(估)": 1975.0
+      },
+      {
+        "date": "2026-05-12",
+        "800G SR8": 1259.0,
+        "800G XDR8": 8854.0,
+        "400G DR4": 454.0,
+        "1.6T OSFP(估)": 2003.0
+      },
+      {
+        "date": "2026-05-13",
+        "800G SR8": 1243.0,
+        "800G XDR8": 8953.0,
+        "400G DR4": 445.0,
+        "1.6T OSFP(估)": 2003.0
+      },
+      {
+        "date": "2026-05-14",
+        "800G SR8": 1247.0,
+        "800G XDR8": 8876.0,
+        "400G DR4": 450.0,
+        "1.6T OSFP(估)": 1989.0
+      },
+      {
+        "date": "2026-05-15",
+        "800G SR8": 1235.0,
+        "800G XDR8": 8815.0,
+        "400G DR4": 452.0,
+        "1.6T OSFP(估)": 2019.0
+      },
+      {
+        "date": "2026-05-16",
+        "800G SR8": 1232.0,
+        "800G XDR8": 8955.0,
+        "400G DR4": 448.0,
+        "1.6T OSFP(估)": 1999.0
+      },
+      {
+        "date": "2026-05-17",
+        "800G SR8": 1240.0,
+        "800G XDR8": 8754.0,
+        "400G DR4": 457.0,
+        "1.6T OSFP(估)": 2021.0
+      },
+      {
+        "date": "2026-05-18",
+        "800G SR8": 1241,
+        "800G XDR8": 8779,
+        "400G DR4": 447,
+        "1.6T OSFP(估)": 1960
+      },
+      {
+        "date": "2026-05-19",
+        "800G SR8": 1244,
+        "800G XDR8": 8921,
+        "400G DR4": 452,
+        "1.6T OSFP(估)": 1964
+      },
+      {
+        "date": "2026-05-20",
+        "800G SR8": 1226,
+        "800G XDR8": 8837,
+        "400G DR4": 449,
+        "1.6T OSFP(估)": 2038
+      },
+      {
+        "date": "2026-05-21",
+        "800G SR8": 1259,
+        "800G XDR8": 8946,
+        "400G DR4": 442,
+        "1.6T OSFP(估)": 1991
+      },
+      {
+        "date": "2026-05-22",
+        "800G SR8": 1222,
+        "800G XDR8": 8873,
+        "400G DR4": 448,
+        "1.6T OSFP(估)": 1970
+      }
+    ]
+  }
+}

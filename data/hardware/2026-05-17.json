@@ -1,0 +1,246 @@
+{
+  "updated": "2026-05-17",
+  "dram": {
+    "date": "2026-05-15",
+    "items": [
+      {
+        "name": "DDR5 16Gb (2Gx8) 4800/5600",
+        "avgPrice": 41.167,
+        "dayHigh": 52.5,
+        "dayLow": 30.0
+      },
+      {
+        "name": "DDR5 16Gb (2Gx8) eTT",
+        "avgPrice": 22.4,
+        "dayHigh": 24.5,
+        "dayLow": 21.8
+      },
+      {
+        "name": "DDR4 16Gb (2Gx8) 3200",
+        "avgPrice": 58.238,
+        "dayHigh": 70.0,
+        "dayLow": 33.0
+      },
+      {
+        "name": "DDR4 16Gb (2Gx8) eTT",
+        "avgPrice": 12.45,
+        "dayHigh": 13.2,
+        "dayLow": 10.7
+      },
+      {
+        "name": "DDR4 8Gb (1Gx8) 3200",
+        "avgPrice": 32.0,
+        "dayHigh": 52.8,
+        "dayLow": 16.4
+      },
+      {
+        "name": "DDR4 8Gb (1Gx8) eTT",
+        "avgPrice": 5.007,
+        "dayHigh": 5.5,
+        "dayLow": 4.0
+      },
+      {
+        "name": "DDR3 4Gb 512Mx8 1600/1866",
+        "avgPrice": 8.988,
+        "dayHigh": 11.1,
+        "dayLow": 5.55
+      },
+      {
+        "name": "DDR5 8GB SO-DIMM",
+        "avgPrice": 215.5,
+        "dayHigh": 218.0,
+        "dayLow": 193.0
+      },
+      {
+        "name": "DDR4 16GB SO-DIMM",
+        "avgPrice": 960.0,
+        "dayHigh": 1180.0,
+        "dayLow": 860.0
+      },
+      {
+        "name": "DDR4 8GB SO-DIMM",
+        "avgPrice": 148.435,
+        "dayHigh": 170.0,
+        "dayLow": 136.0
+      },
+      {
+        "name": "DDR4 16Gb 2Gx8",
+        "avgPrice": 11.636,
+        "dayHigh": 17.5,
+        "dayLow": 9.5
+      },
+      {
+        "name": "DDR4 8Gb 1Gx8",
+        "avgPrice": 11.702,
+        "dayHigh": 17.5,
+        "dayLow": 9.5
+      }
+    ],
+    "history": [
+      {
+        "date": "2026-05-15",
+        "DDR5_16Gb": 22.4,
+        "DDR4_16Gb": 11.636
+      }
+    ],
+    "source": "TrendForce集邦"
+  },
+  "news": {
+    "articles": [
+      {
+        "title": "Taiwan chipmakers quietly fill gaps left by Korea's HBM push",
+        "link": "https://www.digitimes.com/news/a20260515VL216/taiwan-hbm-investment-packaging-ai-server.html",
+        "date": "Sat, 16 May 2026",
+        "snippet": "Taiwan's semiconductor ecosystem is getting an unexpected lift from the AI server investment boom. Supply pressure that began in high-bandwidth memory",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Optical firms enter high-margin smart snow goggles supply chain",
+        "link": "https://www.digitimes.com/news/a20260514PD218/supply-chain-taiwan-ar-technology-design.html",
+        "date": "Sat, 16 May 2026",
+        "snippet": "Taiwan's optical supply chain is moving into smart snow goggles as companies race to combine augmented reality (AR) displays with large-curvature prot",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Adlink bets on physical AI with robotics, healthcare, and semiconductors",
+        "link": "https://www.digitimes.com/news/a20260514PD228/adlink-industrial-robotics-semiconductors-smart-healthcare-profit-2026.html",
+        "date": "Sat, 16 May 2026",
+        "snippet": "Adlink Technology said on May 13 that edge AI demand continued to rise, helping the industrial PC maker deliver one of its strongest profit performanc",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Galatek targets advanced packaging market, eyes Taiwan foundries",
+        "link": "https://www.digitimes.com/news/a20260514PD241/packaging-market-startup-taiwan-automation.html",
+        "date": "Sat, 16 May 2026",
+        "snippet": "Singapore-based AI automation startup Galatek said it is tackling yield bottlenecks in micron-level packaging with AI-embedded equipment as demand for",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "China's memory push accelerates as YMTC and CXMT expand DRAM ambitions",
+        "link": "https://www.digitimes.com/news/a20260514VL205/dram-ymtc-cxmt-semiconductor-industry-nand-flash.html",
+        "date": "Sat, 16 May 2026",
+        "snippet": "China's memory semiconductor industry is entering a new phase of expansion as leading domestic players ramp up investments in both NAND flash and DRAM",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "AI server tracker: Rising server demand leads to high revenue growth for rail kit makers",
+        "link": "https://www.digitimes.com/news/a20260514VL207/demand-revenue-growth-ai-server-2026.html",
+        "date": "Sat, 16 May 2026",
+        "snippet": "Growing demand for AI is driving appetite for server components across cable connectors, cases, and rail kits. This wave has led most major Taiwanese ",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Taiwan semiconductor materials, April 2026&#38;mdash; One sector, two races",
+        "link": "https://www.digitimes.com/news/a20260514VL208/materials-demand-growth-packaging-revenue.html",
+        "date": "Sat, 16 May 2026",
+        "snippet": "Among the 19 Taiwan-listed semiconductor materials companies tracked by &lt;em&gt;Digitimes&lt;/em&gt;, 10 (53%) grew month-on-month in April, 12 (63%",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "One-person companies may upend small businesses in AI shift, adviser says",
+        "link": "https://www.digitimes.com/news/a20260515PD202/development-business-infrastructure-design.html",
+        "date": "Sat, 16 May 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"1720\" data-end=\"1982\"&gt;Lee-Feng Chien, innovation economy adviser to the Executive Yuan's Economic Development Commissi",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Commentary: The Thucydides trap and TSMC's COUPE",
+        "link": "https://www.digitimes.com/news/a20260515VL219/tsmc-cowos-packaging-taiwan.html",
+        "date": "Fri, 15 May 2026",
+        "snippet": "On May 14, Xi Jinping opened his summit with Donald Trump in Beijing by invoking the Thucydides Trap &#38;mdash; the idea that a rising power and an e",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "China keeps tight InP export controls despite Trump-Xi talks",
+        "link": "https://www.digitimes.com/news/a20260515PD230/china-rare-earth-materials-semiconductors-substrate-optics.html",
+        "date": "Fri, 15 May 2026",
+        "snippet": "As the US and China continue to clash over geopolitics and critical materials supply, industry sources say China's restrictions on indium phosphide (I",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Fiber shortage deepens as orders for Chinese vendors extend to 2027",
+        "link": "https://www.digitimes.com/news/a20260515PD226/fiber-optics-demand-data-center-telecom-2027.html",
+        "date": "Fri, 15 May 2026",
+        "snippet": "The global optical fiber market is shifting from a traditional telecom cycle into a new phase of structural shortage, driven by rapid AI infrastructur",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "TSMC's Vanguard stake sale signals AI-era capital pivot",
+        "link": "https://www.digitimes.com/news/a20260515VL218/tsmc-vis-arm-technology-packaging.html",
+        "date": "Fri, 15 May 2026",
+        "snippet": "TSMC's decision to sell down its stake in Vanguard International Semiconductor (VIS) is the second significant portfolio move the company has made in ",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "AI servers squeeze ODM margins as consignment gains traction",
+        "link": "https://www.digitimes.com/news/a20260515PD225/ai-server-odm-revenue-foxconn-quanta.html",
+        "date": "Fri, 15 May 2026",
+        "snippet": "As AI server prices rise, original design manufacturers (ODMs) are hitting record revenue, but also coming under pressure on their gross margins. To d",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Samsung shields chip lines as union sticks to strike plan",
+        "link": "https://www.digitimes.com/news/a20260515VL213/samsung-strike-production-labor-disruption.html",
+        "date": "Fri, 15 May 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"2180\" data-end=\"2411\"&gt;Samsung Electronics has reportedly begun pre-emptive production adjustments at its semiconductor",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Memory maker Biwin reapplies for listing on Hong Kong Stock Exchange",
+        "link": "https://www.digitimes.com/news/a20260515VL214/biwin-stock-market-packaging-testing-demand.html",
+        "date": "Fri, 15 May 2026",
+        "snippet": "Biwin Storage Technology recently resubmitted its listing application to the Hong Kong Stock Exchange again, with Huatai Financial Holdings acting as ",
+        "source": "DigiTimes"
+      }
+    ],
+    "total": 21,
+    "source": "DigiTimes RSS"
+  },
+  "gpuOptical": {
+    "date": "2026-05-17",
+    "gpuCloud": [
+      {
+        "name": "AWS H100",
+        "price": "$3.06/hr",
+        "note": "p5.48xlarge"
+      },
+      {
+        "name": "AWS A100",
+        "price": "$1.93/hr",
+        "note": "p4d.24xlarge"
+      },
+      {
+        "name": "Azure H100",
+        "price": "$3.76/hr",
+        "note": "ND H100 v5"
+      },
+      {
+        "name": "GCP H100",
+        "price": "$3.34/hr",
+        "note": "A3 on-demand"
+      }
+    ],
+    "opticalModules": [
+      {
+        "name": "800GBASE-SR8",
+        "price": "$1,244",
+        "note": "多模 100m"
+      },
+      {
+        "name": "800G XDR8",
+        "price": "$8,870",
+        "note": "单模 10km"
+      },
+      {
+        "name": "400G OSFP DR4",
+        "price": "$300-600",
+        "note": "主流DC"
+      },
+      {
+        "name": "1.6T OSFP (估)",
+        "price": "~$2,000",
+        "note": "Innolight 2026H2"
+      }
+    ]
+  }
+}

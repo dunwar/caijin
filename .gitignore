@@ -1,0 +1,16 @@
+# Logs
+*.log
+data/fetch.log
+
+# Runtime/temp
+*.tmp
+*.bak
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

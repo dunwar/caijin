@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>财经监控 · caijin.gaozhong.online</title>
+<style>
+:root{--bg:#f8f9fa;--card:#fff;--t1:#1a1a2e;--t2:#6b7280;--t3:#9ca3af;--bd:#e5e7eb;--amber:#d97706;--steel:#2563eb;--emerald:#059669}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--t1);line-height:1.6;-webkit-font-smoothing:antialiased;min-height:100vh;display:flex;flex-direction:column}
+.header{background:var(--card);padding:60px 16px 40px;text-align:center;border-bottom:1px solid var(--bd)}
+.header h1{font-size:28px;font-weight:700;margin-bottom:8px}
+.header p{font-size:14px;color:var(--t2)}
+.menu{display:grid;grid-template-columns:1fr;gap:16px;padding:24px 16px;max-width:420px;margin:0 auto;flex:1}
+.card{background:var(--card);border-radius:12px;padding:28px 24px;box-shadow:0 1px 3px rgba(0,0,0,.08);text-decoration:none;color:var(--t1);transition:transform .15s,box-shadow .15s;display:flex;align-items:center;gap:16px}
+.card:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.12)}
+.card .icon{font-size:32px;flex-shrink:0}
+.card .info h3{font-size:17px;font-weight:700;margin-bottom:4px}
+.card .info p{font-size:13px;color:var(--t2);line-height:1.4}
+.card.baijiu{border-left:4px solid var(--amber)}.card.hw{border-left:4px solid var(--steel)}.card.sw{border-left:4px solid var(--emerald)}
+.footer{text-align:center;padding:20px;font-size:11px;color:var(--t3)}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>📊 财经监控</h1>
+<p>caijin.gaozhong.online · 每日凌晨自动更新</p>
+</div>
+<div class="menu">
+<a href="baijiu.html" class="card baijiu">
+<div class="icon">🍶</div>
+<div class="info"><h3>白酒</h3><p>泸州老窖批零价格 · 渠道库存指数</p></div>
+</a>
+<a href="hardware.html" class="card hw">
+<div class="icon">🔧</div>
+<div class="info"><h3>AI硬件</h3><p>DRAM内存 · 半导体新闻 · 光模块 · GPU</p></div>
+</a>
+<a href="software.html" class="card sw">
+<div class="icon">💻</div>
+<div class="info"><h3>AI软件</h3><p>模型定价 · Token云服务 · Elo排名</p></div>
+</a>
+</div>
+<div class="footer">数据每日凌晨自动更新 · caijin.gaozhong.online</div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>白酒监控 · caijin.gaozhong.online</title>
+<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+<style>
+:root{--bg:#f8f9fa;--card:#fff;--t1:#1a1a2e;--t2:#6b7280;--t3:#9ca3af;--bd:#e5e7eb;--amber:#d97706;--red:#dc2626;--green:#16a34a;--sh:0 1px 3px rgba(0,0,0,.08);--r:10px}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--t1);line-height:1.6}
+.header{background:var(--card);padding:12px 14px;position:sticky;top:0;z-index:100;border-bottom:1px solid var(--bd);box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.header .toprow{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+.header .toprow a{color:var(--t2);text-decoration:none;font-size:18px}
+.header h1{font-size:17px;font-weight:700}
+.header .sub{font-size:11px;color:var(--t3)}
+.nav{display:flex;gap:6px}
+.nav a{display:inline-flex;align-items:center;gap:4px;padding:5px 12px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;border:1px solid var(--bd);color:var(--t2);transition:all .15s}
+.nav a:hover:not(.cur){background:var(--bg)}
+.nav a.cur{background:var(--amber);color:#fff;border-color:var(--amber);font-weight:700}
+.card{background:var(--card);border-radius:var(--r);padding:14px;margin:12px 14px;box-shadow:var(--sh)}
+.ttl{font-size:13px;font-weight:700;color:var(--t2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px}
+.metrics{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.m{background:var(--bg);border-radius:8px;padding:10px;text-align:center}
+.m .l{font-size:11px;color:var(--t3)}.m .v{font-size:18px;font-weight:700;margin:2px 0}.m .s{font-size:10px;color:var(--t2)}
+.chart{width:100%;height:260px}
+.tbl{width:100%;font-size:12px;border-collapse:collapse}
+.tbl th,.tbl td{padding:7px 5px;text-align:right;border-bottom:1px solid var(--bd)}
+.tbl th{font-size:10px;color:var(--t3);font-weight:600}
+.tbl td:first-child,.tbl th:first-child{text-align:left}.tbl .nm{font-weight:600}
+.up{color:var(--red)}.dn{color:var(--green)}
+</style>
+</head>
+<body>
+<div class="header"><div class="toprow"><a href="index.html">←</a><div><h1>🍶 白酒</h1><div class="sub" id="upd">加载中...</div></div></div><div class="nav"><a class="cur">🍶 白酒</a><a href="hardware.html">🔧 硬件</a><a href="software.html">💻 软件</a></div></div>
+
+<div class="card"><div class="ttl">📦 国窖1573 52°/500ml 批零对比</div><div class="metrics" id="m-price"></div><div class="chart" id="ch-price"></div><div style="font-size:10px;color:var(--t3);margin-top:6px;text-align:center">批价:yunjiu.com | 零售:SMZDM</div></div>
+<div class="card"><div class="ttl">🏷️ 泸州老窖全系列</div><div style="overflow-x:auto"><table class="tbl" id="tbl-prods"></table></div></div>
+<div class="card"><div class="ttl">📊 渠道库存积压指数</div><div class="metrics" id="m-ch"></div><div class="chart" id="ch-ch"></div><div class="note" id="ci-note" style="font-size:10px;color:var(--t3);margin-top:6px;text-align:center"></div></div>
+
+<script>
+async function ld(p){try{return(await fetch(p)).json()}catch(e){return null}}
+(async function(){
+var d=await ld('data/baijiu/latest.json');if(!d){document.getElementById('upd').textContent='数据加载失败';return}
+document.getElementById('upd').textContent='更新于 '+d.updated+' · 批价:yunjiu.com | 零售:SMZDM';
+
+var hist=d.priceHistory||[],gj=d.guojiao1573,ret=d.retailPrice||{},rp=ret.price||790;
+var tp=gj?parseInt(gj.today):(hist.length?hist[hist.length-1].batch:null);
+var yp=gj?parseInt(gj.yesterday):(hist.length>1?hist[hist.length-2].batch:null);
+var chg=(tp&&yp)?tp-yp:0,spd=tp?rp-tp:null;
+var c1=spd&&spd<0?'var(--red)':spd&&spd<30?'var(--amber)':'var(--green)';
+var s1=spd&&spd<0?'⚠️ 批价>零售':spd&&spd<30?'价差偏小':'正常';
+document.getElementById('m-price').innerHTML='<div class="m"><div class="l">批价</div><div class="v">¥'+(tp||'——')+'</div><div class="s">yunjiu.com</div></div><div class="m"><div class="l">零售</div><div class="v">¥'+rp+'</div><div class="s">SMZDM</div></div><div class="m"><div class="l">较昨日</div><div class="v '+(chg>0?'up':chg<0?'dn':'')+'">'+(chg>0?'+':'')+(chg||0)+'</div><div class="s">昨 ¥'+(yp||'——')+'</div></div><div class="m"><div class="l">批零价差</div><div class="v" style="color:'+c1+'">¥'+(spd||'——')+'</div><div class="s">'+s1+'</div></div>';
+
+if(hist.length>0){
+var dt=hist.map(function(h){return h.date.substring(5)});
+var bp=hist.map(function(h){return h.batch||null});
+var rp2=hist.map(function(){return rp});
+var sv=hist.map(function(h){var b=h.batch;return b?rp-b:null});
+var ch=echarts.init(document.getElementById('ch-price'));
+ch.setOption({grid:{left:50,right:50,top:10,bottom:35},xAxis:{type:'category',data:dt,axisLabel:{fontSize:10,rotate:45}},yAxis:[{type:'value',axisLabel:{fontSize:10,formatter:'¥{value}'},min:function(v){return v.min-10}},{type:'value',axisLabel:{fontSize:10,formatter:'¥{value}'}}],series:[{type:'line',data:bp,name:'一批价',smooth:true,lineStyle:{color:'#d97706',width:2},symbolSize:4},{type:'line',data:rp2,name:'零售',lineStyle:{color:'#2563eb',width:2,type:'dashed'},symbol:'none'},{type:'line',data:sv,name:'批零差',yAxisIndex:1,lineStyle:{color:'#ef4444',width:1,type:'dotted'},symbolSize:4}],tooltip:{trigger:'axis'},legend:{bottom:0,textStyle:{fontSize:10}}});
+window.addEventListener('resize',function(){ch.resize()});
+}
+
+var prods=d.products||[];
+if(prods.length)document.getElementById('tbl-prods').innerHTML='<thead><tr><th>品名</th><th>规格</th><th>昨日</th><th>今日</th><th>涨跌</th></tr></thead><tbody>'+prods.map(function(p){var df=(p.today||0)-(p.yesterday||0);return'<tr><td class="nm">'+p.name+'</td><td>'+p.spec+'</td><td>¥'+p.yesterday+'</td><td>¥'+p.today+'</td><td class="'+(df>0?'up':df<0?'dn':'')+'">'+(df>0?'+'+df:df||'—')+'</td></tr>'}).join('')+'</tbody>';
+
+var ci=d.channelIndex||[];
+if(ci.length>1){
+var d2=ci.map(function(r){return r.date.substring(0,4)+'-'+r.date.substring(4,6)});
+var iv=ci.map(function(r){return r.invTurnDays||null});
+var gm=ci.map(function(r){return r.grossMargin||null});
+var db=ci.map(function(r){return r.debtRatio||null});
+document.getElementById('m-ch').innerHTML='<div class="m"><div class="l">存货周转天数</div><div class="v '+((iv[iv.length-1]||0)>1200?'up':'dn')+'">'+(iv[iv.length-1]||0).toFixed(0)+'天</div><div class="s">最新季</div></div><div class="m"><div class="l">毛利率</div><div class="v">'+(gm[gm.length-1]||0).toFixed(1)+'%</div><div class="s">最新季</div></div>';
+var latestQ=d2[d2.length-1]||'';document.getElementById('ci-note').textContent='季度数据 · 最新: '+latestQ+' · 来源: AKShare(泸州老窖季报) · 采集于 '+d.updated;
+var ch2=echarts.init(document.getElementById('ch-ch'));
+ch2.setOption({grid:{left:50,right:60,top:10,bottom:30},xAxis:{type:'category',data:d2,axisLabel:{fontSize:10,rotate:30}},yAxis:[{type:'value',name:'天',axisLabel:{fontSize:10}},{type:'value',name:'%',axisLabel:{fontSize:10}}],series:[{type:'bar',data:iv,name:'存货周转(天)',itemStyle:{color:function(p){return p.value>1200?'#dc2626':'#d97706'},borderRadius:[4,4,0,0]}},{type:'line',data:gm,name:'毛利率%',yAxisIndex:1,lineStyle:{color:'#059669',width:2},symbol:'circle',symbolSize:6},{type:'line',data:db,name:'负债率%',yAxisIndex:1,lineStyle:{color:'#94a3b8',width:1.5},symbol:'diamond',symbolSize:4}],tooltip:{trigger:'axis'},legend:{bottom:0,textStyle:{fontSize:9}}});
+window.addEventListener('resize',function(){ch2.resize()});
+} else {
+document.getElementById('ci-note').textContent='暂无数据 · 来源: AKShare(泸州老窖季报) · 采集于 '+d.updated;
+}
+})();
+</script>
+</body>
+</html>

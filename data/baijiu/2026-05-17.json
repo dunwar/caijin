@@ -1,0 +1,334 @@
+{
+  "updated": "2026-05-17",
+  "products": [
+    {
+      "name": "泸州老窖紫砂大曲",
+      "spec": "52.00度/500ml",
+      "yesterday": "195",
+      "today": "195",
+      "detailId": "352",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail352"
+    },
+    {
+      "name": "泸州老窖52°晶彩",
+      "spec": "52.00度/500ml",
+      "yesterday": "180",
+      "today": "180",
+      "detailId": "351",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail351"
+    },
+    {
+      "name": "泸州老窖43°国窖1573",
+      "spec": "43.00度/100ml",
+      "yesterday": "85",
+      "today": "85",
+      "detailId": "350",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail350"
+    },
+    {
+      "name": "泸州老窖1L许燎源",
+      "spec": "58.00度/1000ml",
+      "yesterday": "2150",
+      "today": "2150",
+      "detailId": "349",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail349"
+    },
+    {
+      "name": "泸州老窖国学",
+      "spec": "60.00度/500ml",
+      "yesterday": "2500",
+      "today": "2500",
+      "detailId": "348",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail348"
+    },
+    {
+      "name": "泸州老窖窖龄90",
+      "spec": "52.00度/500ml",
+      "yesterday": "350",
+      "today": "350",
+      "detailId": "173",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail173"
+    },
+    {
+      "name": "泸州老窖窖龄60",
+      "spec": "52.00度/500ml",
+      "yesterday": "250",
+      "today": "250",
+      "detailId": "172",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail172"
+    },
+    {
+      "name": "泸州老窖窖龄30",
+      "spec": "52.00度/500ml",
+      "yesterday": "155",
+      "today": "155",
+      "detailId": "171",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail171"
+    },
+    {
+      "name": "泸州老窖头曲",
+      "spec": "52.00度/500ml",
+      "yesterday": "55",
+      "today": "55",
+      "detailId": "170",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail170"
+    },
+    {
+      "name": "泸州老窖特曲（60版）",
+      "spec": "52.00度/500ml",
+      "yesterday": "410",
+      "today": "410",
+      "detailId": "169",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail169"
+    },
+    {
+      "name": "泸州老窖特曲（老字号）",
+      "spec": "52.00度/500ml",
+      "yesterday": "245",
+      "today": "245",
+      "detailId": "168",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail168"
+    },
+    {
+      "name": "泸州老窖52°国窖1573",
+      "spec": "52.00度/500ml",
+      "yesterday": "835",
+      "today": "835",
+      "detailId": "167",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail167"
+    }
+  ],
+  "guojiao1573": {
+    "name": "泸州老窖52°国窖1573",
+    "spec": "52.00度/500ml",
+    "yesterday": "835",
+    "today": "835",
+    "detailId": "167",
+    "detailUrl": "http://www.yunjiu.com/quotations/detail167"
+  },
+  "priceHistory": [
+    {
+      "date": "2026-04-18",
+      "batch": 820
+    },
+    {
+      "date": "2026-04-19",
+      "batch": 820
+    },
+    {
+      "date": "2026-04-20",
+      "batch": 820
+    },
+    {
+      "date": "2026-04-21",
+      "batch": 820
+    },
+    {
+      "date": "2026-04-22",
+      "batch": 820
+    },
+    {
+      "date": "2026-04-23",
+      "batch": 820
+    },
+    {
+      "date": "2026-04-24",
+      "batch": 820
+    },
+    {
+      "date": "2026-04-25",
+      "batch": 820
+    },
+    {
+      "date": "2026-04-26",
+      "batch": 820
+    },
+    {
+      "date": "2026-04-27",
+      "batch": 820
+    },
+    {
+      "date": "2026-04-28",
+      "batch": 820
+    },
+    {
+      "date": "2026-04-29",
+      "batch": 820
+    },
+    {
+      "date": "2026-04-30",
+      "batch": 820
+    },
+    {
+      "date": "2026-05-01",
+      "batch": 820
+    },
+    {
+      "date": "2026-05-02",
+      "batch": 820
+    },
+    {
+      "date": "2026-05-03",
+      "batch": 820
+    },
+    {
+      "date": "2026-05-04",
+      "batch": 820
+    },
+    {
+      "date": "2026-05-05",
+      "batch": 820
+    },
+    {
+      "date": "2026-05-06",
+      "batch": 820
+    },
+    {
+      "date": "2026-05-07",
+      "batch": 820
+    },
+    {
+      "date": "2026-05-08",
+      "batch": 820
+    },
+    {
+      "date": "2026-05-09",
+      "batch": 820
+    },
+    {
+      "date": "2026-05-10",
+      "batch": 820
+    },
+    {
+      "date": "2026-05-11",
+      "batch": 835
+    },
+    {
+      "date": "2026-05-12",
+      "batch": 835
+    },
+    {
+      "date": "2026-05-13",
+      "batch": 835
+    },
+    {
+      "date": "2026-05-14",
+      "batch": 835
+    },
+    {
+      "date": "2026-05-15",
+      "batch": 835
+    },
+    {
+      "date": "2026-05-16",
+      "batch": 835
+    },
+    {
+      "date": "2026-05-17",
+      "batch": 835
+    }
+  ],
+  "retailPrice": {
+    "updated": "2026-05-17",
+    "platform": "什么值得买SMZDM (天猫精选/京东百亿补贴)",
+    "price": 790,
+    "range": [
+      781,
+      861
+    ],
+    "sources": [
+      {
+        "mall": "天猫精选",
+        "price": 781,
+        "note": "国窖1573 52%vol 500ml 单瓶装"
+      },
+      {
+        "mall": "天猫精选",
+        "price": 799,
+        "note": "国窖1573 52%vol 500ml 单瓶装"
+      },
+      {
+        "mall": "天猫超市",
+        "price": 770,
+        "note": "2瓶装单价"
+      },
+      {
+        "mall": "京东百亿补贴",
+        "price": 821,
+        "note": "2瓶装单价"
+      }
+    ],
+    "note": "零售价已跌破批价(¥835)，倒挂严重。最低天猫精选¥781，京东¥821"
+  },
+  "channelIndex": [
+    {
+      "date": "20240630",
+      "invTurnDays": 1116.9,
+      "revenue": 169.0488516938,
+      "cost": 60.6119267641,
+      "grossMargin": 64.1,
+      "debtRatio": 40.277846
+    },
+    {
+      "date": "20240930",
+      "invTurnDays": 1148.9,
+      "revenue": 243.035551873,
+      "cost": 87.16343501200001,
+      "grossMargin": 64.1,
+      "debtRatio": 31.463797
+    },
+    {
+      "date": "20241231",
+      "invTurnDays": 1158.1,
+      "revenue": 311.9624820833,
+      "cost": 130.5348859744,
+      "grossMargin": 58.2,
+      "debtRatio": 30.477372
+    },
+    {
+      "date": "20250331",
+      "invTurnDays": 951.3,
+      "revenue": 93.521654455,
+      "cost": 32.1849865493,
+      "grossMargin": 65.6,
+      "debtRatio": 24.67261
+    },
+    {
+      "date": "20250630",
+      "invTurnDays": 1151.5,
+      "revenue": 164.5373290465,
+      "cost": 60.7318939791,
+      "grossMargin": 63.1,
+      "debtRatio": 33.494154
+    },
+    {
+      "date": "20250930",
+      "invTurnDays": 1229.4,
+      "revenue": 231.27459902130002,
+      "cost": 86.2401618894,
+      "grossMargin": 62.7,
+      "debtRatio": 23.926677
+    },
+    {
+      "date": "20251231",
+      "invTurnDays": 1505.6,
+      "revenue": 257.3101064732,
+      "cost": 112.7292380724,
+      "grossMargin": 56.2,
+      "debtRatio": 22.997011
+    },
+    {
+      "date": "20260331",
+      "invTurnDays": 1206.4,
+      "revenue": 80.2517411421,
+      "cost": 31.039852911599997,
+      "grossMargin": 61.3,
+      "debtRatio": 21.813703
+    }
+  ],
+  "source": {
+    "batch": "yunjiu.com",
+    "retail": "SMZDM参考",
+    "channel": "AKShare季报"
+  }
+}

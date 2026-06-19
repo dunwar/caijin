@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>AI软件监控 · caijin.gaozhong.online</title>
+<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+<style>
+:root{--bg:#f8f9fa;--card:#fff;--t1:#1a1a2e;--t2:#6b7280;--t3:#9ca3af;--bd:#e5e7eb;--emerald:#059669;--red:#dc2626;--green:#16a34a;--sh:0 1px 3px rgba(0,0,0,.08);--r:10px}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--t1);line-height:1.6}
+.header{background:var(--card);padding:12px 14px;position:sticky;top:0;z-index:100;border-bottom:1px solid var(--bd);box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.header .toprow{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+.header .toprow a{color:var(--t2);text-decoration:none;font-size:18px}
+.header h1{font-size:17px;font-weight:700}
+.header .sub{font-size:11px;color:var(--t3)}
+.nav{display:flex;gap:6px}
+.nav a{display:inline-flex;align-items:center;gap:4px;padding:5px 12px;border-radius:20px;font-size:12px;font-weight:500;text-decoration:none;border:1px solid var(--bd);color:var(--t2);transition:all .15s}
+.nav a:hover:not(.cur){background:var(--bg)}
+.nav a.cur{background:var(--emerald);color:#fff;border-color:var(--emerald);font-weight:700}
+.card{background:var(--card);border-radius:var(--r);padding:14px;margin:12px 14px;box-shadow:var(--sh)}
+.ttl{font-size:13px;font-weight:700;color:var(--t2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px}
+.chart{width:100%;height:280px}
+.tbl{width:100%;font-size:12px;border-collapse:collapse}
+.tbl th,.tbl td{padding:6px 4px;text-align:right;border-bottom:1px solid var(--bd)}
+.tbl th{font-size:10px;color:var(--t3);font-weight:600}
+.tbl td:first-child,.tbl th:first-child{text-align:left}.tbl .nm{font-weight:600}
+.tag{display:inline-block;padding:2px 6px;border-radius:4px;font-size:10px;font-weight:600}.tag-c{background:#dbeafe;color:#2563eb}.tag-o{background:#fce7f3;color:#db2777}.tag-y{background:#d1fae5;color:var(--emerald)}
+.price-grid{display:grid;gap:4px}.prow{display:flex;justify-content:space-between;align-items:center;padding:6px 10px;border-radius:6px;font-size:11px}.prow:nth-child(odd){background:var(--bg)}.prow .pn{font-weight:600}.prow .cost{font-weight:500}
+.bar-grid{display:grid;gap:5px}.bar-row{display:flex;align-items:center;gap:6px;font-size:11px}.bar-row .bar-lbl{width:110px;text-align:right;flex-shrink:0;font-size:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.bar-row .bar-fill{flex:1;height:16px;border-radius:3px;min-width:2px;display:flex;align-items:center;padding-left:5px;font-size:9px;font-weight:600;color:#fff}.bar-row .bar-val{width:36px;font-size:10px;color:var(--t2);flex-shrink:0}
+.donut-wrap{display:flex;flex-direction:column;gap:10px}.donut-top{display:flex;align-items:center;gap:14px;flex-wrap:wrap}.donut-c{width:160px;height:160px;flex-shrink:0}.donut-l{font-size:10px;display:grid;grid-template-columns:1fr 1fr;gap:3px 16px}.donut-l .it{display:flex;align-items:center;gap:4px;white-space:nowrap}
+.trend-hint{text-align:center;font-size:10px;color:var(--t3);margin-top:4px;padding:20px 0}
+.up{color:var(--red)}.dn{color:var(--green)}
+</style>
+</head>
+<body>
+<div class="header"><div class="toprow"><a href="index.html">←</a><div><h1>💻 AI软件</h1><div class="sub" id="upd">加载中...</div></div></div><div class="nav"><a href="baijiu.html">🍶 白酒</a><a href="hardware.html">🔧 硬件</a><a class="cur">💻 软件</a></div></div>
+
+<div class="card"><div class="ttl">☁️ AI云服务商 Token 份额 (%) <span style="font-weight:400;font-size:11px;color:var(--t3);margin-left:6px" id="dt-cloud"></span></div><div class="bar-grid" id="bar-cloud"></div><div class="chart" id="ch-token-trend"></div></div>
+<div class="card"><div class="ttl">🏷️ 旗舰模型 API 定价 ($/1M tok) <span style="font-weight:400;font-size:11px;color:var(--t3);margin-left:6px" id="dt-pricing"></span></div><div class="chart" id="ch-pricing"></div><div class="price-grid" id="pricing" style="margin-top:10px"></div></div>
+<div class="card"><div class="ttl">🏆 Chatbot Arena Elo</div><div style="overflow-x:auto"><table class="tbl" id="tbl-arena"></table></div></div>
+<div class="card"><div class="ttl">🌐 Web流量份额 (%) <span style="font-weight:400;font-size:11px;color:var(--t3);margin-left:6px" id="dt-traffic"></span></div><div class="donut-wrap"><div class="donut-top"><div class="donut-c" id="ch-donut"></div><div class="donut-l" id="donut-l"></div></div><div class="chart" id="ch-traffic-trend"></div></div></div>
+
+<script>
+// 共用色板 (16色)
+var PAL=['#2563eb','#3b82f6','#6366f1','#8b5cf6','#10b981','#f59e0b','#ec4899','#14b8a6','#06b6d4','#e11d48','#d946ef','#84cc16','#f97316','#a855f7','#64748b','#0891b2'];
+
+async function ld(p){try{return(await fetch(p)).json()}catch(e){return null}}
+
+function makeTrendChart(elId, history, topNames, title){
+  var dom=document.getElementById(elId);
+  if(!history||history.length<2){
+    dom.innerHTML='<div class="trend-hint">📈 趋势曲线需要累积多个历史点·每日凌晨更新</div>'; return;
+  }
+  var dates=history.map(function(h){return h.date.substring(5)});
+  var chart=echarts.init(dom);
+  chart.setOption({
+    grid:{left:65,right:35,top:40,bottom:25},
+    xAxis:{type:'category',data:dates,axisLabel:{fontSize:10}},
+    yAxis:{type:'value',axisLabel:{fontSize:10,formatter:'{value}%'}},
+    series:topNames.map(function(n,i){return{name:n,type:'line',data:history.map(function(h){return h[n]||null}),lineStyle:{width:2,color:PAL[i]},symbolSize:3,smooth:true}}),
+    legend:{top:5,textStyle:{fontSize:9},itemWidth:12,itemHeight:8},
+    tooltip:{trigger:'axis',valueFormatter:function(v){return v!=null?v.toFixed(1)+'%':'-'}}
+  });
+  window.addEventListener('resize',function(){chart.resize()});
+}
+
+(function(){
+ld('data/software/latest.json').then(function(d){
+if(!d)return;
+document.getElementById('upd').textContent='更新于 '+d.updated;
+
+// ==== Cloud Token ====
+var cloud=d.cloudToken?.providers||[];
+if(cloud.length){
+  document.getElementById('bar-cloud').innerHTML=cloud.map(function(c,i){return'<div class="bar-row"><div class="bar-lbl">'+c.name+'</div><div class="bar-fill" style="width:'+Math.max(c.share*3,2)+'%;background:'+PAL[i%16]+'">'+c.models+'</div><div class="bar-val">'+c.share+'%</div></div>'}).join('');
+}
+var cloudH=d.cloudToken?.history||[];
+document.getElementById('dt-cloud').textContent=cloudH.length?'('+cloudH.length+'个历史点·最新'+cloudH[cloudH.length-1].date+')':'';
+makeTrendChart('ch-token-trend', cloudH,
+  ['AWS Bedrock','Azure AI','GCP Vertex','阿里云百炼','OpenAI直营','华为云'],
+  'Token份额趋势');
+
+// ==== Pricing ====
+var pricing=d.pricing?.providers||[],ph=d.pricing?.history||[],ct={'闭源':'tag-o','开源':'tag-y','云API':'tag-c'};
+document.getElementById('dt-pricing').textContent=ph.length?'('+ph.length+'个历史点·最新'+ph[ph.length-1].date+')':'';
+document.getElementById('pricing').innerHTML=pricing.map(function(p){return'<div class="prow"><div><span class="tag '+(ct[p.cat]||'tag-c')+'">'+(p.cat||'')+'</span> <span class="pn">'+p.vendor+' '+p.model+'</span></div><div style="text-align:right"><span class="cost">$'+p.input+'</span>/<span class="cost">$'+p.output+'</span> <span style="font-size:9px;color:var(--t3)">in/out</span></div></div>'}).join('');
+
+var ch3=echarts.init(document.getElementById('ch-pricing'));
+if(ph.length>1){
+  var dt3=ph.map(function(h){return h.date.substring(5)});
+  var pm=['GPT-5','Claude Opus 4','Gemini 3 Pro','Grok 4','DeepSeek-V4','Qwen3-Max','Kimi k2.5','豆包Pro','ERNIE 4.5','GLM-4-Plus'];
+  ch3.setOption({grid:{left:55,right:10,top:30,bottom:20},xAxis:{type:'category',data:dt3,axisLabel:{fontSize:10}},yAxis:{type:'value',axisLabel:{fontSize:10,formatter:'${value}'}},series:pm.map(function(m,i){return{name:m,type:'line',data:ph.map(function(h){return h[m]||null}),lineStyle:{width:2,color:PAL[i]},symbolSize:4}}),legend:{bottom:0,textStyle:{fontSize:9}},tooltip:{trigger:'axis'}});
+}else{ch3.dispose();document.getElementById('ch-pricing').innerHTML='<div class="trend-hint">📈 趋势线需要累积数据（当前'+ph.length+'个点）<br>每日凌晨自动采集</div>'}
+window.addEventListener('resize',function(){ch3.resize()});
+
+// ==== Arena ====
+var arena=d.arena?.ranking||[];
+document.getElementById('tbl-arena').innerHTML='<thead><tr><th>#</th><th>模型</th><th>厂商</th><th>Elo</th></tr></thead><tbody>'+arena.map(function(r){return'<tr><td style="text-align:center;font-weight:700">'+r.rank+'</td><td class="nm">'+r.model+'</td><td style="font-size:11px;color:var(--t3)">'+r.vendor+'</td><td style="font-weight:600">'+r.elo+'</td></tr>'}).join('')+'</tbody>';
+
+// ==== Market Share ====
+var sd=d.marketShare?.data||[],msH=d.marketShare?.history||[];
+document.getElementById('dt-traffic').textContent=msH.length?'('+msH.length+'个历史点·最新'+msH[msH.length-1].date+')':'';
+if(sd.length){
+  var ch4=echarts.init(document.getElementById('ch-donut'));
+  ch4.setOption({series:[{type:'pie',radius:['50%','80%'],center:['50%','50%'],data:sd.map(function(s){return{name:s.name,value:s.share}}),label:{show:false},emphasis:{label:{show:true,fontSize:12,fontWeight:'bold'}}}],color:PAL});
+  window.addEventListener('resize',function(){ch4.resize()});
+  document.getElementById('donut-l').innerHTML=sd.map(function(s,i){return'<div class="it"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:'+PAL[i]+';flex-shrink:0"></span> '+s.name+' <b>'+s.share+'%</b></div>'}).join('');
+}
+makeTrendChart('ch-traffic-trend', msH,
+  ['ChatGPT','Gemini','Claude','DeepSeek','豆包','Kimi','Perplexity'],
+  'Web流量趋势');
+
+}).catch(function(e){console.error(e)});
+})();
+</script>
+</body>
+</html>

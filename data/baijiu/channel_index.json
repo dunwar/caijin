@@ -1,0 +1,66 @@
+[
+  {
+    "date": "20240630",
+    "invTurnDays": 1116.9,
+    "revenue": 169.0488516938,
+    "cost": 60.6119267641,
+    "grossMargin": 64.1,
+    "debtRatio": 40.277846
+  },
+  {
+    "date": "20240930",
+    "invTurnDays": 1148.9,
+    "revenue": 243.035551873,
+    "cost": 87.16343501200001,
+    "grossMargin": 64.1,
+    "debtRatio": 31.463797
+  },
+  {
+    "date": "20241231",
+    "invTurnDays": 1158.1,
+    "revenue": 311.9624820833,
+    "cost": 130.5348859744,
+    "grossMargin": 58.2,
+    "debtRatio": 30.477372
+  },
+  {
+    "date": "20250331",
+    "invTurnDays": 951.3,
+    "revenue": 93.521654455,
+    "cost": 32.1849865493,
+    "grossMargin": 65.6,
+    "debtRatio": 24.67261
+  },
+  {
+    "date": "20250630",
+    "invTurnDays": 1151.5,
+    "revenue": 164.5373290465,
+    "cost": 60.7318939791,
+    "grossMargin": 63.1,
+    "debtRatio": 33.494154
+  },
+  {
+    "date": "20250930",
+    "invTurnDays": 1229.4,
+    "revenue": 231.27459902130002,
+    "cost": 86.2401618894,
+    "grossMargin": 62.7,
+    "debtRatio": 23.926677
+  },
+  {
+    "date": "20251231",
+    "invTurnDays": 1505.6,
+    "revenue": 257.3101064732,
+    "cost": 112.7292380724,
+    "grossMargin": 56.2,
+    "debtRatio": 22.997011
+  },
+  {
+    "date": "20260331",
+    "invTurnDays": 1206.4,
+    "revenue": 80.2517411421,
+    "cost": 31.039852911599997,
+    "grossMargin": 61.3,
+    "debtRatio": 21.813703
+  }
+]

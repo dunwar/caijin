@@ -1,0 +1,262 @@
+{
+  "updated": "2026-05-18",
+  "dram": {
+    "date": "2026-05-18",
+    "items": [
+      {
+        "name": "DDR5 16Gb (2Gx8) 4800/5600",
+        "avgPrice": 41.267,
+        "dayHigh": 53.0,
+        "dayLow": 29.8
+      },
+      {
+        "name": "DDR5 16Gb (2Gx8) eTT",
+        "avgPrice": 22.5,
+        "dayHigh": 24.6,
+        "dayLow": 22.0
+      },
+      {
+        "name": "DDR4 16Gb (2Gx8) 3200",
+        "avgPrice": 58.357,
+        "dayHigh": 70.0,
+        "dayLow": 33.5
+      },
+      {
+        "name": "DDR4 16Gb (2Gx8) eTT",
+        "avgPrice": 12.375,
+        "dayHigh": 13.2,
+        "dayLow": 10.6
+      },
+      {
+        "name": "DDR4 8Gb (1Gx8) 3200",
+        "avgPrice": 32.0,
+        "dayHigh": 53.0,
+        "dayLow": 16.4
+      },
+      {
+        "name": "DDR4 8Gb (1Gx8) eTT",
+        "avgPrice": 4.95,
+        "dayHigh": 5.5,
+        "dayLow": 4.15
+      },
+      {
+        "name": "DDR3 4Gb 512Mx8 1600/1866",
+        "avgPrice": 8.988,
+        "dayHigh": 11.5,
+        "dayLow": 5.5
+      },
+      {
+        "name": "DDR5 8GB SO-DIMM",
+        "avgPrice": 215.0,
+        "dayHigh": 220.0,
+        "dayLow": 195.0
+      },
+      {
+        "name": "DDR4 16GB SO-DIMM",
+        "avgPrice": 975.0,
+        "dayHigh": 1180.0,
+        "dayLow": 900.0
+      },
+      {
+        "name": "DDR4 8GB SO-DIMM",
+        "avgPrice": 150.761,
+        "dayHigh": 171.0,
+        "dayLow": 138.0
+      },
+      {
+        "name": "DDR4 16Gb 2Gx8",
+        "avgPrice": 11.636,
+        "dayHigh": 17.5,
+        "dayLow": 9.5
+      },
+      {
+        "name": "DDR4 8Gb 1Gx8",
+        "avgPrice": 11.633,
+        "dayHigh": 17.5,
+        "dayLow": 9.5
+      }
+    ],
+    "history": [
+      {
+        "date": "2026-05-18",
+        "DDR5_16Gb": 41.267,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.95
+      }
+    ],
+    "source": "TrendForce集邦"
+  },
+  "news": {
+    "articles": [
+      {
+        "title": "China agrees to ease rare earth restrictions in Trump deal as Taiwan's chip role takes center stage again",
+        "link": "https://www.digitimes.com/news/a20260518VL215/taiwan-technology-investment-beijing-supply-chain.html",
+        "date": "Mon, 18 May 2026",
+        "snippet": "The United States and China have reached a trade and investment agreement that could reshape critical technology supply chains, with Beijing committin",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Hiwin doubles robotics revenue share in 1Q26 on semiconductor automation demand",
+        "link": "https://www.digitimes.com/news/a20260518PD217/revenue-demand-automation-taiwan-robotics.html",
+        "date": "Mon, 18 May 2026",
+        "snippet": "Taiwan precision motion-control leader Hiwin Technologies is accelerating growth on the back of semiconductor automation and robotics demand, with rob",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "SK Hynix speeds Yongin fab buildout as memory crunch fuels capacity race",
+        "link": "https://www.digitimes.com/news/a20260518VL210/sk-hynix-fab-capacity-demand-production.html",
+        "date": "Mon, 18 May 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"117\" data-end=\"301\"&gt;SK Hynix is accelerating construction at its Yongin Semiconductor Cluster, as a tightening memory ",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Hehui Electronics targets breakeven in 2026 as robotics, in-vehicle systems, and smart manufacturing expand",
+        "link": "https://www.digitimes.com/news/a20260518PD203/robotics-smart-manufacturing-revenue-business-2026.html",
+        "date": "Mon, 18 May 2026",
+        "snippet": "Hehui Electronics said it expected operations to improve in 2026 as new business in robotics, smart in-vehicle systems, and smart manufacturing gained",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Pan Jit AI revenue hits 11% as orders stretch 6 months",
+        "link": "https://www.digitimes.com/news/a20260518PD207/revenue-automotive-demand-2026-management.html",
+        "date": "Mon, 18 May 2026",
+        "snippet": "Pan Jit's growing confidence in AI and automotive demand is set to shape the global supply of power semiconductors, as data-center power management ne",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Prosperity Dielectrics sees AI server power customers chasing MLCC supply",
+        "link": "https://www.digitimes.com/news/a20260518PD208/prosperity-dielectrics-ai-server-high-end-mlcc-demand.html",
+        "date": "Mon, 18 May 2026",
+        "snippet": "Prosperity Dielectrics' surge in demand for high-end MLCCs, driven by higher-wattage AI server power systems, is extending lead times and prompting ma",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "TSMC's Japan fab signals a turning point for overseas manufacturing",
+        "link": "https://www.digitimes.com/news/a20260518PD230/tsmc-fab-jasm-profit.html",
+        "date": "Mon, 18 May 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"0\" data-end=\"184\"&gt;TSMC's semiconductor venture in Japan has posted its first quarterly profit since entering mass prod",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "AMEC-SMIC: China's chip-equipment push moves from trials to scale",
+        "link": "https://www.digitimes.com/news/a20260518VL211/equipment-amec-localization-production.html",
+        "date": "Mon, 18 May 2026",
+        "snippet": "China's semiconductor equipment localization campaign is entering a more demanding phase, shifting from proving that domestic alternatives can work to",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Samsung reportedly boosts 1b DRAM yields as Korean memory rivalry heats up",
+        "link": "https://www.digitimes.com/news/a20260518VL209/samsung-dram-hbm-capacity-manufacturing.html",
+        "date": "Mon, 18 May 2026",
+        "snippet": "Samsung Electronics has significantly improved yields for its latest DRAM technologies used in high-bandwidth memory (HBM), according to &lt;em&gt;IT ",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Asus leverages manufacturing expertise and memory supply edge to grow its South Korean server business",
+        "link": "https://www.digitimes.com/news/a20260518PD225/asus-south-korea-servers-manufacturing-gpu.html",
+        "date": "Mon, 18 May 2026",
+        "snippet": "Asus is accelerating its push into the server market in South Korea, leveraging its manufacturing prowess, long-term ties with major memory makers, an",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Lianyou Metals rides tungsten, cobalt squeeze to record quarter",
+        "link": "https://www.digitimes.com/news/a20260518PD200/cobalt-profit-revenue-2026-market.html",
+        "date": "Mon, 18 May 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"1929\" data-end=\"2162\"&gt;Lianyou Metals reported record first-quarter results in 2026, as tightening global supplies of t",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Swancor and RobiChip partner to bring advanced packaging into robots and drones",
+        "link": "https://www.digitimes.com/news/a20260518PD201/swancor-ai-robot-partnership-materials-packaging.html",
+        "date": "Mon, 18 May 2026",
+        "snippet": "Swancor Holding and RobiChip Technology announced a strategic partnership to accelerate the adoption of advanced packaging materials and heterogeneous",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Apple's chip recycling strategy deepens reliance on TSMC and pressures PC rivals",
+        "link": "https://www.digitimes.com/news/a20260518VL208/apple-macbook-android-chips-tsmc.html",
+        "date": "Mon, 18 May 2026",
+        "snippet": "Apple has increasingly relied on \"binned\" chips &#38;mdash; processors with disabled or defective cores &#38;mdash; to expand into lower-priced device",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "South Korean court bars factory occupations and orders safety work during planned Samsung strike",
+        "link": "https://www.digitimes.com/news/a20260518PD226/samsung-strike-2026-wafer-ban.html",
+        "date": "Mon, 18 May 2026",
+        "snippet": "A South Korean court granted Samsung Electronics an injunction on May 18, 2026, limiting union dispute actions and ordering that safety protection sys",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "As AI redraws chip industry, TSMC faces its first real rivals",
+        "link": "https://www.digitimes.com/news/a20260518PD213/tsmc-intel-samsung-ic-manufacturing-production.html",
+        "date": "Mon, 18 May 2026",
+        "snippet": "The global map of semiconductor manufacturing is beginning to shift. For years, the market for advanced chip production was dominated almost entirely ",
+        "source": "DigiTimes"
+      }
+    ],
+    "total": 20,
+    "source": "DigiTimes RSS"
+  },
+  "gpuOptical": {
+    "date": "2026-05-18",
+    "gpuCloud": [
+      {
+        "name": "AWS H100",
+        "price": "$3.08/hr",
+        "note": "p5.48xlarge"
+      },
+      {
+        "name": "Azure H100",
+        "price": "$3.82/hr",
+        "note": "ND H100 v5"
+      },
+      {
+        "name": "GCP H100",
+        "price": "$3.29/hr",
+        "note": "A3 on-demand"
+      },
+      {
+        "name": "AWS A100",
+        "price": "$1.90/hr",
+        "note": "p4d.24xlarge"
+      }
+    ],
+    "opticalModules": [
+      {
+        "name": "800G SR8",
+        "price": "$1,241"
+      },
+      {
+        "name": "800G XDR8",
+        "price": "$8,779"
+      },
+      {
+        "name": "400G DR4",
+        "price": "$447"
+      },
+      {
+        "name": "1.6T OSFP(估)",
+        "price": "$1,960"
+      }
+    ],
+    "gpuHistory": [
+      {
+        "date": "2026-05-18",
+        "AWS H100": 3.08,
+        "Azure H100": 3.82,
+        "GCP H100": 3.29,
+        "AWS A100": 1.9
+      }
+    ],
+    "opticalHistory": [
+      {
+        "date": "2026-05-18",
+        "800G SR8": 1241,
+        "800G XDR8": 8779,
+        "400G DR4": 447,
+        "1.6T OSFP(估)": 1960
+      }
+    ]
+  }
+}
