@@ -2,19 +2,19 @@
 🔗 [caijin.gaozhong.online](http://caijin.gaozhong.online)
 
 🍶 **白酒 · 泸州老窖**
-📦 国窖1573 批价: ¥850 | 零售参考: ¥920 | 批零差: ¥70
+📦 国窖1573 批价: ¥830 | 零售参考: ¥891 | 批零差: ¥61
 📊 存货周转: 1206.4天 | 毛利率: 61.3%
 
 🔧 **AI硬件**
-  DDR5 16Gb (2Gx8) 4800/5600: $46.0 
-  DDR5 16Gb (2Gx8) eTT: $23.5 
-  DDR4 16Gb (2Gx8) 3200: $69.125 
-  DDR4 16Gb (2Gx8) eTT: $11.8 
+  DDR5 16Gb (2Gx8) 4800/5600: $54.833 
+  DDR5 16Gb (2Gx8) eTT: $24.3 
+  DDR4 16Gb (2Gx8) 3200: $87.625 
+  DDR4 16Gb (2Gx8) eTT: $12.9 
 
 📡 要闻 (15条):
-  · Elon Musk aims for record maximum usable compute per wafer f
-  · Smart glasses race pulls Taiwan and China optical suppliers 
-  · Darwin organ chip joins Nvidia AI medical push
+  · Charts: Taiwan's chip packaging growth runs deeper than ASE
+  · Samsung looks to outside suppliers as HBM boom shifts priori
+  · TSMC's C.C. Wei says to solve problems, put customers first
 
 💻 **AI软件**
-☁️ Token份额 Top3: AWS Bedrock 21.8% | Azure AI 18.9% | GCP Vertex 16.7%
+☁️ Token份额 Top3: AWS Bedrock 22.4% | Azure AI 20.0% | GCP Vertex 15.3%
