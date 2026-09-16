@@ -24,6 +24,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei
 .m{background:var(--bg);border-radius:8px;padding:10px;text-align:center}
 .m .l{font-size:11px;color:var(--t3)}.m .v{font-size:18px;font-weight:700;margin:2px 0}.m .s{font-size:10px;color:var(--t2)}
 .chart{width:100%;height:260px}
+.rz-row{text-align:right;margin:0 0 2px}
+.rz{display:inline-block;padding:2px 10px;margin-left:6px;font-size:11px;border:1px solid var(--bd);border-radius:12px;color:var(--t2);cursor:pointer;user-select:none}
+.rz.on{background:var(--amber);color:#fff;border-color:var(--amber);font-weight:600}
 .tbl{width:100%;font-size:12px;border-collapse:collapse}
 .tbl th,.tbl td{padding:7px 5px;text-align:right;border-bottom:1px solid var(--bd)}
 .tbl th{font-size:10px;color:var(--t3);font-weight:600}
@@ -34,7 +37,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei
 <body>
 <div class="header"><div class="toprow"><a href="index.html">←</a><div><h1>🍶 白酒</h1><div class="sub" id="upd">加载中...</div></div></div><div class="nav"><a class="cur">🍶 白酒</a><a href="hardware.html">🔧 硬件</a><a href="software.html">💻 软件</a></div></div>
 
-<div class="card"><div class="ttl">📦 国窖1573 52°/500ml 批零对比</div><div class="metrics" id="m-price"></div><div class="chart" id="ch-price"></div><div style="font-size:10px;color:var(--t3);margin-top:6px;text-align:center">批价:yunjiu.com | 零售:SMZDM</div></div>
+<div class="card"><div class="ttl">📦 国窖1573 52°/500ml 批零对比</div><div class="metrics" id="m-price"></div><div class="rz-row" id="rz-price"></div><div class="chart" id="ch-price"></div><div style="font-size:10px;color:var(--t3);margin-top:6px;text-align:center">批价:yunjiu.com | 零售:逐日快照口径（悬浮查看）</div></div>
 <div class="card"><div class="ttl">🏷️ 泸州老窖全系列</div><div style="overflow-x:auto"><table class="tbl" id="tbl-prods"></table></div></div>
 <div class="card"><div class="ttl">📊 渠道库存积压指数</div><div class="metrics" id="m-ch"></div><div class="chart" id="ch-ch"></div><div class="note" id="ci-note" style="font-size:10px;color:var(--t3);margin-top:6px;text-align:center"></div></div>
 
@@ -42,7 +45,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei
 async function ld(p){try{return(await fetch(p)).json()}catch(e){return null}}
 (async function(){
 var d=await ld('data/baijiu/latest.json');if(!d){document.getElementById('upd').textContent='数据加载失败';return}
-document.getElementById('upd').textContent='更新于 '+d.updated+' · 批价:yunjiu.com | 零售:SMZDM';
+document.getElementById('upd').textContent='更新于 '+d.updated+' · 批价:yunjiu.com | 零售:逐日快照';
 
 var hist=d.priceHistory||[],gj=d.guojiao1573,ret=d.retailPrice||{},rp=ret.price||790;
 var tp=gj?parseInt(gj.today):(hist.length?hist[hist.length-1].batch:null);
@@ -52,13 +55,37 @@ var c1=spd&&spd<0?'var(--red)':spd&&spd<30?'var(--amber)':'var(--green)';
 var s1=spd&&spd<0?'⚠️ 批价>零售':spd&&spd<30?'价差偏小':'正常';
 document.getElementById('m-price').innerHTML='<div class="m"><div class="l">批价</div><div class="v">¥'+(tp||'——')+'</div><div class="s">yunjiu.com</div></div><div class="m"><div class="l">零售</div><div class="v">¥'+rp+'</div><div class="s">SMZDM</div></div><div class="m"><div class="l">较昨日</div><div class="v '+(chg>0?'up':chg<0?'dn':'')+'">'+(chg>0?'+':'')+(chg||0)+'</div><div class="s">昨 ¥'+(yp||'——')+'</div></div><div class="m"><div class="l">批零价差</div><div class="v" style="color:'+c1+'">¥'+(spd||'——')+'</div><div class="s">'+s1+'</div></div>';
 
+function sparseLbl(n){var st=Math.max(1,Math.ceil(n/6));return function(i){return i%st===0||i===n-1}}
+function rangeBtns(el,chart,n){
+  var defs=[['1月',30],['3月',90],['全部',0]];
+  el.innerHTML=defs.map(function(d,i){return '<span class="rz'+(i===2?' on':'')+'" data-n="'+d[1]+'">'+d[0]+'</span>'}).join('');
+  el.onclick=function(e){var t=e.target;if(!t.dataset||t.dataset.n===undefined)return;
+    el.querySelectorAll('.rz').forEach(function(x){x.classList.remove('on')});t.classList.add('on');
+    var nn=+t.dataset.n,st=(nn>0&&n>nn)?Math.round((1-nn/n)*100):0;
+    chart.setOption({dataZoom:[{type:'inside',start:st,end:100},{type:'slider',start:st,end:100}]});};
+}
+function retailTag(p){
+  if(!p||!p.retail)return '';
+  if(p.tag==='official')return '挂牌/指导价口径';
+  if(p.tag==='neican')return '酒价内参终端均价';
+  return '电商参考价';
+}
+
 if(hist.length>0){
-var dt=hist.map(function(h){return h.date.substring(5)});
-var bp=hist.map(function(h){return h.batch||null});
-var rp2=hist.map(function(){return rp});
-var sv=hist.map(function(h){var b=h.batch;return b?rp-b:null});
+var rh=await ld('data/baijiu/retail_history.json');
+var pts=(rh&&rh.points&&rh.points.length>10)?rh.points:hist.map(function(h){return{date:h.date,batch:h.batch,retail:rp}});
+var dt=pts.map(function(p){return p.date.substring(5)});
+var bp=pts.map(function(p){return p.batch||null});
+var rp2=pts.map(function(p){return p.retail||null});
+var sv=pts.map(function(p){return (p.retail&&p.batch)?p.retail-p.batch:null});
 var ch=echarts.init(document.getElementById('ch-price'));
-ch.setOption({grid:{left:50,right:50,top:10,bottom:35},xAxis:{type:'category',data:dt,axisLabel:{fontSize:10,rotate:45}},yAxis:[{type:'value',axisLabel:{fontSize:10,formatter:'¥{value}'},min:function(v){return v.min-10}},{type:'value',axisLabel:{fontSize:10,formatter:'¥{value}'}}],series:[{type:'line',data:bp,name:'一批价',smooth:true,lineStyle:{color:'#d97706',width:2},symbolSize:4},{type:'line',data:rp2,name:'零售',lineStyle:{color:'#2563eb',width:2,type:'dashed'},symbol:'none'},{type:'line',data:sv,name:'批零差',yAxisIndex:1,lineStyle:{color:'#ef4444',width:1,type:'dotted'},symbolSize:4}],tooltip:{trigger:'axis'},legend:{bottom:0,textStyle:{fontSize:10}}});
+ch.setOption({grid:{left:50,right:50,top:10,bottom:62},xAxis:{type:'category',data:dt,axisLabel:{fontSize:10,rotate:45,interval:sparseLbl(pts.length)}},yAxis:[{type:'value',axisLabel:{fontSize:10,formatter:'¥{value}'},min:function(v){return v.min-10}},{type:'value',axisLabel:{fontSize:10,formatter:'¥{value}'}}],series:[{type:'line',data:bp,name:'批价',smooth:true,lineStyle:{color:'#d97706',width:2},symbolSize:3},{type:'line',data:rp2,name:'零售',lineStyle:{color:'#2563eb',width:2},symbolSize:3},{type:'line',data:sv,name:'批零差',yAxisIndex:1,lineStyle:{color:'#ef4444',width:1,type:'dotted'},symbol:'none'}],tooltip:{trigger:'axis',formatter:function(ps){
+  var i=ps[0].dataIndex,p=pts[i],h='<b>'+p.date+'</b>';
+  if(p.retail)h+='<br>零售 ¥'+p.retail+' <span style=\"color:#9ca3af\">'+retailTag(p)+'</span>';
+  if(p.batch)h+='<br>批价 ¥'+p.batch;
+  if(p.retail&&p.batch)h+='<br>批零差 ¥'+(p.retail-p.batch);
+  return h;}},legend:{bottom:26,textStyle:{fontSize:10}},dataZoom:[{type:'inside'},{type:'slider',height:16,bottom:4}]});
+rangeBtns(document.getElementById('rz-price'),ch,pts.length);
 window.addEventListener('resize',function(){ch.resize()});
 }
 

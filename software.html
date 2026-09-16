@@ -21,6 +21,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei
 .card{background:var(--card);border-radius:var(--r);padding:14px;margin:12px 14px;box-shadow:var(--sh)}
 .ttl{font-size:13px;font-weight:700;color:var(--t2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px}
 .chart{width:100%;height:280px}
+.rz-row{text-align:right;margin:0 0 2px}
+.rz{display:inline-block;padding:2px 10px;margin-left:6px;font-size:11px;border:1px solid var(--bd);border-radius:12px;color:var(--t2);cursor:pointer;user-select:none}
+.rz.on{background:var(--emerald);color:#fff;border-color:var(--emerald);font-weight:600}
 .tbl{width:100%;font-size:12px;border-collapse:collapse}
 .tbl th,.tbl td{padding:6px 4px;text-align:right;border-bottom:1px solid var(--bd)}
 .tbl th{font-size:10px;color:var(--t3);font-weight:600}
@@ -36,16 +39,27 @@ body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei
 <body>
 <div class="header"><div class="toprow"><a href="index.html">←</a><div><h1>💻 AI软件</h1><div class="sub" id="upd">加载中...</div></div></div><div class="nav"><a href="baijiu.html">🍶 白酒</a><a href="hardware.html">🔧 硬件</a><a class="cur">💻 软件</a></div></div>
 
-<div class="card"><div class="ttl">☁️ AI云服务商 Token 份额 (%) <span style="font-weight:400;font-size:11px;color:var(--t3);margin-left:6px" id="dt-cloud"></span></div><div class="bar-grid" id="bar-cloud"></div><div class="chart" id="ch-token-trend"></div></div>
-<div class="card"><div class="ttl">🏷️ 旗舰模型 API 定价 ($/1M tok) <span style="font-weight:400;font-size:11px;color:var(--t3);margin-left:6px" id="dt-pricing"></span></div><div class="chart" id="ch-pricing"></div><div class="price-grid" id="pricing" style="margin-top:10px"></div></div>
+<div class="card"><div class="ttl">☁️ AI云服务商 Token 份额 (%) <span style="font-weight:400;font-size:11px;color:var(--t3);margin-left:6px" id="dt-cloud"></span></div><div class="bar-grid" id="bar-cloud"></div><div class="rz-row" id="rz-token-trend"></div><div class="chart" id="ch-token-trend"></div></div>
+<div class="card"><div class="ttl">🏷️ 旗舰模型 API 定价 ($/1M tok) <span style="font-weight:400;font-size:11px;color:var(--t3);margin-left:6px" id="dt-pricing"></span></div><div class="rz-row" id="rz-pricing"></div><div class="chart" id="ch-pricing"></div><div class="price-grid" id="pricing" style="margin-top:10px"></div></div>
 <div class="card"><div class="ttl">🏆 Chatbot Arena Elo</div><div style="overflow-x:auto"><table class="tbl" id="tbl-arena"></table></div></div>
-<div class="card"><div class="ttl">🌐 Web流量份额 (%) <span style="font-weight:400;font-size:11px;color:var(--t3);margin-left:6px" id="dt-traffic"></span></div><div class="donut-wrap"><div class="donut-top"><div class="donut-c" id="ch-donut"></div><div class="donut-l" id="donut-l"></div></div><div class="chart" id="ch-traffic-trend"></div></div></div>
+<div class="card"><div class="ttl">🌐 Web流量份额 (%) <span style="font-weight:400;font-size:11px;color:var(--t3);margin-left:6px" id="dt-traffic"></span></div><div class="donut-wrap"><div class="donut-top"><div class="donut-c" id="ch-donut"></div><div class="donut-l" id="donut-l"></div></div><div class="rz-row" id="rz-traffic-trend"></div><div class="chart" id="ch-traffic-trend"></div></div></div>
 
 <script>
 // 共用色板 (16色)
 var PAL=['#2563eb','#3b82f6','#6366f1','#8b5cf6','#10b981','#f59e0b','#ec4899','#14b8a6','#06b6d4','#e11d48','#d946ef','#84cc16','#f97316','#a855f7','#64748b','#0891b2'];
 
 async function ld(p){try{return(await fetch(p)).json()}catch(e){return null}}
+
+function sparseLbl(n){var st=Math.max(1,Math.ceil(n/6));return function(i){return i%st===0||i===n-1}}
+function rangeBtns(el,chart,n){
+  if(!el)return;
+  var defs=[['1月',30],['3月',90],['全部',0]];
+  el.innerHTML=defs.map(function(d,i){return '<span class="rz'+(i===2?' on':'')+'" data-n="'+d[1]+'">'+d[0]+'</span>'}).join('');
+  el.onclick=function(e){var t=e.target;if(!t.dataset||t.dataset.n===undefined)return;
+    el.querySelectorAll('.rz').forEach(function(x){x.classList.remove('on')});t.classList.add('on');
+    var nn=+t.dataset.n,st=(nn>0&&n>nn)?Math.round((1-nn/n)*100):0;
+    chart.setOption({dataZoom:[{type:'inside',start:st,end:100},{type:'slider',start:st,end:100}]});};
+}
 
 function makeTrendChart(elId, history, topNames, title){
   var dom=document.getElementById(elId);
@@ -55,13 +69,15 @@ function makeTrendChart(elId, history, topNames, title){
   var dates=history.map(function(h){return h.date.substring(5)});
   var chart=echarts.init(dom);
   chart.setOption({
-    grid:{left:65,right:35,top:40,bottom:25},
-    xAxis:{type:'category',data:dates,axisLabel:{fontSize:10}},
+    grid:{left:65,right:35,top:40,bottom:48},
+    xAxis:{type:'category',data:dates,axisLabel:{fontSize:10,interval:sparseLbl(dates.length)}},
     yAxis:{type:'value',axisLabel:{fontSize:10,formatter:'{value}%'}},
     series:topNames.map(function(n,i){return{name:n,type:'line',data:history.map(function(h){return h[n]||null}),lineStyle:{width:2,color:PAL[i]},symbolSize:3,smooth:true}}),
     legend:{top:5,textStyle:{fontSize:9},itemWidth:12,itemHeight:8},
-    tooltip:{trigger:'axis',valueFormatter:function(v){return v!=null?v.toFixed(1)+'%':'-'}}
+    tooltip:{trigger:'axis',valueFormatter:function(v){return v!=null?v.toFixed(1)+'%':'-'}},
+    dataZoom:[{type:'inside'},{type:'slider',height:14,bottom:2}]
   });
+  rangeBtns(document.getElementById('rz-'+elId.substring(3)),chart,dates.length);
   window.addEventListener('resize',function(){chart.resize()});
 }
 
@@ -90,7 +106,8 @@ var ch3=echarts.init(document.getElementById('ch-pricing'));
 if(ph.length>1){
   var dt3=ph.map(function(h){return h.date.substring(5)});
   var pm=['GPT-5','Claude Opus 4','Gemini 3 Pro','Grok 4','DeepSeek-V4','Qwen3-Max','Kimi k2.5','豆包Pro','ERNIE 4.5','GLM-4-Plus'];
-  ch3.setOption({grid:{left:55,right:10,top:30,bottom:20},xAxis:{type:'category',data:dt3,axisLabel:{fontSize:10}},yAxis:{type:'value',axisLabel:{fontSize:10,formatter:'${value}'}},series:pm.map(function(m,i){return{name:m,type:'line',data:ph.map(function(h){return h[m]||null}),lineStyle:{width:2,color:PAL[i]},symbolSize:4}}),legend:{bottom:0,textStyle:{fontSize:9}},tooltip:{trigger:'axis'}});
+  ch3.setOption({grid:{left:55,right:10,top:30,bottom:46},xAxis:{type:'category',data:dt3,axisLabel:{fontSize:10,interval:sparseLbl(dt3.length)}},yAxis:{type:'value',axisLabel:{fontSize:10,formatter:'${value}'}},series:pm.map(function(m,i){return{name:m,type:'line',data:ph.map(function(h){return h[m]||null}),lineStyle:{width:2,color:PAL[i]},symbolSize:4}}),legend:{bottom:22,textStyle:{fontSize:9}},tooltip:{trigger:'axis'},dataZoom:[{type:'inside'},{type:'slider',height:14,bottom:2}]});
+  rangeBtns(document.getElementById('rz-pricing'),ch3,dt3.length);
 }else{ch3.dispose();document.getElementById('ch-pricing').innerHTML='<div class="trend-hint">📈 趋势线需要累积数据（当前'+ph.length+'个点）<br>每日凌晨自动采集</div>'}
 window.addEventListener('resize',function(){ch3.resize()});
 

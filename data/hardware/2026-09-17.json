@@ -874,6 +874,13 @@
   "news": {
     "articles": [
       {
+        "title": "Intel CEO warns of 2027 memory crunch and tighter CPU supply",
+        "link": "https://www.digitimes.com/news/a20260916PD238/2027-intel-lip-bu-tan-memory-chips-cpu-packaging.html",
+        "date": "Wed, 16 Sep 2026",
+        "snippet": "AI infrastructure expansion is turning memory supply into a major bottleneck for the semiconductor industry. Intel CEO Lip-Bu Tan warned that the memo",
+        "source": "DigiTimes"
+      },
+      {
         "title": "Charts: Taiwan's chip packaging growth runs deeper than ASE",
         "link": "https://www.digitimes.com/news/a20260916VL219/taiwan-revenue-packaging-ase-growth.html",
         "date": "Wed, 16 Sep 2026",
@@ -969,13 +976,6 @@
         "link": "https://www.digitimes.com/news/a20260916PD213/netronix-e-paper-e-reader-display-demand-growth.html",
         "date": "Wed, 16 Sep 2026",
         "snippet": "Netronix said rapidly rising memory prices are squeezing the consumer electronics supply chain, raising e-book reader costs and slowing some e-paper d",
-        "source": "DigiTimes"
-      },
-      {
-        "title": "SK Hynix union approves revised pay deal after 25-vote rejection",
-        "link": "https://www.digitimes.com/news/a20260916VL217/sk-hynix-production-operating-profit-performance-earnings.html",
-        "date": "Wed, 16 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"1703\" data-end=\"1930\"&gt;SK Hynix's production workers' union has approved a revised pay agreement that raises the cash s",
         "source": "DigiTimes"
       }
     ],

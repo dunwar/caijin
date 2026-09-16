@@ -21,6 +21,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei
 .card{background:var(--card);border-radius:var(--r);padding:14px;margin:12px 14px;box-shadow:var(--sh)}
 .ttl{font-size:13px;font-weight:700;color:var(--t2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px}
 .chart{width:100%;height:260px}
+.rz-row{text-align:right;margin:0 0 2px}
+.rz{display:inline-block;padding:2px 10px;margin-left:6px;font-size:11px;border:1px solid var(--bd);border-radius:12px;color:var(--t2);cursor:pointer;user-select:none}
+.rz.on{background:var(--steel);color:#fff;border-color:var(--steel);font-weight:600}
 .tbl{width:100%;font-size:12px;border-collapse:collapse}
 .tbl th,.tbl td{padding:6px 4px;text-align:right;border-bottom:1px solid var(--bd)}
 .tbl th{font-size:10px;color:var(--t3);font-weight:600}
@@ -34,14 +37,25 @@ body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei
 <body>
 <div class="header"><div class="toprow"><a href="index.html">←</a><div><h1>🔧 AI硬件</h1><div class="sub" id="upd">加载中...</div></div></div><div class="nav"><a href="baijiu.html">🍶 白酒</a><a class="cur">🔧 硬件</a><a href="software.html">💻 软件</a></div></div>
 
-<div class="card"><div class="ttl">🧠 DRAM 内存现货价 <span style="font-weight:400;font-size:11px;color:var(--t3);margin-left:6px" id="dt-dram"></span></div><div class="chart" id="ch-dram"></div><div style="overflow-x:auto;margin-top:10px"><table class="tbl" id="tbl-dram"></table></div></div>
+<div class="card"><div class="ttl">🧠 DRAM 内存现货价 <span style="font-weight:400;font-size:11px;color:var(--t3);margin-left:6px" id="dt-dram"></span></div><div class="rz-row" id="rz-dram"></div><div class="chart" id="ch-dram"></div><div style="overflow-x:auto;margin-top:10px"><table class="tbl" id="tbl-dram"></table></div></div>
 <div class="card"><div class="ttl">📡 半导体新闻 (DigiTimes RSS)</div><ul class="news-list" id="news-hw"></ul></div>
-<div class="card"><div class="ttl">🔌 光模块参考价 <span style="font-weight:400;font-size:11px;color:var(--t3);margin-left:6px" id="dt-opt"></span></div><div style="overflow-x:auto"><table class="tbl" id="tbl-opt"></table></div><div class="chart" id="ch-opt-trend"></div></div>
-<div class="card"><div class="ttl">☁️ GPU 云租金 <span style="font-weight:400;font-size:11px;color:var(--t3);margin-left:6px" id="dt-gpu"></span></div><div style="overflow-x:auto"><table class="tbl" id="tbl-gpu"></table></div><div class="chart" id="ch-gpu-trend"></div></div>
+<div class="card"><div class="ttl">🔌 光模块参考价 <span style="font-weight:400;font-size:11px;color:var(--t3);margin-left:6px" id="dt-opt"></span></div><div style="overflow-x:auto"><table class="tbl" id="tbl-opt"></table></div><div class="rz-row" id="rz-opt-trend"></div><div class="chart" id="ch-opt-trend"></div></div>
+<div class="card"><div class="ttl">☁️ GPU 云租金 <span style="font-weight:400;font-size:11px;color:var(--t3);margin-left:6px" id="dt-gpu"></span></div><div style="overflow-x:auto"><table class="tbl" id="tbl-gpu"></table></div><div class="rz-row" id="rz-gpu-trend"></div><div class="chart" id="ch-gpu-trend"></div></div>
 
 <script>
 var PAL=['#2563eb','#f59e0b','#10b981','#ec4899','#8b5cf6','#14b8a6','#f97316','#e11d48'];
 async function ld(p){try{return(await fetch(p)).json()}catch(e){return null}}
+
+function sparseLbl(n){var st=Math.max(1,Math.ceil(n/6));return function(i){return i%st===0||i===n-1}}
+function rangeBtns(el,chart,n){
+  if(!el)return;
+  var defs=[['1月',30],['3月',90],['全部',0]];
+  el.innerHTML=defs.map(function(d,i){return '<span class="rz'+(i===2?' on':'')+'" data-n="'+d[1]+'">'+d[0]+'</span>'}).join('');
+  el.onclick=function(e){var t=e.target;if(!t.dataset||t.dataset.n===undefined)return;
+    el.querySelectorAll('.rz').forEach(function(x){x.classList.remove('on')});t.classList.add('on');
+    var nn=+t.dataset.n,st=(nn>0&&n>nn)?Math.round((1-nn/n)*100):0;
+    chart.setOption({dataZoom:[{type:'inside',start:st,end:100},{type:'slider',start:st,end:100}]});};
+}
 
 function makeTrendChart(elId, history, names, title, unit){
   var dom=document.getElementById(elId);
@@ -51,13 +65,15 @@ function makeTrendChart(elId, history, names, title, unit){
   var dates=history.map(function(h){return h.date.substring(5)});
   var chart=echarts.init(dom);
   chart.setOption({
-    grid:{left:70,right:35,top:40,bottom:25},
-    xAxis:{type:'category',data:dates,axisLabel:{fontSize:10}},
+    grid:{left:70,right:35,top:40,bottom:48},
+    xAxis:{type:'category',data:dates,axisLabel:{fontSize:10,interval:sparseLbl(dates.length)}},
     yAxis:{type:'value',axisLabel:{fontSize:10,formatter:unit||'{value}'}},
     series:names.map(function(n,i){return{name:n,type:'line',data:history.map(function(h){return h[n]||null}),lineStyle:{width:2,color:PAL[i]},symbolSize:3,smooth:true}}),
     legend:{top:5,textStyle:{fontSize:9},itemWidth:12,itemHeight:8},
-    tooltip:{trigger:'axis'}
+    tooltip:{trigger:'axis'},
+    dataZoom:[{type:'inside'},{type:'slider',height:14,bottom:2}]
   });
+  rangeBtns(document.getElementById('rz-'+elId.substring(3)),chart,dates.length);
   window.addEventListener('resize',function(){chart.resize()});
 }
 
@@ -79,7 +95,8 @@ if(dh.length>1){
   if(dh.some(function(h){return h.DDR5_16Gb!=null})) series.push({name:'DDR5 16Gb',type:'line',data:dh.map(function(h){return h.DDR5_16Gb||null}),lineStyle:{width:2,color:PAL[0]},symbolSize:3,smooth:true});
   if(dh.some(function(h){return h.DDR5_eTT!=null})) series.push({name:'DDR5 eTT',type:'line',data:dh.map(function(h){return h.DDR5_eTT||null}),lineStyle:{width:2,color:PAL[1]},symbolSize:3,smooth:true});
   if(dh.some(function(h){return h.DDR4_16Gb!=null})) series.push({name:'DDR4 16Gb',type:'line',data:dh.map(function(h){return h.DDR4_16Gb||null}),lineStyle:{width:2,color:PAL[2]},symbolSize:3,smooth:true});
-  ch.setOption({grid:{left:50,right:20,top:10,bottom:30},xAxis:{type:'category',data:dt,axisLabel:{fontSize:10,rotate:45}},yAxis:{type:'value',axisLabel:{fontSize:10,formatter:'${value}'}},series:series,legend:{bottom:0,textStyle:{fontSize:10}},tooltip:{trigger:'axis'}});
+  ch.setOption({grid:{left:50,right:20,top:10,bottom:48},xAxis:{type:'category',data:dt,axisLabel:{fontSize:10,rotate:45,interval:sparseLbl(dt.length)}},yAxis:{type:'value',axisLabel:{fontSize:10,formatter:'${value}'}},series:series,legend:{bottom:24,textStyle:{fontSize:10}},tooltip:{trigger:'axis'},dataZoom:[{type:'inside'},{type:'slider',height:14,bottom:2}]});
+  rangeBtns(document.getElementById('rz-dram'),ch,dt.length);
 }else{
   var nm=dram.map(function(i){return i.name.length>25?i.name.substring(0,22)+'...':i.name});
   var vl=dram.map(function(i){return i.avgPrice||0});
