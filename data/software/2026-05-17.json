@@ -1,0 +1,219 @@
+{
+  "updated": "2026-05-17",
+  "pricing": {
+    "updated": "2026-05-17",
+    "providers": [
+      {
+        "vendor": "OpenAI",
+        "model": "GPT-5",
+        "input": 15.0,
+        "output": 60.0,
+        "cat": "闭源"
+      },
+      {
+        "vendor": "OpenAI",
+        "model": "GPT-5 Mini",
+        "input": 0.6,
+        "output": 2.4,
+        "cat": "闭源"
+      },
+      {
+        "vendor": "Anthropic",
+        "model": "Claude Opus 4",
+        "input": 15.0,
+        "output": 75.0,
+        "cat": "闭源"
+      },
+      {
+        "vendor": "Anthropic",
+        "model": "Claude Sonnet 4",
+        "input": 3.0,
+        "output": 15.0,
+        "cat": "闭源"
+      },
+      {
+        "vendor": "Anthropic",
+        "model": "Claude Haiku 4",
+        "input": 0.9,
+        "output": 4.5,
+        "cat": "闭源"
+      },
+      {
+        "vendor": "Google",
+        "model": "Gemini 3 Pro",
+        "input": 3.0,
+        "output": 12.0,
+        "cat": "闭源"
+      },
+      {
+        "vendor": "Google",
+        "model": "Gemini 3 Flash",
+        "input": 0.15,
+        "output": 0.6,
+        "cat": "闭源"
+      },
+      {
+        "vendor": "xAI",
+        "model": "Grok 4",
+        "input": 5.0,
+        "output": 15.0,
+        "cat": "闭源"
+      },
+      {
+        "vendor": "DeepSeek",
+        "model": "DeepSeek-V4",
+        "input": 0.55,
+        "output": 2.19,
+        "cat": "开源"
+      },
+      {
+        "vendor": "Alibaba",
+        "model": "Qwen3-Max",
+        "input": 2.0,
+        "output": 8.0,
+        "cat": "云API"
+      },
+      {
+        "vendor": "Meta",
+        "model": "Llama 4",
+        "input": 0.35,
+        "output": 0.6,
+        "cat": "开源"
+      },
+      {
+        "vendor": "Mistral",
+        "model": "Mistral Large 3",
+        "input": 3.0,
+        "output": 9.0,
+        "cat": "开源"
+      }
+    ],
+    "history": [
+      [
+        {
+          "date": "2026-05-17",
+          "GPT-5": 15.0,
+          "Claude Opus 4": 15.0,
+          "Gemini 3 Pro": 3.0,
+          "Grok 4": 5.0,
+          "DeepSeek-V4": 0.55,
+          "Qwen3-Max": 2.0
+        }
+      ],
+      []
+    ]
+  },
+  "arena": {
+    "updated": "2026-05-17",
+    "ranking": [],
+    "history": [
+      {
+        "date": "2026-05-17",
+        "GPT-5": 1420,
+        "Claude Opus 4": 1405,
+        "Gemini 3 Ultra": 1398,
+        "Grok 4": 1371,
+        "Gemini 3 Pro": 1367,
+        "DeepSeek-V4": 1358,
+        "Claude Sonnet 4": 1352,
+        "Qwen3-Max": 1341,
+        "Mistral Large 3": 1328,
+        "o4-mini": 1314
+      }
+    ]
+  },
+  "cloudToken": {
+    "providers": [
+      {
+        "name": "AWS Bedrock",
+        "share": 25,
+        "models": "Claude,Llama,Mistral"
+      },
+      {
+        "name": "Azure AI",
+        "share": 22,
+        "models": "GPT-5,Llama,Mistral"
+      },
+      {
+        "name": "GCP Vertex",
+        "share": 18,
+        "models": "Gemini,Claude,Llama"
+      },
+      {
+        "name": "OpenAI直营",
+        "share": 12,
+        "models": "GPT-5,o4-mini"
+      },
+      {
+        "name": "阿里云百炼",
+        "share": 8,
+        "models": "Qwen,DeepSeek,Llama"
+      },
+      {
+        "name": "腾讯混元",
+        "share": 5,
+        "models": "混元,DeepSeek,Qwen"
+      },
+      {
+        "name": "Anthropic直营",
+        "share": 4,
+        "models": "Claude全系"
+      },
+      {
+        "name": "Nebius AI",
+        "share": 2,
+        "models": "Llama,DeepSeek,Mistral"
+      },
+      {
+        "name": "CoreWeave等",
+        "share": 2,
+        "models": "开源模型"
+      },
+      {
+        "name": "其他",
+        "share": 2,
+        "models": "Cerebras,Groq等"
+      }
+    ]
+  },
+  "marketShare": {
+    "data": [
+      {
+        "name": "ChatGPT",
+        "share": 57,
+        "trend": "down",
+        "change": -20
+      },
+      {
+        "name": "Gemini",
+        "share": 25,
+        "trend": "up",
+        "change": 19
+      },
+      {
+        "name": "Claude",
+        "share": 6,
+        "trend": "up",
+        "change": 4.6
+      },
+      {
+        "name": "DeepSeek",
+        "share": 4,
+        "trend": "up",
+        "change": 4
+      },
+      {
+        "name": "Grok",
+        "share": 3,
+        "trend": "up",
+        "change": 3
+      },
+      {
+        "name": "其他",
+        "share": 5,
+        "trend": "stable",
+        "change": -10.6
+      }
+    ]
+  }
+}

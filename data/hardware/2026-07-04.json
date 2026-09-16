@@ -1,0 +1,1634 @@
+{
+  "updated": "2026-07-04",
+  "dram": {
+    "date": "2026-07-04",
+    "items": [
+      {
+        "name": "DDR5 16Gb (2Gx8) 4800/5600",
+        "avgPrice": 46.667,
+        "dayHigh": 61.0,
+        "dayLow": 31.0
+      },
+      {
+        "name": "DDR5 16Gb (2Gx8) eTT",
+        "avgPrice": 23.25,
+        "dayHigh": 25.3,
+        "dayLow": 22.3
+      },
+      {
+        "name": "DDR4 16Gb (2Gx8) 3200",
+        "avgPrice": 76.375,
+        "dayHigh": 95.0,
+        "dayLow": 39.2
+      },
+      {
+        "name": "DDR4 16Gb (2Gx8) eTT",
+        "avgPrice": 11.525,
+        "dayHigh": 12.0,
+        "dayLow": 10.5
+      },
+      {
+        "name": "DDR4 8Gb (1Gx8) 3200",
+        "avgPrice": 36.54,
+        "dayHigh": 60.0,
+        "dayLow": 19.6
+      },
+      {
+        "name": "DDR4 8Gb (1Gx8) eTT",
+        "avgPrice": 4.171,
+        "dayHigh": 4.6,
+        "dayLow": 3.8
+      },
+      {
+        "name": "DDR3 4Gb 512Mx8 1600/1866",
+        "avgPrice": 12.476,
+        "dayHigh": 16.8,
+        "dayLow": 8.3
+      },
+      {
+        "name": "DDR5 8GB SO-DIMM",
+        "avgPrice": 208.5,
+        "dayHigh": 215.0,
+        "dayLow": 200.0
+      },
+      {
+        "name": "DDR4 16GB SO-DIMM",
+        "avgPrice": 1335.0,
+        "dayHigh": 1600.0,
+        "dayLow": 1250.0
+      },
+      {
+        "name": "DDR4 8GB SO-DIMM",
+        "avgPrice": 149.576,
+        "dayHigh": 170.0,
+        "dayLow": 133.0
+      },
+      {
+        "name": "DDR4 16Gb 2Gx8",
+        "avgPrice": 11.545,
+        "dayHigh": 17.5,
+        "dayLow": 9.5
+      },
+      {
+        "name": "DDR4 8Gb 1Gx8",
+        "avgPrice": 11.522,
+        "dayHigh": 17.5,
+        "dayLow": 9.0
+      }
+    ],
+    "history": [
+      {
+        "date": "2026-05-18",
+        "DDR5_16Gb": 41.267,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.95
+      },
+      {
+        "date": "2026-05-19",
+        "DDR5_16Gb": 41.267,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.95
+      },
+      {
+        "date": "2026-05-20",
+        "DDR5_16Gb": 41.1,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.907
+      },
+      {
+        "date": "2026-05-21",
+        "DDR5_16Gb": 41.167,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.864
+      },
+      {
+        "date": "2026-05-22",
+        "DDR5_16Gb": 41.333,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.864
+      },
+      {
+        "date": "2026-05-23",
+        "DDR5_16Gb": 41.5,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.864
+      },
+      {
+        "date": "2026-05-24",
+        "DDR5_16Gb": 41.5,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.864
+      },
+      {
+        "date": "2026-05-25",
+        "DDR5_16Gb": 41.5,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.864
+      },
+      {
+        "date": "2026-05-26",
+        "DDR5_16Gb": 41.667,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.864
+      },
+      {
+        "date": "2026-05-27",
+        "DDR5_16Gb": 41.667,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.864
+      },
+      {
+        "date": "2026-05-28",
+        "DDR5_16Gb": 41.667,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.854
+      },
+      {
+        "date": "2026-05-29",
+        "DDR5_16Gb": 41.833,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.854
+      },
+      {
+        "date": "2026-05-30",
+        "DDR5_16Gb": 41.9,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.861
+      },
+      {
+        "date": "2026-06-01",
+        "DDR5_16Gb": 41.9,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.861
+      },
+      {
+        "date": "2026-06-02",
+        "DDR5_16Gb": 42.267,
+        "DDR5_eTT": 22.5,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.882
+      },
+      {
+        "date": "2026-06-03",
+        "DDR5_16Gb": 42.567,
+        "DDR5_eTT": 22.6,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.882
+      },
+      {
+        "date": "2026-06-04",
+        "DDR5_16Gb": 42.833,
+        "DDR5_eTT": 22.65,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.871
+      },
+      {
+        "date": "2026-06-05",
+        "DDR5_16Gb": 43.233,
+        "DDR5_eTT": 22.65,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.825
+      },
+      {
+        "date": "2026-06-06",
+        "DDR5_16Gb": 43.4,
+        "DDR5_eTT": 22.7,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.793
+      },
+      {
+        "date": "2026-06-07",
+        "DDR5_16Gb": 43.4,
+        "DDR5_eTT": 22.7,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.793
+      },
+      {
+        "date": "2026-06-08",
+        "DDR5_16Gb": 43.4,
+        "DDR5_eTT": 22.7,
+        "DDR4_16Gb": 11.636,
+        "DDR4_eTT": 4.793
+      },
+      {
+        "date": "2026-06-09",
+        "DDR5_16Gb": 43.567,
+        "DDR5_eTT": 22.7,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.75
+      },
+      {
+        "date": "2026-06-10",
+        "DDR5_16Gb": 44.0,
+        "DDR5_eTT": 22.8,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.729
+      },
+      {
+        "date": "2026-06-11",
+        "DDR5_16Gb": 44.5,
+        "DDR5_eTT": 23.0,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.707
+      },
+      {
+        "date": "2026-06-12",
+        "DDR5_16Gb": 44.667,
+        "DDR5_eTT": 23.0,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.664
+      },
+      {
+        "date": "2026-06-13",
+        "DDR5_16Gb": 44.833,
+        "DDR5_eTT": 23.0,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.643
+      },
+      {
+        "date": "2026-06-14",
+        "DDR5_16Gb": 44.833,
+        "DDR5_eTT": 23.0,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.643
+      },
+      {
+        "date": "2026-06-15",
+        "DDR5_16Gb": 44.833,
+        "DDR5_eTT": 23.0,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.643
+      },
+      {
+        "date": "2026-06-16",
+        "DDR5_16Gb": 45.0,
+        "DDR5_eTT": 23.0,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.6
+      },
+      {
+        "date": "2026-06-17",
+        "DDR5_16Gb": 45.233,
+        "DDR5_eTT": 23.2,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.519
+      },
+      {
+        "date": "2026-06-18",
+        "DDR5_16Gb": 45.4,
+        "DDR5_eTT": 23.2,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.476
+      },
+      {
+        "date": "2026-06-19",
+        "DDR5_16Gb": 46.0,
+        "DDR5_eTT": 23.5,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.45
+      },
+      {
+        "date": "2026-06-20",
+        "DDR5_16Gb": 46.0,
+        "DDR5_eTT": 23.5,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.45
+      },
+      {
+        "date": "2026-06-21",
+        "DDR5_16Gb": 46.0,
+        "DDR5_eTT": 23.5,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.45
+      },
+      {
+        "date": "2026-06-22",
+        "DDR5_16Gb": 46.0,
+        "DDR5_eTT": 23.5,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.45
+      },
+      {
+        "date": "2026-06-23",
+        "DDR5_16Gb": 46.167,
+        "DDR5_eTT": 23.5,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.407
+      },
+      {
+        "date": "2026-06-24",
+        "DDR5_16Gb": 46.5,
+        "DDR5_eTT": 23.5,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.407
+      },
+      {
+        "date": "2026-06-25",
+        "DDR5_16Gb": 46.667,
+        "DDR5_eTT": 23.5,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.364
+      },
+      {
+        "date": "2026-06-26",
+        "DDR5_16Gb": 46.733,
+        "DDR5_eTT": 23.5,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.321
+      },
+      {
+        "date": "2026-06-27",
+        "DDR5_16Gb": 46.733,
+        "DDR5_eTT": 23.5,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.3
+      },
+      {
+        "date": "2026-06-28",
+        "DDR5_16Gb": 46.733,
+        "DDR5_eTT": 23.5,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.3
+      },
+      {
+        "date": "2026-06-29",
+        "DDR5_16Gb": 46.733,
+        "DDR5_eTT": 23.5,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.3
+      },
+      {
+        "date": "2026-06-30",
+        "DDR5_16Gb": 46.733,
+        "DDR5_eTT": 23.5,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.279
+      },
+      {
+        "date": "2026-07-01",
+        "DDR5_16Gb": 46.833,
+        "DDR5_eTT": 23.5,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.257
+      },
+      {
+        "date": "2026-07-02",
+        "DDR5_16Gb": 46.833,
+        "DDR5_eTT": 23.3,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.236
+      },
+      {
+        "date": "2026-07-03",
+        "DDR5_16Gb": 46.633,
+        "DDR5_eTT": 23.3,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.204
+      },
+      {
+        "date": "2026-07-04",
+        "DDR5_16Gb": 46.667,
+        "DDR5_eTT": 23.25,
+        "DDR4_16Gb": 11.545,
+        "DDR4_eTT": 4.171
+      }
+    ],
+    "source": "TrendForce集邦"
+  },
+  "news": {
+    "articles": [
+      {
+        "title": "Megawatt AI Racks: Infrastructure Evolution &#38;amp; Wide-Bandgap Power Semiconductor Opportunities by 2030",
+        "link": "https://www.digitimes.com/news/a20260626RS400/2030-data-center-efficiency-server-rack-infrastructure.html?chid=2",
+        "date": "Fri, 3 Jul 2026 ",
+        "snippet": "Megawatt AI Racks: Infrastructure Evolution &#38; Wide-Bandgap Power Semiconductor Opportunities by 2030",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Chinese NOR Flash supplier Giantec raises prices 25% as memory market risks persist",
+        "link": "https://www.digitimes.com/news/a20260702PD228/flash-supplier-price-market-production.html",
+        "date": "Fri, 3 Jul 2026 ",
+        "snippet": "&lt;p class=\"P1\" data-sourcepos=\"5:1-5:382;141-522\"&gt;China's memory price rally continues to gather momentum. Giantec Semiconductor Corporation, a C",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "South Korea bets on southwest semiconductor cluster, but key hurdles remain",
+        "link": "https://www.digitimes.com/news/a20260702PD222/south-korea-government-semiconductors-investment.html",
+        "date": "Fri, 3 Jul 2026 ",
+        "snippet": "South Korea on June 29 unveiled a large-scale investment plan for the country's Honam region in the southwest, which mainly covers the city of Gwangju",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Medical demand, multimedia shipments drive Sonix recovery as drone strategy gains traction",
+        "link": "https://www.digitimes.com/news/a20260703PD216/sonix-mcu-medical-shipments-supply-chain.html",
+        "date": "Fri, 3 Jul 2026 ",
+        "snippet": "With supply chain inventory normalization largely complete, Sonix Technology (Sonix) has seen business momentum recover. The MCU supplier is benefitin",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Intel takes aim at TSMC's CoWoS lead with EMIB-T",
+        "link": "https://www.digitimes.com/news/a20260703VL207/intel-transistor-tsmc-cowos-packaging.html",
+        "date": "Fri, 3 Jul 2026 ",
+        "snippet": "As transistor density scaling slows, chipmakers are leaning on advanced packaging to keep improving accelerator performance. A SemiAnalysis roundup of",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "BOE targets AI packaging with Micro LED optical interconnect and glass substrate CPO",
+        "link": "https://www.digitimes.com/news/a20260703PD221/boe-glass-substrate-cpo-packaging-microled.html",
+        "date": "Fri, 3 Jul 2026 ",
+        "snippet": "&lt;p class=\"P1\" data-start=\"0\" data-end=\"432\"&gt;BOE, China's leading display panel maker, is accelerating its move into next-generation packaging te",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "How TSMC quietly turned its supply chain into a 'second fleet'",
+        "link": "https://www.digitimes.com/news/a20260703PD219/tsmc-supply-chain-equipment-development-materials.html",
+        "date": "Fri, 3 Jul 2026 ",
+        "snippet": "&lt;p class=\"P1\" data-sourcepos=\"7:1-7:430;151-580\"&gt;TSMC has accelerated efforts to localize its supply chain in recent years, using joint developm",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Wistron chair urges Taiwan to shift beyond manufacturing mindset in AI era",
+        "link": "https://www.digitimes.com/news/a20260703PD200/wistron-taiwan-manufacturing-chairman-simon-lin.html",
+        "date": "Fri, 3 Jul 2026 ",
+        "snippet": "&lt;p class=\"P1\" data-sourcepos=\"5:1-5:349;125-473\"&gt;Wistron chairman Simon Lin said artificial intelligence (AI) is improving the quality of profes",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Xiaomi and Huawei turn phone AI into a system-level fight for user workflows",
+        "link": "https://www.digitimes.com/news/a20260701PD223/xiaomi-huawei-google-samsung-apple.html",
+        "date": "Fri, 3 Jul 2026 ",
+        "snippet": "&lt;p class=\"P1\" data-sourcepos=\"5:1-5:232;128-359\"&gt;A public spat between Xiaomi and Huawei over large models has exposed growing anxiety in China'",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "SAP names Verena Siow Asia-Pacific President",
+        "link": "https://www.digitimes.com/news/a20260702PD235/apac-president-software-business-region.html",
+        "date": "Fri, 3 Jul 2026 ",
+        "snippet": "&lt;p class=\"P1\" data-sourcepos=\"5:1-5:341;94-434\"&gt;Enterprise software company SAP announced on July 2 that it has appointed Verena Siow as preside",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Tsinghua chip veteran&#38;rsquo;s US$1.8bn 3D AI chip startup targets China&#38;rsquo;s GPU gap",
+        "link": "https://www.digitimes.com/news/a20260703PD217/ai-chip-startup-3d-technology-shanghai.html",
+        "date": "Fri, 3 Jul 2026 ",
+        "snippet": "&lt;p class=\"P1\" data-sourcepos=\"5:1-5:294;133-426\"&gt;China's AI chip sector has a heavyweight new entrant: veteran semiconductor figure Shaojun Wei ",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "AI server PMIC demand drives spillover orders for Taiwan chip designers",
+        "link": "https://www.digitimes.com/news/a20260703PD215/pmic-demand-taiwan-design-ic.html",
+        "date": "Fri, 3 Jul 2026 ",
+        "snippet": "&lt;p class=\"P1\" data-sourcepos=\"5:1-5:263;116-378\"&gt;Taiwanese power management IC (PMIC) design houses have been expanding into new applications an",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Samsung escalates South Korea buildout: maps fresh US$90 billion chip, display, battery push in central region",
+        "link": "https://www.digitimes.com/news/a20260703VL204/samsung-display-investment-hbm-materials.html",
+        "date": "Fri, 3 Jul 2026 ",
+        "snippet": "&lt;p class=\"P1\" data-sourcepos=\"5:1-5:189;132-320\"&gt;Samsung Group detailed plans on July 2 to invest KRW140 trillion (US$90 billion) in display pan",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Nvidia reportedly expands financing push with revenue-sharing model for AI cloud providers",
+        "link": "https://www.digitimes.com/news/a20260703VL203/nvidia-financing-infrastructure-gpu-capacity.html",
+        "date": "Fri, 3 Jul 2026 ",
+        "snippet": "&lt;p class=\"P1\" data-sourcepos=\"5:1-5:369;130-498\"&gt;Nvidia is deepening its role in the AI infrastructure market by offering financial guarantees t",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Meta's reported cloud push fuels debate over AI chip demand",
+        "link": "https://www.digitimes.com/news/a20260703PD208/meta-demand-cloud-ai-infrastructure-business.html",
+        "date": "Fri, 3 Jul 2026 ",
+        "snippet": "&lt;p class=\"P1\" data-sourcepos=\"5:1-5:332;108-439\"&gt;Meta's reported plan to expand into cloud services is drawing fresh scrutiny from global invest",
+        "source": "DigiTimes"
+      }
+    ],
+    "total": 32,
+    "source": "DigiTimes RSS"
+  },
+  "gpuOptical": {
+    "date": "2026-07-04",
+    "gpuCloud": [
+      {
+        "name": "AWS H100",
+        "price": "$3.11/hr",
+        "note": "p5.48xlarge"
+      },
+      {
+        "name": "Azure H100",
+        "price": "$3.69/hr",
+        "note": "ND H100 v5"
+      },
+      {
+        "name": "GCP H100",
+        "price": "$3.33/hr",
+        "note": "A3 on-demand"
+      },
+      {
+        "name": "AWS A100",
+        "price": "$1.94/hr",
+        "note": "p4d.24xlarge"
+      }
+    ],
+    "opticalModules": [
+      {
+        "name": "800G SR8",
+        "price": "$1,237"
+      },
+      {
+        "name": "800G XDR8",
+        "price": "$8,822"
+      },
+      {
+        "name": "400G DR4",
+        "price": "$450"
+      },
+      {
+        "name": "1.6T OSFP(估)",
+        "price": "$1,976"
+      }
+    ],
+    "gpuHistory": [
+      {
+        "date": "2026-04-19",
+        "AWS H100": 3.09,
+        "Azure H100": 3.76,
+        "GCP H100": 3.31,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-04-20",
+        "AWS H100": 3.07,
+        "Azure H100": 3.73,
+        "GCP H100": 3.32,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-04-21",
+        "AWS H100": 3.06,
+        "Azure H100": 3.75,
+        "GCP H100": 3.35,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-04-22",
+        "AWS H100": 3.06,
+        "Azure H100": 3.8,
+        "GCP H100": 3.39,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-04-23",
+        "AWS H100": 3.05,
+        "Azure H100": 3.81,
+        "GCP H100": 3.3,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-04-24",
+        "AWS H100": 3.1,
+        "Azure H100": 3.79,
+        "GCP H100": 3.36,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-04-25",
+        "AWS H100": 3.1,
+        "Azure H100": 3.71,
+        "GCP H100": 3.38,
+        "AWS A100": 1.94
+      },
+      {
+        "date": "2026-04-26",
+        "AWS H100": 3.04,
+        "Azure H100": 3.78,
+        "GCP H100": 3.36,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-04-27",
+        "AWS H100": 3.06,
+        "Azure H100": 3.74,
+        "GCP H100": 3.3,
+        "AWS A100": 1.91
+      },
+      {
+        "date": "2026-04-28",
+        "AWS H100": 3.06,
+        "Azure H100": 3.77,
+        "GCP H100": 3.3,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-04-29",
+        "AWS H100": 3.1,
+        "Azure H100": 3.8,
+        "GCP H100": 3.32,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-04-30",
+        "AWS H100": 3.07,
+        "Azure H100": 3.73,
+        "GCP H100": 3.36,
+        "AWS A100": 1.91
+      },
+      {
+        "date": "2026-05-01",
+        "AWS H100": 3.04,
+        "Azure H100": 3.74,
+        "GCP H100": 3.33,
+        "AWS A100": 1.91
+      },
+      {
+        "date": "2026-05-02",
+        "AWS H100": 3.06,
+        "Azure H100": 3.72,
+        "GCP H100": 3.32,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-05-03",
+        "AWS H100": 3.02,
+        "Azure H100": 3.72,
+        "GCP H100": 3.32,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-05-04",
+        "AWS H100": 3.09,
+        "Azure H100": 3.73,
+        "GCP H100": 3.32,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-05-05",
+        "AWS H100": 3.04,
+        "Azure H100": 3.75,
+        "GCP H100": 3.29,
+        "AWS A100": 1.91
+      },
+      {
+        "date": "2026-05-06",
+        "AWS H100": 3.1,
+        "Azure H100": 3.75,
+        "GCP H100": 3.37,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-05-07",
+        "AWS H100": 3.1,
+        "Azure H100": 3.79,
+        "GCP H100": 3.34,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-05-08",
+        "AWS H100": 3.03,
+        "Azure H100": 3.71,
+        "GCP H100": 3.32,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-05-09",
+        "AWS H100": 3.05,
+        "Azure H100": 3.82,
+        "GCP H100": 3.3,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-05-10",
+        "AWS H100": 3.1,
+        "Azure H100": 3.76,
+        "GCP H100": 3.29,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-05-11",
+        "AWS H100": 3.06,
+        "Azure H100": 3.72,
+        "GCP H100": 3.3,
+        "AWS A100": 1.91
+      },
+      {
+        "date": "2026-05-12",
+        "AWS H100": 3.1,
+        "Azure H100": 3.8,
+        "GCP H100": 3.31,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-05-13",
+        "AWS H100": 3.06,
+        "Azure H100": 3.71,
+        "GCP H100": 3.33,
+        "AWS A100": 1.94
+      },
+      {
+        "date": "2026-05-14",
+        "AWS H100": 3.1,
+        "Azure H100": 3.78,
+        "GCP H100": 3.37,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-05-15",
+        "AWS H100": 3.1,
+        "Azure H100": 3.76,
+        "GCP H100": 3.32,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-05-16",
+        "AWS H100": 3.07,
+        "Azure H100": 3.8,
+        "GCP H100": 3.33,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-05-17",
+        "AWS H100": 3.04,
+        "Azure H100": 3.73,
+        "GCP H100": 3.37,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-05-18",
+        "AWS H100": 3.08,
+        "Azure H100": 3.82,
+        "GCP H100": 3.29,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-05-19",
+        "AWS H100": 3.01,
+        "Azure H100": 3.83,
+        "GCP H100": 3.41,
+        "AWS A100": 1.91
+      },
+      {
+        "date": "2026-05-20",
+        "AWS H100": 3.04,
+        "Azure H100": 3.78,
+        "GCP H100": 3.38,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-05-21",
+        "AWS H100": 3.03,
+        "Azure H100": 3.83,
+        "GCP H100": 3.38,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-05-22",
+        "AWS H100": 3.06,
+        "Azure H100": 3.77,
+        "GCP H100": 3.36,
+        "AWS A100": 1.97
+      },
+      {
+        "date": "2026-05-23",
+        "AWS H100": 3.06,
+        "Azure H100": 3.75,
+        "GCP H100": 3.28,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-05-24",
+        "AWS H100": 3.05,
+        "Azure H100": 3.7,
+        "GCP H100": 3.3,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-05-25",
+        "AWS H100": 3.09,
+        "Azure H100": 3.83,
+        "GCP H100": 3.33,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-05-26",
+        "AWS H100": 3.06,
+        "Azure H100": 3.7,
+        "GCP H100": 3.29,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-05-27",
+        "AWS H100": 3.03,
+        "Azure H100": 3.78,
+        "GCP H100": 3.39,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-05-28",
+        "AWS H100": 3.09,
+        "Azure H100": 3.74,
+        "GCP H100": 3.33,
+        "AWS A100": 1.96
+      },
+      {
+        "date": "2026-05-29",
+        "AWS H100": 3.07,
+        "Azure H100": 3.69,
+        "GCP H100": 3.4,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-05-30",
+        "AWS H100": 3.08,
+        "Azure H100": 3.71,
+        "GCP H100": 3.34,
+        "AWS A100": 1.91
+      },
+      {
+        "date": "2026-06-01",
+        "AWS H100": 3.11,
+        "Azure H100": 3.75,
+        "GCP H100": 3.34,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-06-02",
+        "AWS H100": 3.03,
+        "Azure H100": 3.75,
+        "GCP H100": 3.36,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-06-03",
+        "AWS H100": 3.1,
+        "Azure H100": 3.76,
+        "GCP H100": 3.4,
+        "AWS A100": 1.91
+      },
+      {
+        "date": "2026-06-04",
+        "AWS H100": 3.06,
+        "Azure H100": 3.69,
+        "GCP H100": 3.39,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-06-05",
+        "AWS H100": 3.02,
+        "Azure H100": 3.73,
+        "GCP H100": 3.33,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-06-06",
+        "AWS H100": 3.05,
+        "Azure H100": 3.8,
+        "GCP H100": 3.28,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-06-07",
+        "AWS H100": 3.02,
+        "Azure H100": 3.75,
+        "GCP H100": 3.36,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-06-08",
+        "AWS H100": 3.01,
+        "Azure H100": 3.72,
+        "GCP H100": 3.33,
+        "AWS A100": 1.94
+      },
+      {
+        "date": "2026-06-09",
+        "AWS H100": 3.01,
+        "Azure H100": 3.75,
+        "GCP H100": 3.31,
+        "AWS A100": 1.94
+      },
+      {
+        "date": "2026-06-10",
+        "AWS H100": 3.0,
+        "Azure H100": 3.71,
+        "GCP H100": 3.31,
+        "AWS A100": 1.94
+      },
+      {
+        "date": "2026-06-11",
+        "AWS H100": 3.09,
+        "Azure H100": 3.73,
+        "GCP H100": 3.36,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-06-12",
+        "AWS H100": 3.03,
+        "Azure H100": 3.78,
+        "GCP H100": 3.38,
+        "AWS A100": 1.94
+      },
+      {
+        "date": "2026-06-13",
+        "AWS H100": 3.07,
+        "Azure H100": 3.81,
+        "GCP H100": 3.31,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-06-14",
+        "AWS H100": 3.02,
+        "Azure H100": 3.72,
+        "GCP H100": 3.28,
+        "AWS A100": 1.96
+      },
+      {
+        "date": "2026-06-15",
+        "AWS H100": 3.12,
+        "Azure H100": 3.78,
+        "GCP H100": 3.29,
+        "AWS A100": 1.96
+      },
+      {
+        "date": "2026-06-16",
+        "AWS H100": 3.06,
+        "Azure H100": 3.75,
+        "GCP H100": 3.32,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-06-17",
+        "AWS H100": 3.01,
+        "Azure H100": 3.81,
+        "GCP H100": 3.34,
+        "AWS A100": 1.96
+      },
+      {
+        "date": "2026-06-18",
+        "AWS H100": 3.07,
+        "Azure H100": 3.8,
+        "GCP H100": 3.3,
+        "AWS A100": 1.94
+      },
+      {
+        "date": "2026-06-19",
+        "AWS H100": 3.03,
+        "Azure H100": 3.73,
+        "GCP H100": 3.29,
+        "AWS A100": 1.96
+      },
+      {
+        "date": "2026-06-20",
+        "AWS H100": 3.08,
+        "Azure H100": 3.77,
+        "GCP H100": 3.39,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-06-21",
+        "AWS H100": 3.09,
+        "Azure H100": 3.73,
+        "GCP H100": 3.4,
+        "AWS A100": 1.96
+      },
+      {
+        "date": "2026-06-22",
+        "AWS H100": 3.07,
+        "Azure H100": 3.7,
+        "GCP H100": 3.35,
+        "AWS A100": 1.97
+      },
+      {
+        "date": "2026-06-23",
+        "AWS H100": 3.07,
+        "Azure H100": 3.83,
+        "GCP H100": 3.36,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-06-24",
+        "AWS H100": 3.1,
+        "Azure H100": 3.79,
+        "GCP H100": 3.4,
+        "AWS A100": 1.91
+      },
+      {
+        "date": "2026-06-25",
+        "AWS H100": 3.05,
+        "Azure H100": 3.82,
+        "GCP H100": 3.35,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-06-26",
+        "AWS H100": 3.09,
+        "Azure H100": 3.73,
+        "GCP H100": 3.31,
+        "AWS A100": 1.89
+      },
+      {
+        "date": "2026-06-27",
+        "AWS H100": 3.07,
+        "Azure H100": 3.71,
+        "GCP H100": 3.39,
+        "AWS A100": 1.96
+      },
+      {
+        "date": "2026-06-28",
+        "AWS H100": 3.09,
+        "Azure H100": 3.78,
+        "GCP H100": 3.34,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-06-29",
+        "AWS H100": 3.11,
+        "Azure H100": 3.78,
+        "GCP H100": 3.28,
+        "AWS A100": 1.9
+      },
+      {
+        "date": "2026-06-30",
+        "AWS H100": 3.11,
+        "Azure H100": 3.72,
+        "GCP H100": 3.38,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-07-01",
+        "AWS H100": 3.12,
+        "Azure H100": 3.82,
+        "GCP H100": 3.3,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-07-02",
+        "AWS H100": 3.08,
+        "Azure H100": 3.79,
+        "GCP H100": 3.28,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-07-03",
+        "AWS H100": 3.1,
+        "Azure H100": 3.73,
+        "GCP H100": 3.29,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-07-04",
+        "AWS H100": 3.11,
+        "Azure H100": 3.69,
+        "GCP H100": 3.33,
+        "AWS A100": 1.94
+      }
+    ],
+    "opticalHistory": [
+      {
+        "date": "2026-04-19",
+        "800G SR8": 1243.0,
+        "800G XDR8": 8921.0,
+        "400G DR4": 448.0,
+        "1.6T OSFP(估)": 2030.0
+      },
+      {
+        "date": "2026-04-20",
+        "800G SR8": 1241.0,
+        "800G XDR8": 8805.0,
+        "400G DR4": 455.0,
+        "1.6T OSFP(估)": 1974.0
+      },
+      {
+        "date": "2026-04-21",
+        "800G SR8": 1230.0,
+        "800G XDR8": 8998.0,
+        "400G DR4": 453.0,
+        "1.6T OSFP(估)": 2009.0
+      },
+      {
+        "date": "2026-04-22",
+        "800G SR8": 1241.0,
+        "800G XDR8": 8862.0,
+        "400G DR4": 451.0,
+        "1.6T OSFP(估)": 2023.0
+      },
+      {
+        "date": "2026-04-23",
+        "800G SR8": 1241.0,
+        "800G XDR8": 8905.0,
+        "400G DR4": 454.0,
+        "1.6T OSFP(估)": 2018.0
+      },
+      {
+        "date": "2026-04-24",
+        "800G SR8": 1261.0,
+        "800G XDR8": 8751.0,
+        "400G DR4": 447.0,
+        "1.6T OSFP(估)": 2021.0
+      },
+      {
+        "date": "2026-04-25",
+        "800G SR8": 1243.0,
+        "800G XDR8": 8778.0,
+        "400G DR4": 454.0,
+        "1.6T OSFP(估)": 2028.0
+      },
+      {
+        "date": "2026-04-26",
+        "800G SR8": 1236.0,
+        "800G XDR8": 8809.0,
+        "400G DR4": 445.0,
+        "1.6T OSFP(估)": 2023.0
+      },
+      {
+        "date": "2026-04-27",
+        "800G SR8": 1262.0,
+        "800G XDR8": 8902.0,
+        "400G DR4": 454.0,
+        "1.6T OSFP(估)": 2020.0
+      },
+      {
+        "date": "2026-04-28",
+        "800G SR8": 1228.0,
+        "800G XDR8": 8975.0,
+        "400G DR4": 448.0,
+        "1.6T OSFP(估)": 2024.0
+      },
+      {
+        "date": "2026-04-29",
+        "800G SR8": 1258.0,
+        "800G XDR8": 8886.0,
+        "400G DR4": 449.0,
+        "1.6T OSFP(估)": 2005.0
+      },
+      {
+        "date": "2026-04-30",
+        "800G SR8": 1240.0,
+        "800G XDR8": 8741.0,
+        "400G DR4": 447.0,
+        "1.6T OSFP(估)": 2015.0
+      },
+      {
+        "date": "2026-05-01",
+        "800G SR8": 1232.0,
+        "800G XDR8": 8903.0,
+        "400G DR4": 446.0,
+        "1.6T OSFP(估)": 2015.0
+      },
+      {
+        "date": "2026-05-02",
+        "800G SR8": 1250.0,
+        "800G XDR8": 8901.0,
+        "400G DR4": 453.0,
+        "1.6T OSFP(估)": 2010.0
+      },
+      {
+        "date": "2026-05-03",
+        "800G SR8": 1248.0,
+        "800G XDR8": 8984.0,
+        "400G DR4": 452.0,
+        "1.6T OSFP(估)": 2018.0
+      },
+      {
+        "date": "2026-05-04",
+        "800G SR8": 1260.0,
+        "800G XDR8": 8806.0,
+        "400G DR4": 453.0,
+        "1.6T OSFP(估)": 2017.0
+      },
+      {
+        "date": "2026-05-05",
+        "800G SR8": 1235.0,
+        "800G XDR8": 8960.0,
+        "400G DR4": 447.0,
+        "1.6T OSFP(估)": 2019.0
+      },
+      {
+        "date": "2026-05-06",
+        "800G SR8": 1227.0,
+        "800G XDR8": 8948.0,
+        "400G DR4": 448.0,
+        "1.6T OSFP(估)": 2025.0
+      },
+      {
+        "date": "2026-05-07",
+        "800G SR8": 1226.0,
+        "800G XDR8": 8977.0,
+        "400G DR4": 454.0,
+        "1.6T OSFP(估)": 2011.0
+      },
+      {
+        "date": "2026-05-08",
+        "800G SR8": 1230.0,
+        "800G XDR8": 8849.0,
+        "400G DR4": 455.0,
+        "1.6T OSFP(估)": 1982.0
+      },
+      {
+        "date": "2026-05-09",
+        "800G SR8": 1260.0,
+        "800G XDR8": 8740.0,
+        "400G DR4": 452.0,
+        "1.6T OSFP(估)": 2021.0
+      },
+      {
+        "date": "2026-05-10",
+        "800G SR8": 1249.0,
+        "800G XDR8": 8749.0,
+        "400G DR4": 451.0,
+        "1.6T OSFP(估)": 1980.0
+      },
+      {
+        "date": "2026-05-11",
+        "800G SR8": 1239.0,
+        "800G XDR8": 8958.0,
+        "400G DR4": 452.0,
+        "1.6T OSFP(估)": 1975.0
+      },
+      {
+        "date": "2026-05-12",
+        "800G SR8": 1259.0,
+        "800G XDR8": 8854.0,
+        "400G DR4": 454.0,
+        "1.6T OSFP(估)": 2003.0
+      },
+      {
+        "date": "2026-05-13",
+        "800G SR8": 1243.0,
+        "800G XDR8": 8953.0,
+        "400G DR4": 445.0,
+        "1.6T OSFP(估)": 2003.0
+      },
+      {
+        "date": "2026-05-14",
+        "800G SR8": 1247.0,
+        "800G XDR8": 8876.0,
+        "400G DR4": 450.0,
+        "1.6T OSFP(估)": 1989.0
+      },
+      {
+        "date": "2026-05-15",
+        "800G SR8": 1235.0,
+        "800G XDR8": 8815.0,
+        "400G DR4": 452.0,
+        "1.6T OSFP(估)": 2019.0
+      },
+      {
+        "date": "2026-05-16",
+        "800G SR8": 1232.0,
+        "800G XDR8": 8955.0,
+        "400G DR4": 448.0,
+        "1.6T OSFP(估)": 1999.0
+      },
+      {
+        "date": "2026-05-17",
+        "800G SR8": 1240.0,
+        "800G XDR8": 8754.0,
+        "400G DR4": 457.0,
+        "1.6T OSFP(估)": 2021.0
+      },
+      {
+        "date": "2026-05-18",
+        "800G SR8": 1241,
+        "800G XDR8": 8779,
+        "400G DR4": 447,
+        "1.6T OSFP(估)": 1960
+      },
+      {
+        "date": "2026-05-19",
+        "800G SR8": 1244,
+        "800G XDR8": 8921,
+        "400G DR4": 452,
+        "1.6T OSFP(估)": 1964
+      },
+      {
+        "date": "2026-05-20",
+        "800G SR8": 1226,
+        "800G XDR8": 8837,
+        "400G DR4": 449,
+        "1.6T OSFP(估)": 2038
+      },
+      {
+        "date": "2026-05-21",
+        "800G SR8": 1259,
+        "800G XDR8": 8946,
+        "400G DR4": 442,
+        "1.6T OSFP(估)": 1991
+      },
+      {
+        "date": "2026-05-22",
+        "800G SR8": 1222,
+        "800G XDR8": 8873,
+        "400G DR4": 448,
+        "1.6T OSFP(估)": 1970
+      },
+      {
+        "date": "2026-05-23",
+        "800G SR8": 1245,
+        "800G XDR8": 8876,
+        "400G DR4": 444,
+        "1.6T OSFP(估)": 2020
+      },
+      {
+        "date": "2026-05-24",
+        "800G SR8": 1262,
+        "800G XDR8": 8774,
+        "400G DR4": 451,
+        "1.6T OSFP(估)": 2013
+      },
+      {
+        "date": "2026-05-25",
+        "800G SR8": 1253,
+        "800G XDR8": 8906,
+        "400G DR4": 457,
+        "1.6T OSFP(估)": 2003
+      },
+      {
+        "date": "2026-05-26",
+        "800G SR8": 1258,
+        "800G XDR8": 8844,
+        "400G DR4": 442,
+        "1.6T OSFP(估)": 1963
+      },
+      {
+        "date": "2026-05-27",
+        "800G SR8": 1252,
+        "800G XDR8": 8716,
+        "400G DR4": 444,
+        "1.6T OSFP(估)": 2009
+      },
+      {
+        "date": "2026-05-28",
+        "800G SR8": 1254,
+        "800G XDR8": 9002,
+        "400G DR4": 451,
+        "1.6T OSFP(估)": 2021
+      },
+      {
+        "date": "2026-05-29",
+        "800G SR8": 1231,
+        "800G XDR8": 8898,
+        "400G DR4": 455,
+        "1.6T OSFP(估)": 2035
+      },
+      {
+        "date": "2026-05-30",
+        "800G SR8": 1267,
+        "800G XDR8": 8853,
+        "400G DR4": 443,
+        "1.6T OSFP(估)": 1977
+      },
+      {
+        "date": "2026-06-01",
+        "800G SR8": 1219,
+        "800G XDR8": 8789,
+        "400G DR4": 445,
+        "1.6T OSFP(估)": 1963
+      },
+      {
+        "date": "2026-06-02",
+        "800G SR8": 1224,
+        "800G XDR8": 9001,
+        "400G DR4": 458,
+        "1.6T OSFP(估)": 1962
+      },
+      {
+        "date": "2026-06-03",
+        "800G SR8": 1231,
+        "800G XDR8": 8744,
+        "400G DR4": 443,
+        "1.6T OSFP(估)": 1989
+      },
+      {
+        "date": "2026-06-04",
+        "800G SR8": 1232,
+        "800G XDR8": 8970,
+        "400G DR4": 457,
+        "1.6T OSFP(估)": 1999
+      },
+      {
+        "date": "2026-06-05",
+        "800G SR8": 1237,
+        "800G XDR8": 8902,
+        "400G DR4": 447,
+        "1.6T OSFP(估)": 1985
+      },
+      {
+        "date": "2026-06-06",
+        "800G SR8": 1252,
+        "800G XDR8": 8712,
+        "400G DR4": 447,
+        "1.6T OSFP(估)": 1984
+      },
+      {
+        "date": "2026-06-07",
+        "800G SR8": 1251,
+        "800G XDR8": 8956,
+        "400G DR4": 447,
+        "1.6T OSFP(估)": 1964
+      },
+      {
+        "date": "2026-06-08",
+        "800G SR8": 1222,
+        "800G XDR8": 8861,
+        "400G DR4": 446,
+        "1.6T OSFP(估)": 2025
+      },
+      {
+        "date": "2026-06-09",
+        "800G SR8": 1236,
+        "800G XDR8": 8788,
+        "400G DR4": 456,
+        "1.6T OSFP(估)": 1979
+      },
+      {
+        "date": "2026-06-10",
+        "800G SR8": 1240,
+        "800G XDR8": 8827,
+        "400G DR4": 453,
+        "1.6T OSFP(估)": 2024
+      },
+      {
+        "date": "2026-06-11",
+        "800G SR8": 1238,
+        "800G XDR8": 8721,
+        "400G DR4": 443,
+        "1.6T OSFP(估)": 2031
+      },
+      {
+        "date": "2026-06-12",
+        "800G SR8": 1238,
+        "800G XDR8": 8811,
+        "400G DR4": 451,
+        "1.6T OSFP(估)": 2023
+      },
+      {
+        "date": "2026-06-13",
+        "800G SR8": 1233,
+        "800G XDR8": 8850,
+        "400G DR4": 454,
+        "1.6T OSFP(估)": 2005
+      },
+      {
+        "date": "2026-06-14",
+        "800G SR8": 1254,
+        "800G XDR8": 8932,
+        "400G DR4": 448,
+        "1.6T OSFP(估)": 1997
+      },
+      {
+        "date": "2026-06-15",
+        "800G SR8": 1224,
+        "800G XDR8": 9046,
+        "400G DR4": 441,
+        "1.6T OSFP(估)": 2002
+      },
+      {
+        "date": "2026-06-16",
+        "800G SR8": 1222,
+        "800G XDR8": 8929,
+        "400G DR4": 450,
+        "1.6T OSFP(估)": 1966
+      },
+      {
+        "date": "2026-06-17",
+        "800G SR8": 1242,
+        "800G XDR8": 8991,
+        "400G DR4": 445,
+        "1.6T OSFP(估)": 2036
+      },
+      {
+        "date": "2026-06-18",
+        "800G SR8": 1262,
+        "800G XDR8": 8853,
+        "400G DR4": 456,
+        "1.6T OSFP(估)": 1995
+      },
+      {
+        "date": "2026-06-19",
+        "800G SR8": 1254,
+        "800G XDR8": 8859,
+        "400G DR4": 446,
+        "1.6T OSFP(估)": 2031
+      },
+      {
+        "date": "2026-06-20",
+        "800G SR8": 1243,
+        "800G XDR8": 8895,
+        "400G DR4": 459,
+        "1.6T OSFP(估)": 1961
+      },
+      {
+        "date": "2026-06-21",
+        "800G SR8": 1221,
+        "800G XDR8": 8947,
+        "400G DR4": 449,
+        "1.6T OSFP(估)": 2008
+      },
+      {
+        "date": "2026-06-22",
+        "800G SR8": 1266,
+        "800G XDR8": 8929,
+        "400G DR4": 443,
+        "1.6T OSFP(估)": 1968
+      },
+      {
+        "date": "2026-06-23",
+        "800G SR8": 1249,
+        "800G XDR8": 8730,
+        "400G DR4": 445,
+        "1.6T OSFP(估)": 2033
+      },
+      {
+        "date": "2026-06-24",
+        "800G SR8": 1262,
+        "800G XDR8": 8720,
+        "400G DR4": 448,
+        "1.6T OSFP(估)": 1983
+      },
+      {
+        "date": "2026-06-25",
+        "800G SR8": 1249,
+        "800G XDR8": 9009,
+        "400G DR4": 455,
+        "1.6T OSFP(估)": 1974
+      },
+      {
+        "date": "2026-06-26",
+        "800G SR8": 1233,
+        "800G XDR8": 8783,
+        "400G DR4": 448,
+        "1.6T OSFP(估)": 2011
+      },
+      {
+        "date": "2026-06-27",
+        "800G SR8": 1265,
+        "800G XDR8": 8719,
+        "400G DR4": 455,
+        "1.6T OSFP(估)": 1990
+      },
+      {
+        "date": "2026-06-28",
+        "800G SR8": 1234,
+        "800G XDR8": 8854,
+        "400G DR4": 449,
+        "1.6T OSFP(估)": 1976
+      },
+      {
+        "date": "2026-06-29",
+        "800G SR8": 1251,
+        "800G XDR8": 9040,
+        "400G DR4": 446,
+        "1.6T OSFP(估)": 2035
+      },
+      {
+        "date": "2026-06-30",
+        "800G SR8": 1228,
+        "800G XDR8": 8874,
+        "400G DR4": 456,
+        "1.6T OSFP(估)": 1999
+      },
+      {
+        "date": "2026-07-01",
+        "800G SR8": 1255,
+        "800G XDR8": 8996,
+        "400G DR4": 443,
+        "1.6T OSFP(估)": 1983
+      },
+      {
+        "date": "2026-07-02",
+        "800G SR8": 1224,
+        "800G XDR8": 8941,
+        "400G DR4": 445,
+        "1.6T OSFP(估)": 1966
+      },
+      {
+        "date": "2026-07-03",
+        "800G SR8": 1239,
+        "800G XDR8": 8933,
+        "400G DR4": 445,
+        "1.6T OSFP(估)": 2009
+      },
+      {
+        "date": "2026-07-04",
+        "800G SR8": 1237,
+        "800G XDR8": 8822,
+        "400G DR4": 450,
+        "1.6T OSFP(估)": 1976
+      }
+    ]
+  }
+}
