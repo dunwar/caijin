@@ -1,47 +1,47 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-18",
   "dram": {
-    "date": "2026-09-21",
+    "date": "2026-09-18",
     "items": [
       {
         "name": "DDR5 16Gb (2Gx8) 4800/5600",
-        "avgPrice": 56.0,
+        "avgPrice": 55.233,
         "dayHigh": 67.0,
-        "dayLow": 40.8
+        "dayLow": 40.7
       },
       {
         "name": "DDR5 16Gb (2Gx8) eTT",
-        "avgPrice": 24.6,
-        "dayHigh": 25.6,
+        "avgPrice": 24.5,
+        "dayHigh": 25.5,
         "dayLow": 23.5
       },
       {
         "name": "DDR4 16Gb (2Gx8) 3200",
-        "avgPrice": 85.75,
+        "avgPrice": 86.0,
         "dayHigh": 120.0,
         "dayLow": 45.0
       },
       {
         "name": "DDR4 16Gb (2Gx8) eTT",
-        "avgPrice": 13.225,
-        "dayHigh": 14.2,
-        "dayLow": 12.8
+        "avgPrice": 13.05,
+        "dayHigh": 14.0,
+        "dayLow": 12.5
       },
       {
         "name": "DDR4 8Gb (1Gx8) 3200",
-        "avgPrice": 46.036,
+        "avgPrice": 46.143,
         "dayHigh": 82.0,
-        "dayLow": 24.0
+        "dayLow": 24.8
       },
       {
         "name": "DDR4 8Gb (1Gx8) eTT",
-        "avgPrice": 5.77,
+        "avgPrice": 5.68,
         "dayHigh": 6.4,
-        "dayLow": 5.65
+        "dayLow": 5.6
       },
       {
         "name": "DDR3 4Gb 512Mx8 1600/1866",
-        "avgPrice": 13.78,
+        "avgPrice": 13.791,
         "dayHigh": 19.8,
         "dayLow": 9.75
       },
@@ -869,18 +869,11 @@
         "DDR4_eTT": 5.59
       },
       {
-        "date": "2026-09-20",
-        "DDR5_16Gb": 56.0,
-        "DDR5_eTT": 24.6,
+        "date": "2026-09-18",
+        "DDR5_16Gb": 55.233,
+        "DDR5_eTT": 24.5,
         "DDR4_16Gb": 11.818,
-        "DDR4_eTT": 5.77
-      },
-      {
-        "date": "2026-09-21",
-        "DDR5_16Gb": 56.0,
-        "DDR5_eTT": 24.6,
-        "DDR4_16Gb": 11.818,
-        "DDR4_eTT": 5.77
+        "DDR4_eTT": 5.68
       }
     ],
     "source": "TrendForce集邦"
@@ -888,154 +881,154 @@
   "news": {
     "articles": [
       {
-        "title": "Charts: Two-thirds of Taiwan's chip equipment growth comes from testing AI chips",
-        "link": "https://www.digitimes.com/news/a20260918VL220/equipment-taiwan-growth-testing-revenue.html",
-        "date": "Sun, 20 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"3020\" data-end=\"3241\"&gt;Taiwan's listed semiconductor equipment, components, and solutions suppliers are growing at near",
+        "title": "DeepSeek engineer's warning suggests AI may reshape, not simply eliminate, technical work",
+        "link": "https://www.digitimes.com/news/a20260917PD214/deepseek-development-design.html",
+        "date": "Thu, 17 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"1766\" data-end=\"2086\"&gt;A DeepSeek engineer's viral reflection on AI's rapid progress has reignited debate over whether ",
         "source": "DigiTimes"
       },
       {
-        "title": "AI capacity crunch drives up consumer tech costs, deepening China's deflation",
-        "link": "https://www.digitimes.com/news/a20260918PD225/demand-ai-server-capacity-electronics-smartphone.html",
-        "date": "Sun, 20 Sep 2026",
-        "snippet": "Surging AI server demand is reshaping consumer electronics. Memory costs have risen sharply this year, prompting Huawei, Oppo, Xiaomi and Apple to rai",
+        "title": "Winbond's Infineon buyout puts GigaDevice under pressure",
+        "link": "https://www.digitimes.com/news/a20260917PD221/infineon-winbond-gigadevice-acquisition-2027.html",
+        "date": "Thu, 17 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"2498\" data-end=\"2674\"&gt;Winbond Electronics' US$1.12 billion acquisition of Infineon's NOR Flash and ferroelectric RAM (",
         "source": "DigiTimes"
       },
       {
-        "title": "Wiwynn brings cobots to L10 server assembly as AI rack testing drives factory redesign",
-        "link": "https://www.digitimes.com/news/a20260918PD216/wiwynn-testing-manufacturing-plant-cooling.html",
-        "date": "Sun, 20 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"2814\" data-end=\"3165\"&gt;Wiwynn is introducing collaborative robots (cobots) at its El Paso, Texas, facility and third pl",
+        "title": "Physical AI drives autonomous driving upgrade; three efficiency factors lift AI accelerator demand",
+        "link": "https://www.digitimes.com/news/a20260917RS400/automotive-soc-accelerator-autonomous-driving-demand-efficiency.html?chid=2",
+        "date": "Thu, 17 Sep 2026",
+        "snippet": "End-to-end autonomous driving has become the mainstream technology path, and the inference demand created by Physical AI in autonomous driving systems",
         "source": "DigiTimes"
       },
       {
-        "title": "Chinese memory supply is disruptive to pricing, Acer's Jason Chen says, as shortages ease",
-        "link": "https://www.digitimes.com/news/a20260920PD200/pc-acer-jason-chen-component-chairman.html",
-        "date": "Sun, 20 Sep 2026",
-        "snippet": "PC component shortages are easing, Acer chairman and CEO Jason Chen said, with memory tight only at the high end of DDR5 and CPUs no longer in short s",
+        "title": "AMD pivots to China developer ecosystems as Nvidia retreats",
+        "link": "https://www.digitimes.com/news/a20260917PD233/nvidia-amd-high-end-software-accelerator.html?chid=10",
+        "date": "Thu, 17 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"2867\" data-end=\"3235\"&gt;As Nvidia gradually retreats from China's high-end AI accelerator market amid strict US export c",
         "source": "DigiTimes"
       },
       {
-        "title": "Memory recovery, price hikes lift Niching IC substrate outlook, order visibility through 2H27",
-        "link": "https://www.digitimes.com/news/a20260918PD217/materials-niching-packaging-revenue-testing.html",
-        "date": "Fri, 18 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"2240\" data-end=\"2807\"&gt;Semiconductor packaging and testing materials distributor Niching Industrial hosted an investor ",
+        "title": "SK Hynix looks beyond HBM as inference workloads diversify",
+        "link": "https://www.digitimes.com/news/a20260917VL225/sk-hynix-hbm-data-capacity-cost.html",
+        "date": "Thu, 17 Sep 2026",
+        "snippet": "SK Hynix is expanding its memory strategy beyond the conventional GPU-HBM pairing as inference workloads split between latency-sensitive services and ",
         "source": "DigiTimes"
       },
       {
-        "title": "Interview: Advanced packaging shifts toward system-level co-design for AI",
-        "link": "https://www.digitimes.com/news/a20260918PD215/packaging-taiwan-2026-technology-materials.html",
-        "date": "Fri, 18 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"4965\" data-end=\"5219\"&gt;Advanced packaging remains one of the semiconductor industry's hottest technology areas in 2026.",
+        "title": "Trumpf eyes glass as AI demand drives packaging innovation",
+        "link": "https://www.digitimes.com/news/a20260917VL220/packaging-demand-laser-expo-chips.html",
+        "date": "Thu, 17 Sep 2026",
+        "snippet": "At the China International Optoelectronic Expo (CIOE), representatives from German laser and plasma generator maker Trumpf offered a glimpse into the ",
         "source": "DigiTimes"
       },
       {
-        "title": "Charts: Taiwan's memory makers are outgrowing TSMC by a factor of eight",
-        "link": "https://www.digitimes.com/news/a20260918VL221/taiwan-tsmc-revenue-chipmakers-demand.html",
-        "date": "Fri, 18 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"3489\" data-end=\"3624\"&gt;Taiwan's chipmakers are having their best year in a decade, and the headline number belongs to T",
+        "title": "Samsung bets on zHBM as 2.5D memory nears its limits",
+        "link": "https://www.digitimes.com/news/a20260917VL221/samsung-hbm-accelerator-dram-data.html",
+        "date": "Thu, 17 Sep 2026",
+        "snippet": "Samsung Electronics is betting on vertically stacked zHBM to move memory beyond the physical constraints of conventional 2.5D architectures, setting a",
         "source": "DigiTimes"
       },
       {
-        "title": "Ams OSRAM takes an automotive-qualified force sensor into robotic hands",
-        "link": "https://www.digitimes.com/news/a20260918VL222/sensor-production-automotive.html",
-        "date": "Fri, 18 Sep 2026",
-        "snippet": "Ams OSRAM is pushing its optical force sensor line into robotic hands on the argument that incumbent piezoelectric solutions cannot hold a reading, an",
+        "title": "Topview sees supply-chain shifts supporting orders as AI investment reshapes its outlook",
+        "link": "https://www.digitimes.com/news/a20260917PD205/2026-surveillance-production-equipment-component.html",
+        "date": "Thu, 17 Sep 2026",
+        "snippet": "Topview Optronics said shifts tied to artificial intelligence are helping it secure orders through the end of 2026, even as it continues to contend wi",
         "source": "DigiTimes"
       },
       {
-        "title": "CXL adds memory capacity, but HBM retains its bandwidth edge",
-        "link": "https://www.digitimes.com/news/a20260918VL224/cxl-hbm-capacity-bandwidth-data.html",
-        "date": "Fri, 18 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"3139\" data-end=\"3432\"&gt;Growing memory requirements are increasing interest in Compute Express Link (CXL) as a way to ad",
+        "title": "CXMT cashes in on the DRAM shortage &#38;mdash; and takes aim at HBM",
+        "link": "https://www.digitimes.com/news/a20260917VL219/cxmt-dram-hbm-supply-chain-emerging-memory.html",
+        "date": "Thu, 17 Sep 2026",
+        "snippet": "ChangXin Memory Technologies (CXMT) is emerging from the memory shortage with sharply higher profits and greater pricing power, giving China's largest",
         "source": "DigiTimes"
       },
       {
-        "title": "Ventec invests NT$1.5 billion in Kunshan expansion for AI, HDI orders",
-        "link": "https://www.digitimes.com/news/a20260917PD235/expansion-ccl-ventec-kunshan-laminate.html",
-        "date": "Fri, 18 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"2173\" data-end=\"2703\"&gt;Copper-clad laminate (CCL) manufacturer Ventec International Group has approved an expansion bud",
+        "title": "TSMC reconsiders 12-inch equipment donation as Taiwan overhauls scope of research partnership",
+        "link": "https://www.digitimes.com/news/a20260917PD225/tsmc-equipment-12-inch-taiwan-itri.html",
+        "date": "Thu, 17 Sep 2026",
+        "snippet": "TSMC's planned donation of 12-inch equipment is facing changes as the government adjusts the scope of a semiconductor collaboration project, while Tai",
         "source": "DigiTimes"
       },
       {
-        "title": "Solidigm weighs first US NAND fab, explores upstate New York",
-        "link": "https://www.digitimes.com/news/a20260918VL223/solidigm-nand-sk-hynix-manufacturing-fab.html",
-        "date": "Fri, 18 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"88\" data-end=\"264\"&gt;Solidigm, the US NAND flash subsidiary of SK Hynix, is considering building its first NAND manufact",
+        "title": "Memory LTAs lock up 50-70% of capacity",
+        "link": "https://www.digitimes.com/news/a20260917PD213/capacity-demand-2026-2027-market.html",
+        "date": "Thu, 17 Sep 2026",
+        "snippet": "The memory industry remains in short supply, and major chipmakers are raising the share of capacity committed to long-term supply agreements (LTAs) wh",
         "source": "DigiTimes"
       },
       {
-        "title": "Analysis: China's 15th five-year plan spotlights diamond for AI chip thermal management",
-        "link": "https://www.digitimes.com/news/a20260918PD222/ai-chip-management-miit-it-materials.html",
-        "date": "Fri, 18 Sep 2026",
-        "snippet": "China's Ministry of Industry and Information Technology (MIIT) and National Development and Reform Commission (NDRC) have highlighted ultra-wide bandg",
+        "title": "The Trump-Jensen speakerphone diplomacy: how Nvidia turned political pressure into a seat at the table",
+        "link": "https://www.digitimes.com/news/a20260917PD220/jensen-huang-nvidia-ceo-policy-manufacturing.html",
+        "date": "Thu, 17 Sep 2026",
+        "snippet": "The relationship between Nvidia CEO Jensen Huang and US President Donald Trump has evolved from policy friction to a strategic alignment. The rapid sh",
         "source": "DigiTimes"
       },
       {
-        "title": "CXMT eyes NAND amid global shortage, taking aim at YMTC",
-        "link": "https://www.digitimes.com/news/a20260918VL218/cxmt-nand-dram-ymtc-nand-flash.html",
-        "date": "Fri, 18 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"2580\" data-end=\"2871\"&gt;ChangXin Memory Technologies (CXMT) is preparing to expand beyond DRAM into NAND flash, a move t",
+        "title": "Humanoid robots could reshape MEMS demand as physical AI advances",
+        "link": "https://www.digitimes.com/news/a20260917PD202/mems-demand-sensor-adoption-market.html",
+        "date": "Thu, 17 Sep 2026",
+        "snippet": "Humanoid robots have not yet reached mass adoption, but their sensor needs are already reshaping supply-chain expectations worldwide. Analysts and ind",
         "source": "DigiTimes"
       },
       {
-        "title": "Doosan commits KRW968 billion to CCL expansion as demand strains capacity",
-        "link": "https://www.digitimes.com/news/a20260918VL217/doosan-ccl-demand-capacity-expansion.html",
-        "date": "Fri, 18 Sep 2026",
-        "snippet": "Doosan is investing KRW968.4 billion (approx. US$701 million) to expand high-end copper-clad laminate (CCL) production in South Korea and China, its l",
+        "title": "Ardentec, Sigurd race into silicon photonics TIA testing as US client books capacity",
+        "link": "https://www.digitimes.com/news/a20260917PD223/sigurd-ardentec-siph-testing-capacity.html",
+        "date": "Thu, 17 Sep 2026",
+        "snippet": "The global optical communications module market continues to grow, and Taiwan's test and packaging companies are moving to capture demand in silicon p",
         "source": "DigiTimes"
       },
       {
-        "title": "China's AI data center token costs hinge on access to advanced GPUs",
-        "link": "https://www.digitimes.com/news/a20260918PD219/cost-data-center-chips-data-high-end.html",
-        "date": "Fri, 18 Sep 2026",
-        "snippet": "China's AI data centers are confronting a severe chip access bottleneck, with the cost of producing tokens shaped less by model design than by geopoli",
+        "title": "Tier IV open-sources self-driving AI chip design to challenge Nvidia",
+        "link": "https://www.digitimes.com/news/a20260916PD205/nvidia-autonomous-driving-ai-chip-design-chips.html",
+        "date": "Thu, 17 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"3533\" data-end=\"3852\"&gt;Japanese autonomous driving developer Tier IV is developing an AI chip and will release its chip",
         "source": "DigiTimes"
       }
     ],
-    "total": 22,
+    "total": 27,
     "source": "DigiTimes RSS"
   },
   "gpuOptical": {
-    "date": "2026-09-21",
+    "date": "2026-09-18",
     "gpuCloud": [
       {
         "name": "AWS H100",
-        "price": "$3.03/hr",
+        "price": "$3.09/hr",
         "note": "p5.48xlarge"
       },
       {
         "name": "Azure H100",
-        "price": "$3.79/hr",
+        "price": "$3.72/hr",
         "note": "ND H100 v5"
       },
       {
         "name": "GCP H100",
-        "price": "$3.39/hr",
+        "price": "$3.32/hr",
         "note": "A3 on-demand"
       },
       {
         "name": "AWS A100",
-        "price": "$1.96/hr",
+        "price": "$1.91/hr",
         "note": "p4d.24xlarge"
       }
     ],
     "opticalModules": [
       {
         "name": "800G SR8",
-        "price": "$1,222"
+        "price": "$1,226"
       },
       {
         "name": "800G XDR8",
-        "price": "$8,982"
+        "price": "$9,044"
       },
       {
         "name": "400G DR4",
-        "price": "$447"
+        "price": "$452"
       },
       {
         "name": "1.6T OSFP(估)",
-        "price": "$2,018"
+        "price": "$1,970"
       }
     ],
     "gpuHistory": [
@@ -2041,18 +2034,11 @@
         "AWS A100": 1.91
       },
       {
-        "date": "2026-09-20",
-        "AWS H100": 3.08,
-        "Azure H100": 3.79,
-        "GCP H100": 3.37,
+        "date": "2026-09-18",
+        "AWS H100": 3.09,
+        "Azure H100": 3.72,
+        "GCP H100": 3.32,
         "AWS A100": 1.91
-      },
-      {
-        "date": "2026-09-21",
-        "AWS H100": 3.03,
-        "Azure H100": 3.79,
-        "GCP H100": 3.39,
-        "AWS A100": 1.96
       }
     ],
     "opticalHistory": [
@@ -3058,18 +3044,11 @@
         "1.6T OSFP(估)": 1999
       },
       {
-        "date": "2026-09-20",
-        "800G SR8": 1240,
-        "800G XDR8": 9018,
-        "400G DR4": 447,
-        "1.6T OSFP(估)": 1978
-      },
-      {
-        "date": "2026-09-21",
-        "800G SR8": 1222,
-        "800G XDR8": 8982,
-        "400G DR4": 447,
-        "1.6T OSFP(估)": 2018
+        "date": "2026-09-18",
+        "800G SR8": 1226,
+        "800G XDR8": 9044,
+        "400G DR4": 452,
+        "1.6T OSFP(估)": 1970
       }
     ]
   }

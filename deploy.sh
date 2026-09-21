@@ -12,7 +12,7 @@ echo "=== 部署 caijin.gaozhong.online ==="
 # 1. 复制文件到生产目录
 echo "[1/4] 复制文件..."
 mkdir -p "$DEST/data/baijiu" "$DEST/data/hardware" "$DEST/data/software" "$DEST/scripts"
-cp "$SRC/index.html" "$DEST/"
+cp "$SRC"/*.html "$DEST/"
 cp "$SRC/scripts/"*.py "$DEST/scripts/"
 cp "$SRC/scripts/fetch_all.sh" "$DEST/scripts/"
 
@@ -23,8 +23,8 @@ cp "$NGINX_SRC" "$NGINX_DEST"
 # 3. 配置 cron（每日采集）
 echo "[3/4] 配置 cron..."
 CRON_CMD="cd $SRC && bash scripts/fetch_all.sh"
-# 添加 crontab（避免重复）
-(crontab -l 2>/dev/null | grep -v "fetch_all.sh"; echo "0 16 * * * $CRON_CMD") | crontab -
+# 注意: 容器内无 crontab，实际采集 cron 配置在宿主机；此处失败不阻断部署
+(crontab -l 2>/dev/null | grep -v "fetch_all.sh"; echo "0 16 * * * $CRON_CMD") | crontab - 2>/dev/null || echo "  (容器内无 crontab，跳过 — 请确认宿主机 cron 存在)"
 
 # 4. 测试数据脚本
 echo "[4/4] 测试数据脚本..."

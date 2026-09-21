@@ -1,5 +1,103 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-20",
+  "products": [
+    {
+      "name": "泸州老窖紫砂大曲",
+      "spec": "52.00度/500ml",
+      "yesterday": "195",
+      "today": "195",
+      "detailId": "352",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail352"
+    },
+    {
+      "name": "泸州老窖52°晶彩",
+      "spec": "52.00度/500ml",
+      "yesterday": "180",
+      "today": "180",
+      "detailId": "351",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail351"
+    },
+    {
+      "name": "泸州老窖43°国窖1573",
+      "spec": "43.00度/100ml",
+      "yesterday": "85",
+      "today": "85",
+      "detailId": "350",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail350"
+    },
+    {
+      "name": "泸州老窖1L许燎源",
+      "spec": "58.00度/1000ml",
+      "yesterday": "2150",
+      "today": "2150",
+      "detailId": "349",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail349"
+    },
+    {
+      "name": "泸州老窖国学",
+      "spec": "60.00度/500ml",
+      "yesterday": "2500",
+      "today": "2500",
+      "detailId": "348",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail348"
+    },
+    {
+      "name": "泸州老窖窖龄90",
+      "spec": "52.00度/500ml",
+      "yesterday": "350",
+      "today": "350",
+      "detailId": "173",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail173"
+    },
+    {
+      "name": "泸州老窖窖龄60",
+      "spec": "52.00度/500ml",
+      "yesterday": "250",
+      "today": "250",
+      "detailId": "172",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail172"
+    },
+    {
+      "name": "泸州老窖窖龄30",
+      "spec": "52.00度/500ml",
+      "yesterday": "155",
+      "today": "155",
+      "detailId": "171",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail171"
+    },
+    {
+      "name": "泸州老窖头曲",
+      "spec": "52.00度/500ml",
+      "yesterday": "55",
+      "today": "55",
+      "detailId": "170",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail170"
+    },
+    {
+      "name": "泸州老窖特曲（60版）",
+      "spec": "52.00度/500ml",
+      "yesterday": "410",
+      "today": "410",
+      "detailId": "169",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail169"
+    },
+    {
+      "name": "泸州老窖特曲（老字号）",
+      "spec": "52.00度/500ml",
+      "yesterday": "245",
+      "today": "245",
+      "detailId": "168",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail168"
+    },
+    {
+      "name": "泸州老窖52°国窖1573",
+      "spec": "52.00度/500ml",
+      "yesterday": "830",
+      "today": "830",
+      "detailId": "167",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail167"
+    }
+  ],
   "guojiao1573": {
     "name": "泸州老窖52°国窖1573",
     "spec": "52.00度/500ml",
@@ -628,10 +726,6 @@
     {
       "date": "2026-09-20",
       "batch": 830
-    },
-    {
-      "date": "2026-09-21",
-      "batch": 830
     }
   ],
   "retailPrice": {
@@ -749,7 +843,7 @@
   ],
   "source": {
     "batch": "yunjiu.com",
-    "retail": "SMZDM",
-    "channel": "AKShare"
+    "retail": "SMZDM参考",
+    "channel": "AKShare季报"
   }
 }

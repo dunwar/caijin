@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-19",
   "dram": {
-    "date": "2026-09-21",
+    "date": "2026-09-19",
     "items": [
       {
         "name": "DDR5 16Gb (2Gx8) 4800/5600",
@@ -869,14 +869,14 @@
         "DDR4_eTT": 5.59
       },
       {
-        "date": "2026-09-20",
-        "DDR5_16Gb": 56.0,
-        "DDR5_eTT": 24.6,
+        "date": "2026-09-18",
+        "DDR5_16Gb": 55.233,
+        "DDR5_eTT": 24.5,
         "DDR4_16Gb": 11.818,
-        "DDR4_eTT": 5.77
+        "DDR4_eTT": 5.68
       },
       {
-        "date": "2026-09-21",
+        "date": "2026-09-19",
         "DDR5_16Gb": 56.0,
         "DDR5_eTT": 24.6,
         "DDR4_16Gb": 11.818,
@@ -887,76 +887,6 @@
   },
   "news": {
     "articles": [
-      {
-        "title": "Charts: Two-thirds of Taiwan's chip equipment growth comes from testing AI chips",
-        "link": "https://www.digitimes.com/news/a20260918VL220/equipment-taiwan-growth-testing-revenue.html",
-        "date": "Sun, 20 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"3020\" data-end=\"3241\"&gt;Taiwan's listed semiconductor equipment, components, and solutions suppliers are growing at near",
-        "source": "DigiTimes"
-      },
-      {
-        "title": "AI capacity crunch drives up consumer tech costs, deepening China's deflation",
-        "link": "https://www.digitimes.com/news/a20260918PD225/demand-ai-server-capacity-electronics-smartphone.html",
-        "date": "Sun, 20 Sep 2026",
-        "snippet": "Surging AI server demand is reshaping consumer electronics. Memory costs have risen sharply this year, prompting Huawei, Oppo, Xiaomi and Apple to rai",
-        "source": "DigiTimes"
-      },
-      {
-        "title": "Wiwynn brings cobots to L10 server assembly as AI rack testing drives factory redesign",
-        "link": "https://www.digitimes.com/news/a20260918PD216/wiwynn-testing-manufacturing-plant-cooling.html",
-        "date": "Sun, 20 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"2814\" data-end=\"3165\"&gt;Wiwynn is introducing collaborative robots (cobots) at its El Paso, Texas, facility and third pl",
-        "source": "DigiTimes"
-      },
-      {
-        "title": "Chinese memory supply is disruptive to pricing, Acer's Jason Chen says, as shortages ease",
-        "link": "https://www.digitimes.com/news/a20260920PD200/pc-acer-jason-chen-component-chairman.html",
-        "date": "Sun, 20 Sep 2026",
-        "snippet": "PC component shortages are easing, Acer chairman and CEO Jason Chen said, with memory tight only at the high end of DDR5 and CPUs no longer in short s",
-        "source": "DigiTimes"
-      },
-      {
-        "title": "Memory recovery, price hikes lift Niching IC substrate outlook, order visibility through 2H27",
-        "link": "https://www.digitimes.com/news/a20260918PD217/materials-niching-packaging-revenue-testing.html",
-        "date": "Fri, 18 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"2240\" data-end=\"2807\"&gt;Semiconductor packaging and testing materials distributor Niching Industrial hosted an investor ",
-        "source": "DigiTimes"
-      },
-      {
-        "title": "Interview: Advanced packaging shifts toward system-level co-design for AI",
-        "link": "https://www.digitimes.com/news/a20260918PD215/packaging-taiwan-2026-technology-materials.html",
-        "date": "Fri, 18 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"4965\" data-end=\"5219\"&gt;Advanced packaging remains one of the semiconductor industry's hottest technology areas in 2026.",
-        "source": "DigiTimes"
-      },
-      {
-        "title": "Charts: Taiwan's memory makers are outgrowing TSMC by a factor of eight",
-        "link": "https://www.digitimes.com/news/a20260918VL221/taiwan-tsmc-revenue-chipmakers-demand.html",
-        "date": "Fri, 18 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"3489\" data-end=\"3624\"&gt;Taiwan's chipmakers are having their best year in a decade, and the headline number belongs to T",
-        "source": "DigiTimes"
-      },
-      {
-        "title": "Ams OSRAM takes an automotive-qualified force sensor into robotic hands",
-        "link": "https://www.digitimes.com/news/a20260918VL222/sensor-production-automotive.html",
-        "date": "Fri, 18 Sep 2026",
-        "snippet": "Ams OSRAM is pushing its optical force sensor line into robotic hands on the argument that incumbent piezoelectric solutions cannot hold a reading, an",
-        "source": "DigiTimes"
-      },
-      {
-        "title": "CXL adds memory capacity, but HBM retains its bandwidth edge",
-        "link": "https://www.digitimes.com/news/a20260918VL224/cxl-hbm-capacity-bandwidth-data.html",
-        "date": "Fri, 18 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"3139\" data-end=\"3432\"&gt;Growing memory requirements are increasing interest in Compute Express Link (CXL) as a way to ad",
-        "source": "DigiTimes"
-      },
-      {
-        "title": "Ventec invests NT$1.5 billion in Kunshan expansion for AI, HDI orders",
-        "link": "https://www.digitimes.com/news/a20260917PD235/expansion-ccl-ventec-kunshan-laminate.html",
-        "date": "Fri, 18 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"2173\" data-end=\"2703\"&gt;Copper-clad laminate (CCL) manufacturer Ventec International Group has approved an expansion bud",
-        "source": "DigiTimes"
-      },
       {
         "title": "Solidigm weighs first US NAND fab, explores upstate New York",
         "link": "https://www.digitimes.com/news/a20260918VL223/solidigm-nand-sk-hynix-manufacturing-fab.html",
@@ -991,51 +921,121 @@
         "date": "Fri, 18 Sep 2026",
         "snippet": "China's AI data centers are confronting a severe chip access bottleneck, with the cost of producing tokens shaped less by model design than by geopoli",
         "source": "DigiTimes"
+      },
+      {
+        "title": "China's memory push gains ground across LPDDR6, advanced NAND, with HBM still the test",
+        "link": "https://www.digitimes.com/news/a20260918VL210/hbm-nand-dram-cxmt-samsung.html",
+        "date": "Fri, 18 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"4906\" data-end=\"5288\"&gt;AI is reshaping the global memory industry, tightening supply while creating an opening for Chin",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "High-end GPUs may be slowing China's AI compute expansion",
+        "link": "https://www.digitimes.com/news/a20260918PD211/expansion-high-end-2025-data-center-2026.html",
+        "date": "Fri, 18 Sep 2026",
+        "snippet": "China's wide gap in token costs stems largely from domestic companies' difficulty in accessing Nvidia high-end GPUs, forcing them to squeeze more valu",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "LGES, Samsung SDI reportedly booked out for two years as US restrictions and China slowdown reshape ESS market",
+        "link": "https://www.digitimes.com/news/a20260918PD210/market-lges-samsung-sdi-capacity-production.html",
+        "date": "Fri, 18 Sep 2026",
+        "snippet": "As energy storage system (ESS) battery orders continue to accumulate at South Korean manufacturers, expectations are growing that market conditions co",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Chip equipment makers face waits of up to 40 months for critical parts",
+        "link": "https://www.digitimes.com/news/a20260918VL212/equipment-capacity-demand-supply-chain-chipmakers.html",
+        "date": "Fri, 18 Sep 2026",
+        "snippet": "The semiconductor industry's capacity crunch is moving deeper into the equipment supply chain, with shortages of specialized components stretching del",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Samsung deepens Euclyd ties as startup reportedly reaches test-chip stage",
+        "link": "https://www.digitimes.com/news/a20260918VL214/samsung-startup-development-samsung-foundry-dutch.html",
+        "date": "Fri, 18 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"3225\" data-end=\"3475\"&gt;Samsung Electronics is deepening its relationship with Dutch chip startup Euclyd after the compa",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "King Charles tests AI's safety consensus as Nvidia keeps its foot on the accelerator",
+        "link": "https://www.digitimes.com/news/a20260918VL213/nvidia-google-openai-development-deepmind.html",
+        "date": "Fri, 18 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"2953\" data-end=\"3197\"&gt;King Charles III has stepped into the intensifying debate over artificial intelligence, urging e",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "CPO raises PCB downgrade concerns but switches stick with M8 CCL",
+        "link": "https://www.digitimes.com/news/a20260918PD208/pcb-cpo-ccl-materials-copper.html",
+        "date": "Fri, 18 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"2431\" data-end=\"2712\"&gt;As the industry shifts toward greater use of optical interconnects and less reliance on copper, ",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Mobile SoC battle for 2026 centers on NPUs",
+        "link": "https://www.digitimes.com/news/a20260918PD212/npu-2026-mobile-performance-apple.html",
+        "date": "Fri, 18 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"2590\" data-end=\"3087\"&gt;More technical details on 2026 mobile systems on a chip (SoCs) from major vendors are emerging, ",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "Micron: AI memory crunch rewrites the market with long-term deals and custom designs",
+        "link": "https://www.digitimes.com/news/a20260918PD204/micron-market-data-demand-performance.html",
+        "date": "Fri, 18 Sep 2026",
+        "snippet": "As the AI boom spreads from data centers to edge devices and robotics, Micron Technology executives are warning that memory has become a core bottlene",
+        "source": "DigiTimes"
+      },
+      {
+        "title": "GlobalFoundries, Marvell expand SiGe capacity deal for AI optical connectivity",
+        "link": "https://www.digitimes.com/news/a20260918VL208/marvell-globalfoundries-technology-capacity-data.html",
+        "date": "Fri, 18 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"1571\" data-end=\"1840\"&gt;GlobalFoundries (GF) and Marvell Technology have expanded a multi-year agreement to increase pro",
+        "source": "DigiTimes"
       }
     ],
-    "total": 22,
+    "total": 31,
     "source": "DigiTimes RSS"
   },
   "gpuOptical": {
-    "date": "2026-09-21",
+    "date": "2026-09-19",
     "gpuCloud": [
       {
         "name": "AWS H100",
-        "price": "$3.03/hr",
+        "price": "$3.08/hr",
         "note": "p5.48xlarge"
       },
       {
         "name": "Azure H100",
-        "price": "$3.79/hr",
+        "price": "$3.77/hr",
         "note": "ND H100 v5"
       },
       {
         "name": "GCP H100",
-        "price": "$3.39/hr",
+        "price": "$3.32/hr",
         "note": "A3 on-demand"
       },
       {
         "name": "AWS A100",
-        "price": "$1.96/hr",
+        "price": "$1.92/hr",
         "note": "p4d.24xlarge"
       }
     ],
     "opticalModules": [
       {
         "name": "800G SR8",
-        "price": "$1,222"
+        "price": "$1,251"
       },
       {
         "name": "800G XDR8",
-        "price": "$8,982"
+        "price": "$8,852"
       },
       {
         "name": "400G DR4",
-        "price": "$447"
+        "price": "$453"
       },
       {
         "name": "1.6T OSFP(估)",
-        "price": "$2,018"
+        "price": "$2,026"
       }
     ],
     "gpuHistory": [
@@ -2041,18 +2041,18 @@
         "AWS A100": 1.91
       },
       {
-        "date": "2026-09-20",
-        "AWS H100": 3.08,
-        "Azure H100": 3.79,
-        "GCP H100": 3.37,
+        "date": "2026-09-18",
+        "AWS H100": 3.09,
+        "Azure H100": 3.72,
+        "GCP H100": 3.32,
         "AWS A100": 1.91
       },
       {
-        "date": "2026-09-21",
-        "AWS H100": 3.03,
-        "Azure H100": 3.79,
-        "GCP H100": 3.39,
-        "AWS A100": 1.96
+        "date": "2026-09-19",
+        "AWS H100": 3.08,
+        "Azure H100": 3.77,
+        "GCP H100": 3.32,
+        "AWS A100": 1.92
       }
     ],
     "opticalHistory": [
@@ -3058,18 +3058,18 @@
         "1.6T OSFP(估)": 1999
       },
       {
-        "date": "2026-09-20",
-        "800G SR8": 1240,
-        "800G XDR8": 9018,
-        "400G DR4": 447,
-        "1.6T OSFP(估)": 1978
+        "date": "2026-09-18",
+        "800G SR8": 1226,
+        "800G XDR8": 9044,
+        "400G DR4": 452,
+        "1.6T OSFP(估)": 1970
       },
       {
-        "date": "2026-09-21",
-        "800G SR8": 1222,
-        "800G XDR8": 8982,
-        "400G DR4": 447,
-        "1.6T OSFP(估)": 2018
+        "date": "2026-09-19",
+        "800G SR8": 1251,
+        "800G XDR8": 8852,
+        "400G DR4": 453,
+        "1.6T OSFP(估)": 2026
       }
     ]
   }
