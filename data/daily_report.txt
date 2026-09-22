@@ -2,23 +2,27 @@
 🔗 [caijin.gaozhong.online](http://caijin.gaozhong.online)
 
 🍶 **白酒 · 泸州老窖**
-📈 较1月前(08-20): 零售 ¥881(1月前 ¥1100,↓219) | 批价 ¥830(1月前 ¥825,↑5)
+📈 较1月前(08-23): 零售 ¥881(1月前 ¥1100,↓219) | 批价 ¥830(1月前 ¥825,↑5)
    _注: 8月中旬前零售为电商参考价、9月起为酒价内参全国采集均价，对比含口径变化因素_
 📦 国窖1573 批价: ¥830 | 零售参考: ¥881 | 批零差: 51
 📊 存货周转: 1206.4天 | 毛利率: 61.3%
 
 🔧 **AI硬件**
-📈 较1月前: DDR5 16Gb $56.0(1月前 $53.3,+2.7/+5.1%) | DDR5 eTT $24.6(1月前 $23.6,+1.0/+4.2%) | DDR4 16Gb $11.8(1月前 $11.8,+0.0/+0.0%) | DDR4 eTT $5.8(1月前 $4.2,+1.6/+38.1%)
-  DDR5 16Gb (2Gx8) 4800/5600: $56.0 
-  DDR5 16Gb (2Gx8) eTT: $24.6 
-  DDR4 16Gb (2Gx8) 3200: $85.75 
-  DDR4 16Gb (2Gx8) eTT: $13.225 
+📈 较1月前: DDR5 16Gb $57.2(1月前 $54.1,+3.1/+5.7%) | DDR5 eTT $25.0(1月前 $23.7,+1.3/+5.5%) | DDR4 16Gb $11.8(1月前 $11.8,+0.0/+0.0%) | DDR4 eTT $5.8(1月前 $4.2,+1.6/+38.1%)
+  DDR5 16Gb (2Gx8) 4800/5600: $57.167 
+  DDR5 16Gb (2Gx8) eTT: $25.0 
+  DDR4 16Gb (2Gx8) 3200: $84.5 
+  DDR4 16Gb (2Gx8) eTT: $13.463 
 
 📡 要闻 (15条):
-  · Charts: Two-thirds of Taiwan's chip equipment growth comes f
-  · AI capacity crunch drives up consumer tech costs, deepening 
-  · Wiwynn brings cobots to L10 server assembly as AI rack testi
+  · SiPearl delivers first homegrown server chips for Europe's e
+  · Anthropic, OpenAI expected to start buying memory directly i
+  · Vivo unveils X500 strategy to bolster premium phone push
 
 💻 **AI软件**
-📈 Token份额 较1月前: AWS Bedrock 22.1%(1月前 22.7%,-0.6pp) | Azure AI 19.2%(1月前 18.6%,+0.6pp) | GCP Vertex 15.7%(1月前 15.7%,+0.0pp) | OpenAI直营 9.5%(1月前 9.2%,+0.3pp)
-☁️ Token份额 Top3: AWS Bedrock 22.1% | Azure AI 19.2% | GCP Vertex 15.7%
+📈 Token份额 较1月前: AWS Bedrock 21.7%(1月前 22.2%,-0.5pp) | Azure AI 18.3%(1月前 18.9%,-0.6pp) | GCP Vertex 14.6%(1月前 15.7%,-1.1pp) | OpenAI直营 9.3%(1月前 9.7%,-0.4pp)
+🏆 Elo Top3:
+  #1 GPT-5 (OpenAI) — 1420
+  #2 Claude Opus 4 (Anthropic) — 1405
+  #3 Gemini 3 Ultra (Google) — 1398
+☁️ Token份额 Top3: AWS Bedrock 21.7% | Azure AI 18.3% | GCP Vertex 14.6%

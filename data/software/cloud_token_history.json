@@ -1970,5 +1970,39 @@
     "百度智能云": 2.7,
     "火山引擎": 3.1,
     "CoreWeave等": 0.9
+  },
+  {
+    "date": "2026-09-22",
+    "AWS Bedrock": 21.4,
+    "Azure AI": 18.7,
+    "GCP Vertex": 16.7,
+    "OpenAI直营": 10.5,
+    "Anthropic直营": 4.1,
+    "Oracle Cloud": 3.1,
+    "Nebius AI": 0.8,
+    "IBM Cloud": 0.8,
+    "阿里云百炼": 6.4,
+    "腾讯混元": 4.4,
+    "华为云": 4.7,
+    "百度智能云": 3.0,
+    "火山引擎": 3.3,
+    "CoreWeave等": 2.0
+  },
+  {
+    "date": "2026-09-23",
+    "AWS Bedrock": 21.7,
+    "Azure AI": 18.3,
+    "GCP Vertex": 14.6,
+    "OpenAI直营": 9.3,
+    "Anthropic直营": 2.5,
+    "Oracle Cloud": 2.5,
+    "Nebius AI": 2.0,
+    "IBM Cloud": 1.7,
+    "阿里云百炼": 7.9,
+    "腾讯混元": 5.2,
+    "华为云": 5.4,
+    "百度智能云": 4.4,
+    "火山引擎": 2.9,
+    "CoreWeave等": 1.5
   }
 ]

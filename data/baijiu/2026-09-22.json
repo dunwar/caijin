@@ -1,5 +1,103 @@
 {
-  "updated": "2026-09-23",
+  "updated": "2026-09-22",
+  "products": [
+    {
+      "name": "泸州老窖紫砂大曲",
+      "spec": "52.00度/500ml",
+      "yesterday": "195",
+      "today": "195",
+      "detailId": "352",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail352"
+    },
+    {
+      "name": "泸州老窖52°晶彩",
+      "spec": "52.00度/500ml",
+      "yesterday": "180",
+      "today": "180",
+      "detailId": "351",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail351"
+    },
+    {
+      "name": "泸州老窖43°国窖1573",
+      "spec": "43.00度/100ml",
+      "yesterday": "85",
+      "today": "85",
+      "detailId": "350",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail350"
+    },
+    {
+      "name": "泸州老窖1L许燎源",
+      "spec": "58.00度/1000ml",
+      "yesterday": "2150",
+      "today": "2150",
+      "detailId": "349",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail349"
+    },
+    {
+      "name": "泸州老窖国学",
+      "spec": "60.00度/500ml",
+      "yesterday": "2500",
+      "today": "2500",
+      "detailId": "348",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail348"
+    },
+    {
+      "name": "泸州老窖窖龄90",
+      "spec": "52.00度/500ml",
+      "yesterday": "350",
+      "today": "350",
+      "detailId": "173",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail173"
+    },
+    {
+      "name": "泸州老窖窖龄60",
+      "spec": "52.00度/500ml",
+      "yesterday": "250",
+      "today": "250",
+      "detailId": "172",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail172"
+    },
+    {
+      "name": "泸州老窖窖龄30",
+      "spec": "52.00度/500ml",
+      "yesterday": "155",
+      "today": "155",
+      "detailId": "171",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail171"
+    },
+    {
+      "name": "泸州老窖头曲",
+      "spec": "52.00度/500ml",
+      "yesterday": "55",
+      "today": "55",
+      "detailId": "170",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail170"
+    },
+    {
+      "name": "泸州老窖特曲（60版）",
+      "spec": "52.00度/500ml",
+      "yesterday": "410",
+      "today": "410",
+      "detailId": "169",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail169"
+    },
+    {
+      "name": "泸州老窖特曲（老字号）",
+      "spec": "52.00度/500ml",
+      "yesterday": "245",
+      "today": "245",
+      "detailId": "168",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail168"
+    },
+    {
+      "name": "泸州老窖52°国窖1573",
+      "spec": "52.00度/500ml",
+      "yesterday": "830",
+      "today": "830",
+      "detailId": "167",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail167"
+    }
+  ],
   "guojiao1573": {
     "name": "泸州老窖52°国窖1573",
     "spec": "52.00度/500ml",
@@ -636,14 +734,10 @@
     {
       "date": "2026-09-22",
       "batch": 830
-    },
-    {
-      "date": "2026-09-23",
-      "batch": 830
     }
   ],
   "retailPrice": {
-    "updated": "2026-09-22",
+    "updated": "2026-09-21",
     "platform": "web_search",
     "price": 881,
     "range": [
@@ -654,17 +748,17 @@
       {
         "mall": "酒价内参",
         "price": 881,
-        "note": "新浪财经酒价内参终端零售均价：09-13 +2元至875、09-14 +6元二连阳至881元；09-15后仍未见新发布，881沿用为本期最新"
+        "note": "新浪财经酒价内参终端零售均价：09-13 +2元至875、09-14 +6元二连阳至881元（上期已直接核实新浪原文）；09-04曾+6元至885'结束前期震荡磨底'（凤凰网/ZAKER 09-04）；09-15后未见新发布，881沿用为本期最新"
       },
       {
         "mall": "京东(同花顺)",
         "price": 920,
-        "note": "同花顺行情field.10jqka 2026-08-13：京东白酒板块国窖1573(52°)(500ml)920.00元/瓶，与08-12、08-06、07-14相比均持平"
+        "note": "同花顺行情field.10jqka 2026-08-12：京东白酒板块国窖1573(52°)(500ml)920.00元/瓶，近30日持平（沿用）"
       },
       {
         "mall": "京东",
         "price": 902,
-        "note": "京东自营52度500ml单瓶约902元（09-21口径沿用）；09-08公众号推广西京单瓶装(新老版本随机)京东价873.50元、领券到手价823.50元，9月京东单瓶实际成交低于902"
+        "note": "京东自营52度500ml单瓶约902元（沿用）；搜狗元宝2026-09汇总：电商自营/旗舰店约900-930元/瓶，与京东902吻合"
       },
       {
         "mall": "smzdm京东价",
@@ -684,7 +778,7 @@
       {
         "mall": "线下渠道",
         "price": 925,
-        "note": "烟酒店/商超约850-1000元/瓶，取中值925（沿用）；搜狗元宝2026-09汇总同口径，大促/补贴低价偶见770-820元（本次京东823.5到手价与之吻合）"
+        "note": "烟酒店/商超约850-1000元/瓶，取中值925（沿用）；搜狗元宝2026-09汇总同口径，大促/补贴低价偶见770-820元"
       },
       {
         "mall": "官方指导价",
@@ -692,7 +786,7 @@
         "note": "厂家标价1399元/瓶，实际成交价远低于此"
       }
     ],
-    "note": "9/22监测：web_search后端仍故障（Kimi 404），降级360/搜狗搜索+网页抓取（百度、smzdm、搜狗复查被反爬拦截）。酒价内参无09-15后新发布，主价格881元维持。新增：京东单瓶装873.50元/领券到手823.50元（公众号09-08推广，低于此前902口径，落在'大促低价770-820'区间上沿附近）；同花顺京东指数920元/瓶确认至08-13仍30日持平。批价830-845元、渠道停货挺价口径不变。零售均价881元，range[850,1000]不变。"
+    "note": "9/21监测：web_search后端仍故障（Kimi 404），继续降级360/搜狗搜索+网页抓取。本期无09-14之后的新酒价内参发布，主价格881元维持；新增佐证与现有口径一致：smzdm 08-22中秋保真安全线52度880元、搜狗元宝2026-09汇总（电商900-930/批价830-845/线下850-1000/大促770-820）。批价830-845元（smzdm 08-18口径845 vs 东方财富09-14口径830-840），渠道停货挺价。零售均价881元，range[850,1000]不变。"
   },
   "channelIndex": [
     {
@@ -762,7 +856,7 @@
   ],
   "source": {
     "batch": "yunjiu.com",
-    "retail": "SMZDM",
-    "channel": "AKShare"
+    "retail": "SMZDM参考",
+    "channel": "AKShare季报"
   }
 }

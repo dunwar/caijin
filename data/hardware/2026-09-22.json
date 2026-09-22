@@ -1,43 +1,43 @@
 {
-  "updated": "2026-09-23",
+  "updated": "2026-09-22",
   "dram": {
-    "date": "2026-09-23",
+    "date": "2026-09-22",
     "items": [
       {
         "name": "DDR5 16Gb (2Gx8) 4800/5600",
-        "avgPrice": 57.167,
+        "avgPrice": 56.933,
         "dayHigh": 68.0,
         "dayLow": 41.5
       },
       {
         "name": "DDR5 16Gb (2Gx8) eTT",
-        "avgPrice": 25.0,
-        "dayHigh": 26.3,
-        "dayLow": 24.0
+        "avgPrice": 24.8,
+        "dayHigh": 25.8,
+        "dayLow": 23.7
       },
       {
         "name": "DDR4 16Gb (2Gx8) 3200",
-        "avgPrice": 84.5,
+        "avgPrice": 85.0,
         "dayHigh": 119.5,
         "dayLow": 45.5
       },
       {
         "name": "DDR4 16Gb (2Gx8) eTT",
-        "avgPrice": 13.463,
-        "dayHigh": 14.8,
-        "dayLow": 13.2
+        "avgPrice": 13.35,
+        "dayHigh": 14.4,
+        "dayLow": 13.0
       },
       {
         "name": "DDR4 8Gb (1Gx8) 3200",
         "avgPrice": 46.036,
-        "dayHigh": 84.0,
+        "dayHigh": 83.0,
         "dayLow": 23.9
       },
       {
         "name": "DDR4 8Gb (1Gx8) eTT",
-        "avgPrice": 5.84,
-        "dayHigh": 6.4,
-        "dayLow": 5.7
+        "avgPrice": 5.88,
+        "dayHigh": 6.45,
+        "dayLow": 5.75
       },
       {
         "name": "DDR3 4Gb 512Mx8 1600/1866",
@@ -888,13 +888,6 @@
         "DDR5_eTT": 24.8,
         "DDR4_16Gb": 11.818,
         "DDR4_eTT": 5.88
-      },
-      {
-        "date": "2026-09-23",
-        "DDR5_16Gb": 57.167,
-        "DDR5_eTT": 25.0,
-        "DDR4_16Gb": 11.818,
-        "DDR4_eTT": 5.84
       }
     ],
     "source": "TrendForce集邦"
@@ -902,146 +895,146 @@
   "news": {
     "articles": [
       {
-        "title": "SiPearl delivers first homegrown server chips for Europe's exascale supercomputer",
-        "link": "https://www.digitimes.com/news/a20260922VL217/processor-cpu-europe-supercomputer-manufacturing.html",
-        "date": "Tue, 22 Sep 2026",
-        "snippet": "SiPearl, a fabless company backed by the European Union and France, has delivered the first Rhea1 CPU samples to Bull for integration into Europe's JU",
+        "title": "Microsoft CEO expected at Trump-Xi dinner amid rising AI debate",
+        "link": "https://www.digitimes.com/news/a20260921PD232/microsoft-ceo-apple-nvidia-xi-jinping.html",
+        "date": "Mon, 21 Sep 2026",
+        "snippet": "Microsoft CEO Satya Nadella was expected to attend this week's White House state dinner for Chinese President Xi Jinping, joining top executives from ",
         "source": "DigiTimes"
       },
       {
-        "title": "Anthropic, OpenAI expected to start buying memory directly in 2027",
-        "link": "https://www.digitimes.com/news/a20260922VL215/anthropic-openai-2027-samsung-manufacturing.html",
-        "date": "Tue, 22 Sep 2026",
-        "snippet": "Anthropic and OpenAI are expected to start buying memory directly from manufacturers in 2027 as model developers take greater control of chip and data",
+        "title": "Kaohsiung's new industrial park targets advanced packaging suppliers for the post-Moore era",
+        "link": "https://www.digitimes.com/news/a20260921PD224/taiwan-kaohsiung-packaging-chairman-demand.html",
+        "date": "Mon, 21 Sep 2026",
+        "snippet": "Baipu Industrial Park, located on the border of Kaohsiung's Gangshan and Ciaotou districts, broke ground on September 21 after receiving approval from",
         "source": "DigiTimes"
       },
       {
-        "title": "Vivo unveils X500 strategy to bolster premium phone push",
-        "link": "https://www.digitimes.com/news/a20260922PD235/vivo-2026-flagship-sensor-market.html",
-        "date": "Tue, 22 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"3442\" data-end=\"3817\"&gt;Vivo unveiled its new X500 series imaging flagship phones in Shanghai on September 21, 2026, aim",
+        "title": "Samsung builds fab robot team, targets chip equipment maintenance",
+        "link": "https://www.digitimes.com/news/a20260921VL222/samsung-equipment-robot-fab-automation.html",
+        "date": "Mon, 21 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"3316\" data-end=\"3588\"&gt;Samsung Electronics has formed a dedicated organization to develop and deploy robots in its semi",
         "source": "DigiTimes"
       },
       {
-        "title": "Changs Ascending eyes AI data center backup power, storage growth",
-        "link": "https://www.digitimes.com/news/a20260922PD220/aidc-growth-ups-infrastructure-lithium.html",
-        "date": "Tue, 22 Sep 2026",
-        "snippet": "Changs Ascending's board approved an operating plan on Sept. 21 to launch an energy systems integration push into the AI data center sector, betting o",
+        "title": "SDC president declares foldable leadership, urges Korea to defend OLED advantage",
+        "link": "https://www.digitimes.com/news/a20260921PD216/sdc-foldable-expansion-lcd-display.html",
+        "date": "Mon, 21 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"2858\" data-end=\"3367\"&gt;Facing aggressive expansion by Chinese competitors, Samsung Display (SDC) president and Korea Di",
         "source": "DigiTimes"
       },
       {
-        "title": "Meta's AI agent Muse tops app charts, driving AMD's market cap past US$1 trillion",
-        "link": "https://www.digitimes.com/news/a20260922VL214/meta-amd-apps-launch-apple.html",
-        "date": "Tue, 22 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"2983\" data-end=\"3191\"&gt;Meta's new AI agent, Muse, has leapt to the top of app charts roughly two weeks after its releas",
+        "title": "Lattice Mach-N2 transitions to 16nm FinFET, integrating post-quantum encryption to strengthen control security",
+        "link": "https://www.digitimes.com/news/a20260921PD215/lattice-security-finfet-16nm-fpga.html",
+        "date": "Mon, 21 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"3679\" data-end=\"4205\"&gt;Lattice Semiconductor recently unveiled its next-generation secure control field-programmable ga",
         "source": "DigiTimes"
       },
       {
-        "title": "Hermes Testing sees growth opportunity in AI-driven chip demand as OTC debut expands reach",
-        "link": "https://www.digitimes.com/news/a20260922PD233/demand-growth-equipment-testing-market.html",
-        "date": "Tue, 22 Sep 2026",
-        "snippet": "Hermes Testing Solutions began trading on the over-the-counter market on September 22, positioning itself to benefit from rising demand tied to artifi",
+        "title": "Leading Interconnect Semiconductor starts Shenzhen advanced packaging substrate plant",
+        "link": "https://www.digitimes.com/news/a20260921PD227/packaging-shenzhen-substrate-zhen-ding-high-end.html",
+        "date": "Mon, 21 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"3329\" data-end=\"3816\"&gt;Leading Interconnect Semiconductor, a Zhen Ding Technology subsidiary, has broken ground on an A",
         "source": "DigiTimes"
       },
       {
-        "title": "Acer debuts first Googlebook with 360-degree hinge",
-        "link": "https://www.digitimes.com/news/a20260922PD227/acer-hinge-gemini-flagship-materials.html",
-        "date": "Tue, 22 Sep 2026",
-        "snippet": "Acer has launched its first Googlebook, a new flagship notebook equipped with Gemini Intelligence that combines premium materials, strong performance,",
+        "title": "Rebellions chips process over 4 billion tokens a day for SK Telecom",
+        "link": "https://www.digitimes.com/news/a20260921VL218/sk-telecom-commercial-infrastructure-accelerator-npu.html",
+        "date": "Mon, 21 Sep 2026",
+        "snippet": "South Korean AI chipmaker Rebellions has expanded its neural processing units (NPUs) across four commercial SK Telecom services, with the infrastructu",
         "source": "DigiTimes"
       },
       {
-        "title": "Hanmi Semiconductor ships first FC Bonder 75 for 2.5D packaging",
-        "link": "https://www.digitimes.com/news/a20260922PD231/hanmi-packaging-equipment-hbm-osat.html",
-        "date": "Tue, 22 Sep 2026",
-        "snippet": "Hanmi Semiconductor said on September 22 that it has shipped its first FC Bonder 75 to a customer, expanding the South Korean equipment maker's reach ",
+        "title": "Physical AI opens a new growth window for FD-SOI as China builds domestic supply chain",
+        "link": "https://www.digitimes.com/news/a20260921VL214/fd-soi-growth-supply-chain-market-data.html",
+        "date": "Mon, 21 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"5043\" data-end=\"5300\"&gt;AI's shift from data centers into cars, robots, wearables, and connected devices is widening the",
         "source": "DigiTimes"
       },
       {
-        "title": "DeepSeek bets on Huawei chips for model training as Nvidia's China sales slip",
-        "link": "https://www.digitimes.com/news/a20260922VL210/deepseek-chips-huawei-training-nvidia.html",
-        "date": "Tue, 22 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"3310\" data-end=\"3580\"&gt;DeepSeek CEO Liang Wenfeng said during a call with investors that he aims to rely on Huawei chip",
+        "title": "Tower Semiconductor to make Japan its largest optical chip base",
+        "link": "https://www.digitimes.com/news/a20260921VL217/tower-semiconductor-production-communications-silicon-manufacturing.html",
+        "date": "Mon, 21 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"2500\" data-end=\"2780\"&gt;Tower Semiconductor plans to make Japan its largest manufacturing base for optical communication",
         "source": "DigiTimes"
       },
       {
-        "title": "DEEPX targets smart glasses with low-power NPU, eyes 6G AI RAN",
-        "link": "https://www.digitimes.com/news/a20260922PD214/smart-glasses-6g-npu-performance-2026.html",
-        "date": "Tue, 22 Sep 2026",
-        "snippet": "South Korean AI semiconductor company DEEPX is reportedly conducting a proof of concept with a US smart glasses company to test whether its low-power ",
+        "title": "Apple, Xiaomi, Qualcomm each eye edge AI ecosystem gains",
+        "link": "https://www.digitimes.com/news/a20260921PD210/apple-xiaomi-qualcomm-ai-inference-market.html",
+        "date": "Mon, 21 Sep 2026",
+        "snippet": "Market sources say Apple is developing an enterprise AI server that could use 2-4 unreleased M8 Ultra processors, aimed at AI developers, large enterp",
         "source": "DigiTimes"
       },
       {
-        "title": "Micron Taiwan union heads for strike vote as board, earnings calendar stall profit-sharing talks",
-        "link": "https://www.digitimes.com/news/a20260922PD219/micron-labor-taiwan-strike-2026.html",
-        "date": "Tue, 22 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"2092\" data-end=\"2547\"&gt;The labor dispute at Micron Taiwan continues to escalate after Micron and the Taiwan Taoyuan Uni",
+        "title": "TSMC builds Kaohsiung hub to speed advanced packaging tests",
+        "link": "https://www.digitimes.com/news/a20260921VL215/tsmc-packaging-equipment-kaohsiung-taiwan.html",
+        "date": "Mon, 21 Sep 2026",
+        "snippet": "TSMC is building an advanced packaging validation hub in southern Taiwan as rapid chip-on-wafer-on-substrate (CoWoS) expansion puts pressure on equipm",
         "source": "DigiTimes"
       },
       {
-        "title": "Samsung weighs 4nm expansion as HBM4 demand strains capacity",
-        "link": "https://www.digitimes.com/news/a20260922VL209/samsung-4nm-hbm4-capacity-demand.html",
-        "date": "Tue, 22 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"2012\" data-end=\"2324\"&gt;Samsung Electronics is considering expanding its 4nm foundry capacity as rising HBM4 base-die de",
+        "title": "SK Hynix pushes deeper into logic for next-generation 3D DRAM",
+        "link": "https://www.digitimes.com/news/a20260921VL211/sk-hynix-dram-3d-design-ip.html",
+        "date": "Mon, 21 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"4387\" data-end=\"4647\"&gt;SK Hynix is pushing deeper into logic design as it develops a next-generation 3D DRAM architectu",
         "source": "DigiTimes"
       },
       {
-        "title": "TSMC, ASE break ground on Taiwan's first advanced packaging cluster in Kaohsiung",
-        "link": "https://www.digitimes.com/news/a20260922PD212/packaging-tsmc-ase-kaohsiung-demand.html",
-        "date": "Tue, 22 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"2054\" data-end=\"2508\"&gt;Rising demand for advanced packaging tied to AI and high-performance computing (HPC) is driving ",
+        "title": "Tesla AI server order puts Pegatron back alongside Asus, 18 years after split",
+        "link": "https://www.digitimes.com/news/a20260921PD205/asus-pegatron-ai-server-tesla-growth.html",
+        "date": "Mon, 21 Sep 2026",
+        "snippet": "Eighteen years after their split, Asus and Pegatron are converging on AI servers, seeking to close the gap with earlier movers including Quanta, Wistr",
         "source": "DigiTimes"
       },
       {
-        "title": "Escalating risks, evolving safeguards: a chronological look at OpenAI's safety strategy",
-        "link": "https://www.digitimes.com/news/a20260922VL208/openai-anthropic-testing-security-api.html",
-        "date": "Tue, 22 Sep 2026",
-        "snippet": "&lt;p class=\"P1\" data-start=\"2977\" data-end=\"3344\"&gt;As artificial intelligence advances toward greater autonomy, balancing capabilities with safety ",
+        "title": "Samsung reportedly plans to double HBM4 output in 2027 as memory supply stays tight",
+        "link": "https://www.digitimes.com/news/a20260921VL206/samsung-2027-hbm4-production-hbm.html",
+        "date": "Mon, 21 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"1802\" data-end=\"2024\"&gt;Samsung Electronics is reportedly preparing to at least double production of its HBM4-family mem",
         "source": "DigiTimes"
       },
       {
-        "title": "India's fifth chip plant goes live, capping Suchi Semicon's three-year buildout",
-        "link": "https://www.digitimes.com/news/a20260922VL203/semicon-plant-production-commercial-chips.html",
-        "date": "Tue, 22 Sep 2026",
-        "snippet": "Prime Minister Narendra Modi virtually inaugurated commercial production at Suchi Semicon's outsourced semiconductor assembly and test (OSAT) plant in",
+        "title": "ByteDance's China AI chip push hits substrate shortage",
+        "link": "https://www.digitimes.com/news/a20260921PD206/substrate-bytedance-ai-chip-high-end-capacity.html",
+        "date": "Mon, 21 Sep 2026",
+        "snippet": "&lt;p class=\"P1\" data-start=\"3525\" data-end=\"4052\"&gt;China's fast-rising AI models are running into a compute supply bottleneck as demand for advance",
         "source": "DigiTimes"
       }
     ],
-    "total": 30,
+    "total": 15,
     "source": "DigiTimes RSS"
   },
   "gpuOptical": {
-    "date": "2026-09-23",
+    "date": "2026-09-22",
     "gpuCloud": [
       {
         "name": "AWS H100",
-        "price": "$3.08/hr",
+        "price": "$3.06/hr",
         "note": "p5.48xlarge"
       },
       {
         "name": "Azure H100",
-        "price": "$3.71/hr",
+        "price": "$3.73/hr",
         "note": "ND H100 v5"
       },
       {
         "name": "GCP H100",
-        "price": "$3.35/hr",
+        "price": "$3.34/hr",
         "note": "A3 on-demand"
       },
       {
         "name": "AWS A100",
-        "price": "$1.94/hr",
+        "price": "$1.93/hr",
         "note": "p4d.24xlarge"
       }
     ],
     "opticalModules": [
       {
         "name": "800G SR8",
-        "price": "$1,235"
+        "price": "$1,251"
       },
       {
         "name": "800G XDR8",
-        "price": "$8,829"
+        "price": "$8,912"
       },
       {
         "name": "400G DR4",
@@ -1049,7 +1042,7 @@
       },
       {
         "name": "1.6T OSFP(估)",
-        "price": "$2,019"
+        "price": "$2,002"
       }
     ],
     "gpuHistory": [
@@ -2074,13 +2067,6 @@
         "Azure H100": 3.73,
         "GCP H100": 3.34,
         "AWS A100": 1.93
-      },
-      {
-        "date": "2026-09-23",
-        "AWS H100": 3.08,
-        "Azure H100": 3.71,
-        "GCP H100": 3.35,
-        "AWS A100": 1.94
       }
     ],
     "opticalHistory": [
@@ -3105,13 +3091,6 @@
         "800G XDR8": 8912,
         "400G DR4": 448,
         "1.6T OSFP(估)": 2002
-      },
-      {
-        "date": "2026-09-23",
-        "800G SR8": 1235,
-        "800G XDR8": 8829,
-        "400G DR4": 448,
-        "1.6T OSFP(估)": 2019
       }
     ]
   }
