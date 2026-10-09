@@ -1,49 +1,49 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-05",
   "dram": {
-    "date": "2026-10-09",
+    "date": "2026-10-05",
     "items": [
       {
         "name": "DDR5 16Gb (2Gx8) 4800/5600",
-        "avgPrice": 58.667,
-        "dayHigh": 70.0,
-        "dayLow": 44.0
+        "avgPrice": 58.0,
+        "dayHigh": 69.5,
+        "dayLow": 43.5
       },
       {
         "name": "DDR5 16Gb (2Gx8) eTT",
-        "avgPrice": 26.6,
-        "dayHigh": 28.3,
-        "dayLow": 26.0
+        "avgPrice": 26.1,
+        "dayHigh": 27.8,
+        "dayLow": 25.4
       },
       {
         "name": "DDR4 16Gb (2Gx8) 3200",
-        "avgPrice": 83.64,
-        "dayHigh": 117.0,
+        "avgPrice": 83.588,
+        "dayHigh": 118.0,
         "dayLow": 45.5
       },
       {
         "name": "DDR4 16Gb (2Gx8) eTT",
-        "avgPrice": 14.125,
-        "dayHigh": 15.5,
-        "dayLow": 13.7
+        "avgPrice": 14.0,
+        "dayHigh": 15.3,
+        "dayLow": 13.6
       },
       {
         "name": "DDR4 8Gb (1Gx8) 3200",
-        "avgPrice": 46.4,
-        "dayHigh": 85.3,
+        "avgPrice": 46.321,
+        "dayHigh": 85.0,
         "dayLow": 25.0
       },
       {
         "name": "DDR4 8Gb (1Gx8) eTT",
-        "avgPrice": 5.95,
-        "dayHigh": 6.3,
-        "dayLow": 5.8
+        "avgPrice": 5.94,
+        "dayHigh": 6.35,
+        "dayLow": 5.7
       },
       {
         "name": "DDR3 4Gb 512Mx8 1600/1866",
         "avgPrice": 13.72,
         "dayHigh": 19.8,
-        "dayLow": 9.8
+        "dayLow": 9.65
       },
       {
         "name": "DDR5 8GB SO-DIMM",
@@ -53,27 +53,27 @@
       },
       {
         "name": "DDR4 16GB SO-DIMM",
-        "avgPrice": 2163.5,
+        "avgPrice": 2100.0,
         "dayHigh": 2400.0,
-        "dayLow": 2100.0
+        "dayLow": 2000.0
       },
       {
         "name": "DDR4 8GB SO-DIMM",
-        "avgPrice": 166.0,
+        "avgPrice": 165.1,
         "dayHigh": 185.0,
-        "dayLow": 158.0
+        "dayLow": 155.0
       },
       {
         "name": "DDR4 16Gb 2Gx8",
-        "avgPrice": 12.136,
+        "avgPrice": 11.818,
         "dayHigh": 17.5,
-        "dayLow": 10.0
+        "dayLow": 9.5
       },
       {
         "name": "DDR4 8Gb 1Gx8",
-        "avgPrice": 12.288,
+        "avgPrice": 11.844,
         "dayHigh": 18.0,
-        "dayLow": 9.8
+        "dayLow": 9.3
       }
     ],
     "history": [
@@ -951,34 +951,6 @@
         "DDR5_eTT": 26.1,
         "DDR4_16Gb": 11.818,
         "DDR4_eTT": 5.94
-      },
-      {
-        "date": "2026-10-06",
-        "DDR5_16Gb": 58.067,
-        "DDR5_eTT": 26.3,
-        "DDR4_16Gb": 12.136,
-        "DDR4_eTT": 5.95
-      },
-      {
-        "date": "2026-10-07",
-        "DDR5_16Gb": 58.167,
-        "DDR5_eTT": 26.3,
-        "DDR4_16Gb": 12.136,
-        "DDR4_eTT": 5.95
-      },
-      {
-        "date": "2026-10-08",
-        "DDR5_16Gb": 58.4,
-        "DDR5_eTT": 26.4,
-        "DDR4_16Gb": 12.136,
-        "DDR4_eTT": 5.95
-      },
-      {
-        "date": "2026-10-09",
-        "DDR5_16Gb": 58.667,
-        "DDR5_eTT": 26.6,
-        "DDR4_16Gb": 12.136,
-        "DDR4_eTT": 5.95
       }
     ],
     "source": "TrendForce集邦"
@@ -986,130 +958,130 @@
   "news": {
     "articles": [
       {
-        "title": "Lam Research launches South Korea chip fund after 15,000-chamber milestone",
-        "link": "https://www.digitimes.com/news/a20261008VL222/lam-research-manufacturing-equipment-technology-investment.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "Lam Research is launching its first country-specific semiconductor venture fund in South Korea after shipping its 15,000th locally manufactured proces",
+        "title": "Musk confirms talks with TSMC over his Texas chip factory project",
+        "link": "https://www.digitimes.com/news/a20261003VL200/tsmc-texas-elon-musk-spacex-investment.html",
+        "date": "Sat, 3 Oct 2026 ",
+        "snippet": "Elon Musk has confirmed that Terafab, the chipmaking venture backed by his SpaceX and Tesla, is in discussions with TSMC. The confirmation followed a ",
         "source": "DigiTimes"
       },
       {
-        "title": "SpaceX pursues US$40 billion Nvidia chip financing while Terafab charts path to AI compute independence",
-        "link": "https://www.digitimes.com/news/a20261008PD235/spacex-financing-infrastructure-nvidia.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "SpaceX is reportedly seeking US$40 billion in financing to purchase Nvidia chips, a massive capital commitment driven by surging artificial intelligen",
+        "title": "Elon Musk, Jensen Huang see China closing lithography gap by 2030",
+        "link": "https://www.digitimes.com/news/a20261002PD247/asml-elon-musk-jensen-huang-2030-euv.html",
+        "date": "Sat, 3 Oct 2026 ",
+        "snippet": "While ASML executives explore how to scale extreme ultraviolet (EUV) lithography output beyond 110 units by 2028, China is pursuing indigenous advance",
         "source": "DigiTimes"
       },
       {
-        "title": "Ledlink hits record revenue as automotive optics and AI server components fuel growth",
-        "link": "https://www.digitimes.com/news/a20261008PD225/automotive-revenue-growth-ledlink-optics-lighting.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "LED lens manufacturer Ledlink Optics reported record monthly and quarterly revenue in September and the third quarter of 2026, respectively, driven by",
+        "title": "Synopsys reshapes EDA, IP business models as AI shifts revenue from seats to customer output",
+        "link": "https://www.digitimes.com/news/a20261002PD249/synopsys-revenue-ip-eda-business.html",
+        "date": "Sat, 3 Oct 2026 ",
+        "snippet": "Synopsys is reshaping how it monetizes its two core businesses, electronic design automation (EDA) and semiconductor IP, as AI transforms engineering ",
         "source": "DigiTimes"
       },
       {
-        "title": "US and 14 nations issue statement on overcapacity, target semiconductors",
-        "link": "https://www.digitimes.com/news/a20261008PD233/overcapacity-semiconductors-g20-policy-production.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "The US and 14 other economies issued a joint statement after the G20 trade ministers' meeting in Milwaukee, pledging to work together on structural ov",
+        "title": "Biren readies BR20X, sharpening China's AI GPU challenge to Nvidia",
+        "link": "https://www.digitimes.com/news/a20261002VL212/gpu-biren-nvidia-production-roadmap.html",
+        "date": "Sat, 3 Oct 2026 ",
+        "snippet": "Biren Technology is preparing its next-generation GPU for mass production, advancing a domestic AI accelerator roadmap built around broader low-precis",
         "source": "DigiTimes"
       },
       {
-        "title": "Infineon completes acquisition of C2i to expand AI data center power capabilities",
-        "link": "https://www.digitimes.com/news/a20261008VL219/infineon-acquisition-data-efficiency-management.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "Infineon has finished acquiring India-based C2i Semiconductors, a maker of software-defined multiphase controllers and smart power stages used in AI d",
+        "title": "Global annual AI server shipments, 2025-2026",
+        "link": "https://www.digitimes.com/news/a20261001RS400/high-end-ai-server-shipments-2026.html?chid=2",
+        "date": "Fri, 2 Oct 2026 ",
+        "snippet": "Continued advances in top-tier LLM capabilities, coupled with the potential for business automation enabled by agentic AI, are prompting major North A",
         "source": "DigiTimes"
       },
       {
-        "title": "AI PCs face memory squeeze as server demand takes priority",
-        "link": "https://www.digitimes.com/news/a20261008VL216/microsoft-demand-dram-pc-revenue.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "Microsoft's October 7 opening of pre-orders for Surface Laptop Ultra, featuring up to 128GB of unified memory, highlights a potential new source of dy",
+        "title": "Samsung's Galaxy Tab S12 taps MediaTek Dimensity 9500 as 2nm successor arrives",
+        "link": "https://www.digitimes.com/news/a20261002VL215/mediatek-dimensity-galaxy-tab-samsung-2nm.html",
+        "date": "Fri, 2 Oct 2026 ",
+        "snippet": "MediaTek announced on September 30 that its flagship Dimensity 9500 chip powers Samsung's new Galaxy Tab S12 Ultra and Galaxy Tab S12+ tablets. The de",
         "source": "DigiTimes"
       },
       {
-        "title": "TSMC's third-quarter revenue rises 51% to NT$1.49 trillion as September sales stay near record",
-        "link": "https://www.digitimes.com/news/a20261008VL218/tsmc-revenue-2026-2025-digitimes.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "TSMC reported consolidated revenue of about NT$511.86 billion (approx. US$16.1 billion) for September 2026. That was up 54.6% from NT$330.98 billion a",
+        "title": "Climax Technology stays cautious on 2H26 as memory costs rise",
+        "link": "https://www.digitimes.com/news/a20261002PD241/2026-revenue-gross-margin-inventory-earnings.html",
+        "date": "Fri, 2 Oct 2026 ",
+        "snippet": "Climax Technology said elevated memory prices are pressuring its gross margin in the second half of 2026, while longer customer validation cycles for ",
         "source": "DigiTimes"
       },
       {
-        "title": "Hanmi wins rare Samsung order amid US$5 billion chip substrate expansion",
-        "link": "https://www.digitimes.com/news/a20261008VL214/samsung-hanmi-substrate-expansion-equipment.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "South Korea's Hanmi Semiconductor has secured a KRW24.48 billion (approx. US$18.3 million) equipment order from Samsung Electro-Mechanics, a rare deal",
+        "title": "Meta to add Naver Map navigation to AI glasses in South Korea",
+        "link": "https://www.digitimes.com/news/a20261002PD246/meta-naver-2026-samsung-google.html",
+        "date": "Fri, 2 Oct 2026 ",
+        "snippet": "Meta will link Naver Map's walking-navigation feature to its Ray-Ban Meta and Oakley Meta AI glasses in 2026, as it moves to strengthen its presence i",
         "source": "DigiTimes"
       },
       {
-        "title": "India's chip packaging plants start exporting, but scale, skills, and subsidies test the next phase",
-        "link": "https://www.digitimes.com/news/a20261007VL204/india-government-osat-packaging-plant.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "India's outsourced semiconductor assembly and test (OSAT) sector has moved from inaugurations to its first export shipments. The challenge now is scal",
+        "title": "Huawei hikes flagship prices up to US$200 as memory shortages hit smartphone margins",
+        "link": "https://www.digitimes.com/news/a20261002PD233/huawei-smartphone-flagship-price-galaxy.html",
+        "date": "Fri, 2 Oct 2026 ",
+        "snippet": "Soaring memory procurement costs are pushing smartphone makers to pass expenses on to consumers. As artificial intelligence (AI) infrastructure expans",
         "source": "DigiTimes"
       },
       {
-        "title": "AUO subsidiary Darwin shifts toward high-end manufacturing, explores CPO and semiconductor opportunities",
-        "link": "https://www.digitimes.com/news/a20261008PD220/auo-cpo-subsidiary-manufacturing-optics.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "As AUO deepens its push into co-packaged optics (CPO), its subsidiary Darwin Precisions is also exploring opportunities in the semiconductor sector, l",
+        "title": "OpenAI fires 3 safety researchers for sharing confidential information",
+        "link": "https://www.digitimes.com/news/a20261002PD237/openai-investigation-bloomberg-infrastructure-redwood.html",
+        "date": "Fri, 2 Oct 2026 ",
+        "snippet": "OpenAI fired three safety researchers after they shared confidential information with a third-party artificial intelligence safety group, according to",
         "source": "DigiTimes"
       },
       {
-        "title": "Sasken eyes reusable chip IP as India pushes beyond semiconductor design services",
-        "link": "https://www.digitimes.com/news/a20261008VL210/ip-design-technology-chips-security.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "India-based engineering firm Sasken Technologies plans to license company-owned semiconductor interconnect intellectual property (IP) to multiple cust",
+        "title": "BMW to make 20% of senior management redundant with AI",
+        "link": "https://www.digitimes.com/news/a20261002PD244/bmw-management-layoffs-2028.html",
+        "date": "Fri, 2 Oct 2026 ",
+        "snippet": "BMW AG said at its capital markets day on September 30 that it plans to use artificial intelligence (AI) to help streamline one-fifth of management ro",
         "source": "DigiTimes"
       },
       {
-        "title": "Samsung to exit in-house automotive AP, focus on high-margin chips",
-        "link": "https://www.digitimes.com/news/a20261007PD249/samsung-lsi-automotive-ap-exynos.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "Samsung Electronics' System LSI division is reportedly planning a retreat from the automotive application processor (AP) business and launching a majo",
+        "title": "ficonTEC, Hermes Testing target CPO testing scale-up with INS-2 platform",
+        "link": "https://www.digitimes.com/news/a20261001PD245/testing-cpo-equipment-automation-manufacturing.html",
+        "date": "Fri, 2 Oct 2026 ",
+        "snippet": "ficonTEC, a maker of optoelectronic automation assembly and test equipment, has announced a strategic partnership with Hermes Testing Solutions Inc. (",
         "source": "DigiTimes"
       },
       {
-        "title": "Malaysia's chip push: a new island and pressure from Washington and Beijing",
-        "link": "https://www.digitimes.com/news/a20261008VL209/2025-edge-packaging-chips.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "Malaysia's plan to climb the semiconductor value chain is colliding with two constraints: a shortage of land in Penang, the heart of its chip industry",
+        "title": "Hitachi and Fanuc launch Physical AI partnership for factory automation",
+        "link": "https://www.digitimes.com/news/a20261002PD239/hitachi-fanuc-partnership-industrial-2026.html",
+        "date": "Fri, 2 Oct 2026 ",
+        "snippet": "Hitachi and Fanuc announced on September 30, 2026, that they have formed a strategic partnership on Physical AI, with internal testing beginning immed",
         "source": "DigiTimes"
       },
       {
-        "title": "Marvell's custom AI chip upgrade points to a broader fight over peripherals",
-        "link": "https://www.digitimes.com/news/a20261008PD236/marvell-ai-chip-market-chips-revenue.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "Marvell's higher long-term target for custom AI chip revenue suggests the market for artificial intelligence hardware is widening beyond accelerators,",
+        "title": "Taiwan pledges to help TSMC expand domestic investment amid Singapore rumors",
+        "link": "https://www.digitimes.com/news/a20261002PD234/tsmc-investment-taiwan-government-moea.html",
+        "date": "Fri, 2 Oct 2026 ",
+        "snippet": "Rumors that TSMC is weighing a new semiconductor investment in Singapore have reignited concerns over its overseas expansion, while the Ministry of Ec",
         "source": "DigiTimes"
       },
       {
-        "title": "Nvidia's RTX Spark gives Windows on Arm its strongest shot yet at x86's high end",
-        "link": "https://www.digitimes.com/news/a20261008VL213/windows-arm-nvidia-x86-pc.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "Nvidia's entry into the Windows PC market with its Arm-based RTX Spark platform is giving Microsoft's Windows on Arm strategy a new test: whether Arm ",
+        "title": "Inside Volantis's photonic bid to break AI's memory wall after US$88 million raise",
+        "link": "https://www.digitimes.com/news/a20261002PD236/startup-ai-inference-hardware-chips-funding.html",
+        "date": "Fri, 2 Oct 2026 ",
+        "snippet": "Semiconductor startup Volantis has raised US$88 million in Series A funding to develop an AI inference architecture that uses photonic interconnect te",
         "source": "DigiTimes"
       }
     ],
-    "total": 39,
+    "total": 22,
     "source": "DigiTimes RSS"
   },
   "gpuOptical": {
-    "date": "2026-10-09",
+    "date": "2026-10-05",
     "gpuCloud": [
       {
         "name": "AWS H100",
-        "price": "$3.00/hr",
+        "price": "$3.08/hr",
         "note": "p5.48xlarge"
       },
       {
         "name": "Azure H100",
-        "price": "$3.70/hr",
+        "price": "$3.83/hr",
         "note": "ND H100 v5"
       },
       {
         "name": "GCP H100",
-        "price": "$3.34/hr",
+        "price": "$3.28/hr",
         "note": "A3 on-demand"
       },
       {
@@ -1121,19 +1093,19 @@
     "opticalModules": [
       {
         "name": "800G SR8",
-        "price": "$1,223"
+        "price": "$1,242"
       },
       {
         "name": "800G XDR8",
-        "price": "$8,983"
+        "price": "$8,892"
       },
       {
         "name": "400G DR4",
-        "price": "$456"
+        "price": "$458"
       },
       {
         "name": "1.6T OSFP(估)",
-        "price": "$1,978"
+        "price": "$1,967"
       }
     ],
     "gpuHistory": [
@@ -2220,34 +2192,6 @@
         "AWS H100": 3.08,
         "Azure H100": 3.83,
         "GCP H100": 3.28,
-        "AWS A100": 1.93
-      },
-      {
-        "date": "2026-10-06",
-        "AWS H100": 3.03,
-        "Azure H100": 3.79,
-        "GCP H100": 3.32,
-        "AWS A100": 1.9
-      },
-      {
-        "date": "2026-10-07",
-        "AWS H100": 3.05,
-        "Azure H100": 3.75,
-        "GCP H100": 3.41,
-        "AWS A100": 1.96
-      },
-      {
-        "date": "2026-10-08",
-        "AWS H100": 3.03,
-        "Azure H100": 3.76,
-        "GCP H100": 3.36,
-        "AWS A100": 1.96
-      },
-      {
-        "date": "2026-10-09",
-        "AWS H100": 3.0,
-        "Azure H100": 3.7,
-        "GCP H100": 3.34,
         "AWS A100": 1.93
       }
     ],
@@ -3336,34 +3280,6 @@
         "800G XDR8": 8892,
         "400G DR4": 458,
         "1.6T OSFP(估)": 1967
-      },
-      {
-        "date": "2026-10-06",
-        "800G SR8": 1234,
-        "800G XDR8": 8949,
-        "400G DR4": 447,
-        "1.6T OSFP(估)": 1976
-      },
-      {
-        "date": "2026-10-07",
-        "800G SR8": 1228,
-        "800G XDR8": 9012,
-        "400G DR4": 442,
-        "1.6T OSFP(估)": 1983
-      },
-      {
-        "date": "2026-10-08",
-        "800G SR8": 1232,
-        "800G XDR8": 8984,
-        "400G DR4": 445,
-        "1.6T OSFP(估)": 2007
-      },
-      {
-        "date": "2026-10-09",
-        "800G SR8": 1223,
-        "800G XDR8": 8983,
-        "400G DR4": 456,
-        "1.6T OSFP(估)": 1978
       }
     ]
   }

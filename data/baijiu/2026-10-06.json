@@ -1,10 +1,108 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-06",
+  "products": [
+    {
+      "name": "泸州老窖紫砂大曲",
+      "spec": "52.00度/500ml",
+      "yesterday": "195",
+      "today": "195",
+      "detailId": "352",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail352"
+    },
+    {
+      "name": "泸州老窖52°晶彩",
+      "spec": "52.00度/500ml",
+      "yesterday": "180",
+      "today": "180",
+      "detailId": "351",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail351"
+    },
+    {
+      "name": "泸州老窖43°国窖1573",
+      "spec": "43.00度/100ml",
+      "yesterday": "85",
+      "today": "85",
+      "detailId": "350",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail350"
+    },
+    {
+      "name": "泸州老窖1L许燎源",
+      "spec": "58.00度/1000ml",
+      "yesterday": "2150",
+      "today": "2150",
+      "detailId": "349",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail349"
+    },
+    {
+      "name": "泸州老窖国学",
+      "spec": "60.00度/500ml",
+      "yesterday": "2500",
+      "today": "2500",
+      "detailId": "348",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail348"
+    },
+    {
+      "name": "泸州老窖窖龄90",
+      "spec": "52.00度/500ml",
+      "yesterday": "350",
+      "today": "350",
+      "detailId": "173",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail173"
+    },
+    {
+      "name": "泸州老窖窖龄60",
+      "spec": "52.00度/500ml",
+      "yesterday": "250",
+      "today": "250",
+      "detailId": "172",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail172"
+    },
+    {
+      "name": "泸州老窖窖龄30",
+      "spec": "52.00度/500ml",
+      "yesterday": "155",
+      "today": "155",
+      "detailId": "171",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail171"
+    },
+    {
+      "name": "泸州老窖头曲",
+      "spec": "52.00度/500ml",
+      "yesterday": "55",
+      "today": "55",
+      "detailId": "170",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail170"
+    },
+    {
+      "name": "泸州老窖特曲（60版）",
+      "spec": "52.00度/500ml",
+      "yesterday": "410",
+      "today": "410",
+      "detailId": "169",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail169"
+    },
+    {
+      "name": "泸州老窖特曲（老字号）",
+      "spec": "52.00度/500ml",
+      "yesterday": "245",
+      "today": "245",
+      "detailId": "168",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail168"
+    },
+    {
+      "name": "泸州老窖52°国窖1573",
+      "spec": "52.00度/500ml",
+      "yesterday": "830",
+      "today": "830",
+      "detailId": "167",
+      "detailUrl": "http://www.yunjiu.com/quotations/detail167"
+    }
+  ],
   "guojiao1573": {
     "name": "泸州老窖52°国窖1573",
     "spec": "52.00度/500ml",
-    "yesterday": "820",
-    "today": "820",
+    "yesterday": "830",
+    "today": "830",
     "detailId": "167",
     "detailUrl": "http://www.yunjiu.com/quotations/detail167"
   },
@@ -692,24 +790,12 @@
     {
       "date": "2026-10-06",
       "batch": 830
-    },
-    {
-      "date": "2026-10-07",
-      "batch": 830
-    },
-    {
-      "date": "2026-10-08",
-      "batch": 820
-    },
-    {
-      "date": "2026-10-09",
-      "batch": 820
     }
   ],
   "retailPrice": {
-    "updated": "2026-10-08",
+    "updated": "2026-10-05",
     "platform": "web_search",
-    "price": 876,
+    "price": 877,
     "range": [
       828,
       930
@@ -717,28 +803,28 @@
     "sources": [
       {
         "mall": "今日酒价·酒排名网",
-        "price": 876,
-        "note": "新浪财经「酒价内参」10/8最新读数：国窖1573 52度/500ml终端零售均价876元(−6)，节后首日高位回调；假期8日在876-882元间M型震荡后随大盘走弱(10/1:876→10/2:881→10/3:876→10/4:881→10/5:877→10/6:882→10/7:882→10/8:876)；全国约200个采集点成交量加权(jiupaiming.com/123681.html)"
+        "price": 877,
+        "note": "新浪财经「酒价内参」10/5最新读数：国窖1573 52度/500ml终端零售均价877元(−4元)，冲高后再度回落，近期M型震荡；近7日在876-881元间反复(9/29:881→10/1:876→10/3:876→10/5:877)；全国约200个采集点成交量加权(jiupaiming.com/123263.html)"
       },
       {
         "mall": "京东·同花顺行情",
         "price": 900,
-        "note": "同花顺行情(field.10jqka.com.cn)9/29-30读数900元/瓶（沿用），国庆假期及节后暂无新读数"
+        "note": "同花顺行情(field.10jqka.com.cn)9/29-30读数900元/瓶（沿用），国庆假期10/1-10/5无新读数；另有渠道跟踪给出900元以上口径"
       },
       {
         "mall": "smzdm京东价",
         "price": 828.16,
-        "note": "smzdm商品页：国窖1573 52%vol 浓香型白酒 500ml 单瓶装 828.16元（京东促销价口径），构成区间下界"
+        "note": "smzdm商品页：国窖1573 52%vol 浓香型白酒 500ml 单瓶装 828.16元（京东促销价口径，10/3复核沿用），构成区间下界"
       },
       {
-        "mall": "长江食品批价",
-        "price": 825,
-        "note": "长江食品10-08核心品牌批价更新：国窖1573批价820-830元，取中值825；华创食饮10-08口径微降至810-820元(老窖回款约70%)，替代假期smzdm 830-870旧口径；批价口径，不与零售均价并列"
+        "mall": "糖酒快讯四城调查",
+        "price": 845,
+        "note": "北京/上海/郑州/长沙四城调查（10/5经smzdm引述）：国窖1573批价810-880元，厂家挺价效果明显，取中值845；批价口径，不与零售均价并列"
       },
       {
         "mall": "南都湾财社零售调研",
         "price": 879,
-        "note": "2026-09-16报道（沿用）：广州、成都两地国窖1573(52度500ml)零售价828-930元/瓶，取中值879，构成区间上界930"
+        "note": "2026-09-16报道（沿用）：广州、成都两地国窖1573(52度500ml)零售价828-930元/瓶，取中值879；打款价910→840元/瓶（年底补贴70元/瓶提前兑付）"
       },
       {
         "mall": "官方指导价",
@@ -746,7 +832,7 @@
         "note": "厂家标价1399元/瓶（沿用），实际成交价远低于此；泸州老窖公开表态'国窖1573不降价'"
       }
     ],
-    "note": "10/8监测：web_search后端连续第7日故障(Kimi 404)，降级为直接抓取酒排名网今日文章(123681.html)获取新浪「酒价内参」10/8读数。主口径876元(−6)：节后首个交易日价盘下马威，12品总价暴跌47元失守10800关口、创8天新低，国窖随中腰部集体回调(青花郎-10/古20-9/汾20-8/君品-7/国窖-6/M6+-6)，终结假期876-882元M型震荡；飞天1799持平、普五-3至803，国窖回调幅度居高位酒前列。批价切换至最新券商口径：长江食品10-08报820-830元、华创食饮10-08微降至810-820元(回款约70%)，零售876元对批价820元溢价明显收窄。range[828,930]维持：下界smzdm京东促销828.16仍有效，上界南都调研930。节后第一周实际动销与10/10补班后渠道补货是本轮回调是否延续的关键验证点。"
+    "note": "10/5监测：web_search后端连续第4日故障(Kimi 404)，Bing返回无关结果、搜狗/百度/360相继反爬拦截，降级为直接抓取酒排名网(jiupaiming.com)获得新浪「酒价内参」10/5最新读数。主口径900→877元(−4元)：近7日876-881元M型震荡，国庆假期价盘连续第二日回落(12品总价10791元创4天新低)。批价新口径810-880元(糖酒快讯四城调查，挺价效果明显)。range[828,930]维持：下界smzdm促销828.16仍有效，上界南都调研930。节后(10/8+)实际动销与批价数据是本轮震荡走向的验证点。"
   },
   "channelIndex": [
     {
@@ -816,7 +902,7 @@
   ],
   "source": {
     "batch": "yunjiu.com",
-    "retail": "SMZDM",
-    "channel": "AKShare"
+    "retail": "SMZDM参考",
+    "channel": "AKShare季报"
   }
 }

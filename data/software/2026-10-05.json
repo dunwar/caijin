@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-05",
   "pricing": {
-    "updated": "2026-10-09",
+    "updated": "2026-10-05",
     "providers": [
       {
         "vendor": "OpenAI",
@@ -1803,63 +1803,11 @@
         "豆包Pro": 1.0,
         "ERNIE 4.5": 2.0,
         "GLM-4-Plus": 0.8
-      },
-      {
-        "date": "2026-10-06",
-        "GPT-5": 15.0,
-        "Claude Opus 4": 15.0,
-        "Gemini 3 Pro": 3.0,
-        "Grok 4": 5.0,
-        "DeepSeek-V4": 0.55,
-        "Qwen3-Max": 2.0,
-        "Kimi k2.5": 0.6,
-        "豆包Pro": 1.0,
-        "ERNIE 4.5": 2.0,
-        "GLM-4-Plus": 0.8
-      },
-      {
-        "date": "2026-10-07",
-        "GPT-5": 15.0,
-        "Claude Opus 4": 15.0,
-        "Gemini 3 Pro": 3.0,
-        "Grok 4": 5.0,
-        "DeepSeek-V4": 0.55,
-        "Qwen3-Max": 2.0,
-        "Kimi k2.5": 0.6,
-        "豆包Pro": 1.0,
-        "ERNIE 4.5": 2.0,
-        "GLM-4-Plus": 0.8
-      },
-      {
-        "date": "2026-10-08",
-        "GPT-5": 15.0,
-        "Claude Opus 4": 15.0,
-        "Gemini 3 Pro": 3.0,
-        "Grok 4": 5.0,
-        "DeepSeek-V4": 0.55,
-        "Qwen3-Max": 2.0,
-        "Kimi k2.5": 0.6,
-        "豆包Pro": 1.0,
-        "ERNIE 4.5": 2.0,
-        "GLM-4-Plus": 0.8
-      },
-      {
-        "date": "2026-10-09",
-        "GPT-5": 15.0,
-        "Claude Opus 4": 15.0,
-        "Gemini 3 Pro": 3.0,
-        "Grok 4": 5.0,
-        "DeepSeek-V4": 0.55,
-        "Qwen3-Max": 2.0,
-        "Kimi k2.5": 0.6,
-        "豆包Pro": 1.0,
-        "ERNIE 4.5": 2.0,
-        "GLM-4-Plus": 0.8
       }
     ]
   },
   "arena": {
-    "updated": "2026-10-09",
+    "updated": "2026-10-05",
     "ranking": [],
     "history": [
       {
@@ -4507,124 +4455,40 @@
         "Baichuan4": 1275,
         "Gemini 3 Flash": 1268,
         "MiniCPM": 1250
-      },
-      {
-        "date": "2026-10-06",
-        "GPT-5": 1420,
-        "Claude Opus 4": 1405,
-        "Gemini 3 Ultra": 1398,
-        "Grok 4": 1371,
-        "Gemini 3 Pro": 1367,
-        "DeepSeek-V4": 1358,
-        "Claude Sonnet 4": 1352,
-        "Qwen3-Max": 1341,
-        "Kimi k2.5": 1335,
-        "Mistral Large 3": 1328,
-        "o4-mini": 1314,
-        "豆包Pro": 1308,
-        "GLM-4-Plus": 1302,
-        "ERNIE 4.5": 1295,
-        "Llama 4": 1288,
-        "Baichuan4": 1275,
-        "Gemini 3 Flash": 1268,
-        "MiniCPM": 1250
-      },
-      {
-        "date": "2026-10-07",
-        "GPT-5": 1420,
-        "Claude Opus 4": 1405,
-        "Gemini 3 Ultra": 1398,
-        "Grok 4": 1371,
-        "Gemini 3 Pro": 1367,
-        "DeepSeek-V4": 1358,
-        "Claude Sonnet 4": 1352,
-        "Qwen3-Max": 1341,
-        "Kimi k2.5": 1335,
-        "Mistral Large 3": 1328,
-        "o4-mini": 1314,
-        "豆包Pro": 1308,
-        "GLM-4-Plus": 1302,
-        "ERNIE 4.5": 1295,
-        "Llama 4": 1288,
-        "Baichuan4": 1275,
-        "Gemini 3 Flash": 1268,
-        "MiniCPM": 1250
-      },
-      {
-        "date": "2026-10-08",
-        "GPT-5": 1420,
-        "Claude Opus 4": 1405,
-        "Gemini 3 Ultra": 1398,
-        "Grok 4": 1371,
-        "Gemini 3 Pro": 1367,
-        "DeepSeek-V4": 1358,
-        "Claude Sonnet 4": 1352,
-        "Qwen3-Max": 1341,
-        "Kimi k2.5": 1335,
-        "Mistral Large 3": 1328,
-        "o4-mini": 1314,
-        "豆包Pro": 1308,
-        "GLM-4-Plus": 1302,
-        "ERNIE 4.5": 1295,
-        "Llama 4": 1288,
-        "Baichuan4": 1275,
-        "Gemini 3 Flash": 1268,
-        "MiniCPM": 1250
-      },
-      {
-        "date": "2026-10-09",
-        "GPT-5": 1420,
-        "Claude Opus 4": 1405,
-        "Gemini 3 Ultra": 1398,
-        "Grok 4": 1371,
-        "Gemini 3 Pro": 1367,
-        "DeepSeek-V4": 1358,
-        "Claude Sonnet 4": 1352,
-        "Qwen3-Max": 1341,
-        "Kimi k2.5": 1335,
-        "Mistral Large 3": 1328,
-        "o4-mini": 1314,
-        "豆包Pro": 1308,
-        "GLM-4-Plus": 1302,
-        "ERNIE 4.5": 1295,
-        "Llama 4": 1288,
-        "Baichuan4": 1275,
-        "Gemini 3 Flash": 1268,
-        "MiniCPM": 1250
       }
     ]
   },
   "cloudToken": {
-    "updated": "2026-10-09",
+    "updated": "2026-10-05",
     "providers": [
       {
         "name": "AWS Bedrock",
-        "share": 20.8,
+        "share": 21.7,
         "models": "Claude,Llama,Mistral"
       },
       {
         "name": "Azure AI",
-        "share": 17.8,
+        "share": 18.7,
         "models": "GPT-5,Llama,Mistral"
       },
       {
         "name": "GCP Vertex",
-        "share": 16.0,
+        "share": 16.3,
         "models": "Gemini,Claude,Llama"
       },
       {
         "name": "OpenAI直营",
-        "share": 10.7,
+        "share": 10.3,
         "models": "GPT-5,o4-mini"
       },
       {
         "name": "Anthropic直营",
-        "share": 4.0,
+        "share": 3.7,
         "models": "Claude全系"
       },
       {
         "name": "Oracle Cloud",
-        "share": 2.3,
+        "share": 2.6,
         "models": "Llama,Claude"
       },
       {
@@ -4634,37 +4498,37 @@
       },
       {
         "name": "IBM Cloud",
-        "share": 0.9,
+        "share": 1.5,
         "models": "Granite,Llama"
       },
       {
         "name": "阿里云百炼",
-        "share": 8.0,
+        "share": 7.0,
         "models": "Qwen,DeepSeek,Llama"
       },
       {
         "name": "腾讯混元",
-        "share": 4.2,
+        "share": 4.9,
         "models": "混元,DeepSeek,Qwen"
       },
       {
         "name": "华为云",
-        "share": 5.8,
+        "share": 6.0,
         "models": "Pangu,Qwen,DeepSeek"
       },
       {
         "name": "百度智能云",
-        "share": 4.2,
+        "share": 3.4,
         "models": "ERNIE,DeepSeek,Qwen"
       },
       {
         "name": "火山引擎",
-        "share": 2.5,
+        "share": 2.2,
         "models": "豆包,DeepSeek"
       },
       {
         "name": "CoreWeave等",
-        "share": 2.1,
+        "share": 1.2,
         "models": "开源模型"
       }
     ],
@@ -6810,143 +6674,75 @@
         "百度智能云": 3.4,
         "火山引擎": 2.2,
         "CoreWeave等": 1.2
-      },
-      {
-        "date": "2026-10-06",
-        "AWS Bedrock": 21.2,
-        "Azure AI": 20.0,
-        "GCP Vertex": 15.2,
-        "OpenAI直营": 10.4,
-        "Anthropic直营": 3.6,
-        "Oracle Cloud": 2.4,
-        "Nebius AI": 1.5,
-        "IBM Cloud": 0.5,
-        "阿里云百炼": 6.1,
-        "腾讯混元": 5.3,
-        "华为云": 4.4,
-        "百度智能云": 4.7,
-        "火山引擎": 4.0,
-        "CoreWeave等": 0.8
-      },
-      {
-        "date": "2026-10-07",
-        "AWS Bedrock": 22.8,
-        "Azure AI": 18.8,
-        "GCP Vertex": 16.2,
-        "OpenAI直营": 11.2,
-        "Anthropic直营": 2.1,
-        "Oracle Cloud": 2.4,
-        "Nebius AI": 1.0,
-        "IBM Cloud": 0.6,
-        "阿里云百炼": 6.9,
-        "腾讯混元": 4.7,
-        "华为云": 4.6,
-        "百度智能云": 4.1,
-        "火山引擎": 4.0,
-        "CoreWeave等": 0.5
-      },
-      {
-        "date": "2026-10-08",
-        "AWS Bedrock": 22.1,
-        "Azure AI": 18.6,
-        "GCP Vertex": 17.0,
-        "OpenAI直营": 9.5,
-        "Anthropic直营": 4.1,
-        "Oracle Cloud": 2.4,
-        "Nebius AI": 0.5,
-        "IBM Cloud": 2.1,
-        "阿里云百炼": 6.8,
-        "腾讯混元": 5.1,
-        "华为云": 4.6,
-        "百度智能云": 3.4,
-        "火山引擎": 2.2,
-        "CoreWeave等": 1.7
-      },
-      {
-        "date": "2026-10-09",
-        "AWS Bedrock": 20.8,
-        "Azure AI": 17.8,
-        "GCP Vertex": 16.0,
-        "OpenAI直营": 10.7,
-        "Anthropic直营": 4.0,
-        "Oracle Cloud": 2.3,
-        "Nebius AI": 0.5,
-        "IBM Cloud": 0.9,
-        "阿里云百炼": 8.0,
-        "腾讯混元": 4.2,
-        "华为云": 5.8,
-        "百度智能云": 4.2,
-        "火山引擎": 2.5,
-        "CoreWeave等": 2.1
       }
     ]
   },
   "marketShare": {
-    "updated": "2026-10-09",
+    "updated": "2026-10-05",
     "data": [
       {
         "name": "ChatGPT",
-        "share": 51.5,
+        "share": 50.3,
         "trend": "down"
       },
       {
         "name": "Gemini",
-        "share": 22.0,
+        "share": 21.2,
         "trend": "up"
       },
       {
         "name": "Claude",
-        "share": 3.2,
+        "share": 7.1,
         "trend": "up"
       },
       {
         "name": "Grok",
-        "share": 3.7,
+        "share": 0.5,
         "trend": "up"
       },
       {
         "name": "Perplexity",
-        "share": 0.5,
-        "trend": "up"
-      },
-      {
-        "name": "Mistral",
-        "share": 3.2,
-        "trend": "stable"
-      },
-      {
-        "name": "DeepSeek",
         "share": 3.6,
         "trend": "up"
       },
       {
+        "name": "Mistral",
+        "share": 2.6,
+        "trend": "stable"
+      },
+      {
+        "name": "DeepSeek",
+        "share": 1.1,
+        "trend": "up"
+      },
+      {
         "name": "Kimi",
-        "share": 3.0,
+        "share": 2.9,
         "trend": "up"
       },
       {
         "name": "豆包",
-        "share": 2.1,
+        "share": 0.9,
         "trend": "up"
       },
       {
         "name": "文心一言",
-        "share": 2.5,
+        "share": 1.2,
         "trend": "up"
       },
       {
         "name": "通义千问",
-        "share": 0.5,
+        "share": 0.6,
         "trend": "up"
       },
       {
         "name": "智谱清言",
-        "share": 2.1,
+        "share": 0.5,
         "trend": "up"
       },
       {
         "name": "其他",
-        "share": 10.0,
+        "share": 8.7,
         "trend": "stable"
       }
     ],
@@ -8966,70 +8762,6 @@
         "通义千问": 0.6,
         "智谱清言": 0.5,
         "其他": 8.7
-      },
-      {
-        "date": "2026-10-06",
-        "ChatGPT": 50.1,
-        "Gemini": 20.7,
-        "Claude": 4.8,
-        "Grok": 0.5,
-        "Perplexity": 2.1,
-        "Mistral": 0.5,
-        "DeepSeek": 3.2,
-        "Kimi": 0.7,
-        "豆包": 5.0,
-        "文心一言": 0.5,
-        "通义千问": 2.9,
-        "智谱清言": 2.8,
-        "其他": 8.4
-      },
-      {
-        "date": "2026-10-07",
-        "ChatGPT": 48.4,
-        "Gemini": 19.7,
-        "Claude": 5.1,
-        "Grok": 0.5,
-        "Perplexity": 4.1,
-        "Mistral": 3.0,
-        "DeepSeek": 0.8,
-        "Kimi": 2.3,
-        "豆包": 3.3,
-        "文心一言": 1.4,
-        "通义千问": 0.5,
-        "智谱清言": 0.5,
-        "其他": 7.9
-      },
-      {
-        "date": "2026-10-08",
-        "ChatGPT": 47.8,
-        "Gemini": 19.2,
-        "Claude": 4.6,
-        "Grok": 1.3,
-        "Perplexity": 2.6,
-        "Mistral": 0.5,
-        "DeepSeek": 4.5,
-        "Kimi": 3.9,
-        "豆包": 4.7,
-        "文心一言": 0.5,
-        "通义千问": 2.7,
-        "智谱清言": 2.7,
-        "其他": 8.3
-      },
-      {
-        "date": "2026-10-09",
-        "ChatGPT": 51.5,
-        "Gemini": 22.0,
-        "Claude": 3.2,
-        "Grok": 3.7,
-        "Perplexity": 0.5,
-        "Mistral": 3.2,
-        "DeepSeek": 3.6,
-        "Kimi": 3.0,
-        "豆包": 2.1,
-        "文心一言": 2.5,
-        "通义千问": 0.5,
-        "智谱清言": 2.1,
-        "其他": 10.0
       }
     ]
   }
