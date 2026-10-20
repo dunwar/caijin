@@ -1,49 +1,49 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-21",
   "dram": {
-    "date": "2026-10-09",
+    "date": "2026-10-21",
     "items": [
       {
         "name": "DDR5 16Gb (2Gx8) 4800/5600",
-        "avgPrice": 58.667,
-        "dayHigh": 70.0,
-        "dayLow": 44.0
+        "avgPrice": 60.7,
+        "dayHigh": 71.0,
+        "dayLow": 46.5
       },
       {
         "name": "DDR5 16Gb (2Gx8) eTT",
-        "avgPrice": 26.6,
-        "dayHigh": 28.3,
-        "dayLow": 26.0
+        "avgPrice": 28.5,
+        "dayHigh": 30.0,
+        "dayLow": 28.0
       },
       {
         "name": "DDR4 16Gb (2Gx8) 3200",
-        "avgPrice": 83.64,
+        "avgPrice": 83.364,
         "dayHigh": 117.0,
-        "dayLow": 45.5
+        "dayLow": 45.8
       },
       {
         "name": "DDR4 16Gb (2Gx8) eTT",
-        "avgPrice": 14.125,
+        "avgPrice": 14.1,
         "dayHigh": 15.5,
-        "dayLow": 13.7
+        "dayLow": 13.5
       },
       {
         "name": "DDR4 8Gb (1Gx8) 3200",
-        "avgPrice": 46.4,
-        "dayHigh": 85.3,
-        "dayLow": 25.0
+        "avgPrice": 46.357,
+        "dayHigh": 85.0,
+        "dayLow": 24.7
       },
       {
         "name": "DDR4 8Gb (1Gx8) eTT",
-        "avgPrice": 5.95,
-        "dayHigh": 6.3,
+        "avgPrice": 5.96,
+        "dayHigh": 6.25,
         "dayLow": 5.8
       },
       {
         "name": "DDR3 4Gb 512Mx8 1600/1866",
-        "avgPrice": 13.72,
-        "dayHigh": 19.8,
-        "dayLow": 9.8
+        "avgPrice": 13.751,
+        "dayHigh": 20.8,
+        "dayLow": 9.9
       },
       {
         "name": "DDR5 8GB SO-DIMM",
@@ -53,27 +53,27 @@
       },
       {
         "name": "DDR4 16GB SO-DIMM",
-        "avgPrice": 2163.5,
-        "dayHigh": 2400.0,
-        "dayLow": 2100.0
+        "avgPrice": 2185.0,
+        "dayHigh": 2420.0,
+        "dayLow": 2130.0
       },
       {
         "name": "DDR4 8GB SO-DIMM",
-        "avgPrice": 166.0,
+        "avgPrice": 165.9,
         "dayHigh": 185.0,
-        "dayLow": 158.0
+        "dayLow": 157.0
       },
       {
         "name": "DDR4 16Gb 2Gx8",
-        "avgPrice": 12.136,
+        "avgPrice": 12.291,
         "dayHigh": 17.5,
         "dayLow": 10.0
       },
       {
         "name": "DDR4 8Gb 1Gx8",
-        "avgPrice": 12.288,
+        "avgPrice": 12.502,
         "dayHigh": 18.0,
-        "dayLow": 9.8
+        "dayLow": 10.2
       }
     ],
     "history": [
@@ -979,6 +979,90 @@
         "DDR5_eTT": 26.6,
         "DDR4_16Gb": 12.136,
         "DDR4_eTT": 5.95
+      },
+      {
+        "date": "2026-10-10",
+        "DDR5_16Gb": 58.9,
+        "DDR5_eTT": 26.8,
+        "DDR4_16Gb": 12.136,
+        "DDR4_eTT": 5.96
+      },
+      {
+        "date": "2026-10-11",
+        "DDR5_16Gb": 58.9,
+        "DDR5_eTT": 26.8,
+        "DDR4_16Gb": 12.136,
+        "DDR4_eTT": 5.96
+      },
+      {
+        "date": "2026-10-12",
+        "DDR5_16Gb": 58.9,
+        "DDR5_eTT": 26.8,
+        "DDR4_16Gb": 12.136,
+        "DDR4_eTT": 5.96
+      },
+      {
+        "date": "2026-10-13",
+        "DDR5_16Gb": 59.433,
+        "DDR5_eTT": 27.0,
+        "DDR4_16Gb": 12.245,
+        "DDR4_eTT": 5.96
+      },
+      {
+        "date": "2026-10-14",
+        "DDR5_16Gb": 59.9,
+        "DDR5_eTT": 27.2,
+        "DDR4_16Gb": 12.245,
+        "DDR4_eTT": 5.97
+      },
+      {
+        "date": "2026-10-15",
+        "DDR5_16Gb": 60.1,
+        "DDR5_eTT": 27.5,
+        "DDR4_16Gb": 12.245,
+        "DDR4_eTT": 5.97
+      },
+      {
+        "date": "2026-10-16",
+        "DDR5_16Gb": 60.433,
+        "DDR5_eTT": 27.8,
+        "DDR4_16Gb": 12.245,
+        "DDR4_eTT": 5.97
+      },
+      {
+        "date": "2026-10-17",
+        "DDR5_16Gb": 60.6,
+        "DDR5_eTT": 28.0,
+        "DDR4_16Gb": 12.245,
+        "DDR4_eTT": 5.968
+      },
+      {
+        "date": "2026-10-18",
+        "DDR5_16Gb": 60.6,
+        "DDR5_eTT": 28.0,
+        "DDR4_16Gb": 12.245,
+        "DDR4_eTT": 5.968
+      },
+      {
+        "date": "2026-10-19",
+        "DDR5_16Gb": 60.6,
+        "DDR5_eTT": 28.0,
+        "DDR4_16Gb": 12.245,
+        "DDR4_eTT": 5.968
+      },
+      {
+        "date": "2026-10-20",
+        "DDR5_16Gb": 60.633,
+        "DDR5_eTT": 28.3,
+        "DDR4_16Gb": 12.291,
+        "DDR4_eTT": 5.96
+      },
+      {
+        "date": "2026-10-21",
+        "DDR5_16Gb": 60.7,
+        "DDR5_eTT": 28.5,
+        "DDR4_16Gb": 12.291,
+        "DDR4_eTT": 5.96
       }
     ],
     "source": "TrendForce集邦"
@@ -986,154 +1070,154 @@
   "news": {
     "articles": [
       {
-        "title": "Lam Research launches South Korea chip fund after 15,000-chamber milestone",
-        "link": "https://www.digitimes.com/news/a20261008VL222/lam-research-manufacturing-equipment-technology-investment.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "Lam Research is launching its first country-specific semiconductor venture fund in South Korea after shipping its 15,000th locally manufactured proces",
+        "title": "AI infrastructure faces four hurdles: Power, construction, technology, funding",
+        "link": "https://www.digitimes.com/news/a20261020PD238/funding-semicon-west-2026-infrastructure-outlook.html",
+        "date": "Tue, 20 Oct 2026",
+        "snippet": "At last week's SEMICON West 2026 industry outlook forum, research firms said investment in US AI data centers continues to accelerate, but the industr",
         "source": "DigiTimes"
       },
       {
-        "title": "SpaceX pursues US$40 billion Nvidia chip financing while Terafab charts path to AI compute independence",
-        "link": "https://www.digitimes.com/news/a20261008PD235/spacex-financing-infrastructure-nvidia.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "SpaceX is reportedly seeking US$40 billion in financing to purchase Nvidia chips, a massive capital commitment driven by surging artificial intelligen",
+        "title": "Musk and Anthropic test rival models for sharing AI wealth with the public",
+        "link": "https://www.digitimes.com/news/a20261020VL217/anthropic-spacex-technology-infrastructure.html",
+        "date": "Tue, 20 Oct 2026",
+        "snippet": "The advent of artificial intelligence (AI) is best understood as revolutionary in modern society, transforming industries and reshaping daily life as ",
         "source": "DigiTimes"
       },
       {
-        "title": "Ledlink hits record revenue as automotive optics and AI server components fuel growth",
-        "link": "https://www.digitimes.com/news/a20261008PD225/automotive-revenue-growth-ledlink-optics-lighting.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "LED lens manufacturer Ledlink Optics reported record monthly and quarterly revenue in September and the third quarter of 2026, respectively, driven by",
+        "title": "Unimicron chairman sees substrate sizes reaching 14x current scale by 2030",
+        "link": "https://www.digitimes.com/news/a20261020PD247/unimicron-substrate-tpca-2026.html",
+        "date": "Tue, 20 Oct 2026",
+        "snippet": "TPCA Show 2026 officially opened, with Unimicron Chairman Shan-Chieh Chien saying in his opening address that solving the three major challenges facin",
         "source": "DigiTimes"
       },
       {
-        "title": "US and 14 nations issue statement on overcapacity, target semiconductors",
-        "link": "https://www.digitimes.com/news/a20261008PD233/overcapacity-semiconductors-g20-policy-production.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "The US and 14 other economies issued a joint statement after the G20 trade ministers' meeting in Milwaukee, pledging to work together on structural ov",
+        "title": "Jensen Huang urges Germany to embrace physical AI at Berlin summit",
+        "link": "https://www.digitimes.com/news/a20261020PD246/nvidia-germany-jensen-huang-berlin-manufacturing.html",
+        "date": "Tue, 20 Oct 2026",
+        "snippet": "German Chancellor Friedrich Merz and Nvidia CEO Jensen Huang urged German businesses to embrace AI at an industry summit in Berlin on October 19, aimi",
         "source": "DigiTimes"
       },
       {
-        "title": "Infineon completes acquisition of C2i to expand AI data center power capabilities",
-        "link": "https://www.digitimes.com/news/a20261008VL219/infineon-acquisition-data-efficiency-management.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "Infineon has finished acquiring India-based C2i Semiconductors, a maker of software-defined multiphase controllers and smart power stages used in AI d",
+        "title": "Samsung eyes six foldables for 2027, including a rollable phone",
+        "link": "https://www.digitimes.com/news/a20261020PD245/samsung-galaxy-2027-foldable-smartphone-foldable.html",
+        "date": "Tue, 20 Oct 2026",
+        "snippet": "Samsung Electronics is reportedly planning its largest-ever foldable smartphone lineup in 2027, expanding the Galaxy Z series to as many as six models",
         "source": "DigiTimes"
       },
       {
-        "title": "AI PCs face memory squeeze as server demand takes priority",
-        "link": "https://www.digitimes.com/news/a20261008VL216/microsoft-demand-dram-pc-revenue.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "Microsoft's October 7 opening of pre-orders for Surface Laptop Ultra, featuring up to 128GB of unified memory, highlights a potential new source of dy",
+        "title": "Intel requests FCC waiver from US foreign robot ban, citing impact on US chipmaking",
+        "link": "https://www.digitimes.com/news/a20261020VL221/intel-ban-fcc-robot-security.html",
+        "date": "Tue, 20 Oct 2026",
+        "snippet": "Intel has asked the Federal Communications Commission (FCC) for a waiver to the US ban on advanced foreign robots, citing worries that its machines wi",
         "source": "DigiTimes"
       },
       {
-        "title": "TSMC's third-quarter revenue rises 51% to NT$1.49 trillion as September sales stay near record",
-        "link": "https://www.digitimes.com/news/a20261008VL218/tsmc-revenue-2026-2025-digitimes.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "TSMC reported consolidated revenue of about NT$511.86 billion (approx. US$16.1 billion) for September 2026. That was up 54.6% from NT$330.98 billion a",
+        "title": "Chief Telecom starts NT$3.3 billion AI data center in Taiwan",
+        "link": "https://www.digitimes.com/news/a20261020PD243/chief-telecom-data-center-taiwan-infrastructure-capacity.html",
+        "date": "Tue, 20 Oct 2026",
+        "snippet": "Chief Telecom broke ground on a new AI data center at the Central Taiwan Science Park on the 20th, committing approximately NT$3.3 billion (US$101.7 m",
         "source": "DigiTimes"
       },
       {
-        "title": "Hanmi wins rare Samsung order amid US$5 billion chip substrate expansion",
-        "link": "https://www.digitimes.com/news/a20261008VL214/samsung-hanmi-substrate-expansion-equipment.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "South Korea's Hanmi Semiconductor has secured a KRW24.48 billion (approx. US$18.3 million) equipment order from Samsung Electro-Mechanics, a rare deal",
+        "title": "AI server demand lifts Tongtai drilling orders through 2027",
+        "link": "https://www.digitimes.com/news/a20261020PD241/tongtai-demand-2027-ai-server-pcb.html",
+        "date": "Tue, 20 Oct 2026",
+        "snippet": "Tongtai Machine &#38;amp; Tool said it had order visibility for its printed circuit board (PCB) drilling equipment through the end of 2027 as AI infra",
         "source": "DigiTimes"
       },
       {
-        "title": "India's chip packaging plants start exporting, but scale, skills, and subsidies test the next phase",
-        "link": "https://www.digitimes.com/news/a20261007VL204/india-government-osat-packaging-plant.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "India's outsourced semiconductor assembly and test (OSAT) sector has moved from inaugurations to its first export shipments. The challenge now is scal",
+        "title": "AUO selects glass substrate specs for semiconductor processes, not size rivalry",
+        "link": "https://www.digitimes.com/news/a20261020PD237/auo-substrate-lcd-packaging-osat.html",
+        "date": "Tue, 20 Oct 2026",
+        "snippet": "AUO is tailoring its glass core substrate specifications specifically to semiconductor process requirements rather than competing on panel dimensions ",
         "source": "DigiTimes"
       },
       {
-        "title": "AUO subsidiary Darwin shifts toward high-end manufacturing, explores CPO and semiconductor opportunities",
-        "link": "https://www.digitimes.com/news/a20261008PD220/auo-cpo-subsidiary-manufacturing-optics.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "As AUO deepens its push into co-packaged optics (CPO), its subsidiary Darwin Precisions is also exploring opportunities in the semiconductor sector, l",
+        "title": "Taiwan anchors US chip revival, SEMICON West spotlights trusted partners",
+        "link": "https://www.digitimes.com/news/a20261020PD231/taiwan-semicon-west-2026-investment-equipment.html",
+        "date": "Tue, 20 Oct 2026",
+        "snippet": "SEMICON West 2026 wrapped up in San Francisco last week, with US officials, industry executives, equipment and materials suppliers, and workforce-deve",
         "source": "DigiTimes"
       },
       {
-        "title": "Sasken eyes reusable chip IP as India pushes beyond semiconductor design services",
-        "link": "https://www.digitimes.com/news/a20261008VL210/ip-design-technology-chips-security.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "India-based engineering firm Sasken Technologies plans to license company-owned semiconductor interconnect intellectual property (IP) to multiple cust",
+        "title": "AI servers drive TVS and ESD demand for Yea Shin Tech",
+        "link": "https://www.digitimes.com/news/a20261020PD239/demand-esd-capacity-power-components-eris-tech.html",
+        "date": "Tue, 20 Oct 2026",
+        "snippet": "AI servers are driving demand for power components, transient voltage suppressors (TVS), and electrostatic discharge (ESD) protection devices. Yea Shi",
         "source": "DigiTimes"
       },
       {
-        "title": "Samsung to exit in-house automotive AP, focus on high-margin chips",
-        "link": "https://www.digitimes.com/news/a20261007PD249/samsung-lsi-automotive-ap-exynos.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "Samsung Electronics' System LSI division is reportedly planning a retreat from the automotive application processor (AP) business and launching a majo",
+        "title": "Samsung's HBM4 supply lock-in exposes limits of China's CXMT as Apple and Tesla seek DRAM alternatives",
+        "link": "https://www.digitimes.com/news/a20261020VL218/samsung-cxmt-dram-hbm4.html",
+        "date": "Tue, 20 Oct 2026",
+        "snippet": "Samsung Electronics is expected to enter 2027 with approximately 80% of its planned memory production secured under long-term contracts, reinforcing i",
         "source": "DigiTimes"
       },
       {
-        "title": "Malaysia's chip push: a new island and pressure from Washington and Beijing",
-        "link": "https://www.digitimes.com/news/a20261008VL209/2025-edge-packaging-chips.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "Malaysia's plan to climb the semiconductor value chain is colliding with two constraints: a shortage of land in Penang, the heart of its chip industry",
+        "title": "Daeduck Electronics targets 2029 ceramic substrates for AI packaging",
+        "link": "https://www.digitimes.com/news/a20261020PD235/substrate-packaging-development-production-performance.html",
+        "date": "Tue, 20 Oct 2026",
+        "snippet": "South Korean substrate maker Daeduck Electronics is accelerating development of ceramic core substrates (CCS) to address warpage and thermal-managemen",
         "source": "DigiTimes"
       },
       {
-        "title": "Marvell's custom AI chip upgrade points to a broader fight over peripherals",
-        "link": "https://www.digitimes.com/news/a20261008PD236/marvell-ai-chip-market-chips-revenue.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "Marvell's higher long-term target for custom AI chip revenue suggests the market for artificial intelligence hardware is widening beyond accelerators,",
+        "title": "Genius Electronic Optical partners with 3M on EBO development",
+        "link": "https://www.digitimes.com/news/a20261020PD236/3m-gseo-partnership-production-optical-components.html",
+        "date": "Tue, 20 Oct 2026",
+        "snippet": "Genius Electronic Optical (GSEO), a leading manufacturer of optical lenses and precision optical components, has entered into a strategic partnership ",
         "source": "DigiTimes"
       },
       {
-        "title": "Nvidia's RTX Spark gives Windows on Arm its strongest shot yet at x86's high end",
-        "link": "https://www.digitimes.com/news/a20261008VL213/windows-arm-nvidia-x86-pc.html",
-        "date": "Thu, 8 Oct 2026 ",
-        "snippet": "Nvidia's entry into the Windows PC market with its Arm-based RTX Spark platform is giving Microsoft's Windows on Arm strategy a new test: whether Arm ",
+        "title": "Hygon's revenue jumps 58% on AI chip demand, but growth slows amid 51% stock slump",
+        "link": "https://www.digitimes.com/news/a20261020VL213/revenue-ai-chip-demand-earnings-growth.html",
+        "date": "Tue, 20 Oct 2026",
+        "snippet": "China's Hygon Information Technology reported a 57.58% increase in revenue for the first nine months of 2026, reflecting sustained demand for domestic",
         "source": "DigiTimes"
       }
     ],
-    "total": 39,
+    "total": 22,
     "source": "DigiTimes RSS"
   },
   "gpuOptical": {
-    "date": "2026-10-09",
+    "date": "2026-10-21",
     "gpuCloud": [
       {
         "name": "AWS H100",
-        "price": "$3.00/hr",
+        "price": "$3.10/hr",
         "note": "p5.48xlarge"
       },
       {
         "name": "Azure H100",
-        "price": "$3.70/hr",
+        "price": "$3.73/hr",
         "note": "ND H100 v5"
       },
       {
         "name": "GCP H100",
-        "price": "$3.34/hr",
+        "price": "$3.29/hr",
         "note": "A3 on-demand"
       },
       {
         "name": "AWS A100",
-        "price": "$1.93/hr",
+        "price": "$1.94/hr",
         "note": "p4d.24xlarge"
       }
     ],
     "opticalModules": [
       {
         "name": "800G SR8",
-        "price": "$1,223"
+        "price": "$1,243"
       },
       {
         "name": "800G XDR8",
-        "price": "$8,983"
+        "price": "$9,004"
       },
       {
         "name": "400G DR4",
-        "price": "$456"
+        "price": "$445"
       },
       {
         "name": "1.6T OSFP(估)",
-        "price": "$1,978"
+        "price": "$2,001"
       }
     ],
     "gpuHistory": [
@@ -2249,6 +2333,90 @@
         "Azure H100": 3.7,
         "GCP H100": 3.34,
         "AWS A100": 1.93
+      },
+      {
+        "date": "2026-10-10",
+        "AWS H100": 3.07,
+        "Azure H100": 3.81,
+        "GCP H100": 3.36,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-10-11",
+        "AWS H100": 3.09,
+        "Azure H100": 3.73,
+        "GCP H100": 3.4,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-10-12",
+        "AWS H100": 3.12,
+        "Azure H100": 3.78,
+        "GCP H100": 3.33,
+        "AWS A100": 1.97
+      },
+      {
+        "date": "2026-10-13",
+        "AWS H100": 3.05,
+        "Azure H100": 3.81,
+        "GCP H100": 3.37,
+        "AWS A100": 1.94
+      },
+      {
+        "date": "2026-10-14",
+        "AWS H100": 3.02,
+        "Azure H100": 3.73,
+        "GCP H100": 3.32,
+        "AWS A100": 1.96
+      },
+      {
+        "date": "2026-10-15",
+        "AWS H100": 3.02,
+        "Azure H100": 3.81,
+        "GCP H100": 3.34,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-10-16",
+        "AWS H100": 3.03,
+        "Azure H100": 3.72,
+        "GCP H100": 3.29,
+        "AWS A100": 1.91
+      },
+      {
+        "date": "2026-10-17",
+        "AWS H100": 3.04,
+        "Azure H100": 3.78,
+        "GCP H100": 3.39,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-10-18",
+        "AWS H100": 3.1,
+        "Azure H100": 3.83,
+        "GCP H100": 3.38,
+        "AWS A100": 1.89
+      },
+      {
+        "date": "2026-10-19",
+        "AWS H100": 3.1,
+        "Azure H100": 3.81,
+        "GCP H100": 3.38,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-10-20",
+        "AWS H100": 3.01,
+        "Azure H100": 3.78,
+        "GCP H100": 3.29,
+        "AWS A100": 1.89
+      },
+      {
+        "date": "2026-10-21",
+        "AWS H100": 3.1,
+        "Azure H100": 3.73,
+        "GCP H100": 3.29,
+        "AWS A100": 1.94
       }
     ],
     "opticalHistory": [
@@ -3364,6 +3532,90 @@
         "800G XDR8": 8983,
         "400G DR4": 456,
         "1.6T OSFP(估)": 1978
+      },
+      {
+        "date": "2026-10-10",
+        "800G SR8": 1268,
+        "800G XDR8": 8903,
+        "400G DR4": 455,
+        "1.6T OSFP(估)": 1965
+      },
+      {
+        "date": "2026-10-11",
+        "800G SR8": 1264,
+        "800G XDR8": 8820,
+        "400G DR4": 453,
+        "1.6T OSFP(估)": 1989
+      },
+      {
+        "date": "2026-10-12",
+        "800G SR8": 1224,
+        "800G XDR8": 8862,
+        "400G DR4": 442,
+        "1.6T OSFP(估)": 2017
+      },
+      {
+        "date": "2026-10-13",
+        "800G SR8": 1219,
+        "800G XDR8": 8907,
+        "400G DR4": 448,
+        "1.6T OSFP(估)": 2015
+      },
+      {
+        "date": "2026-10-14",
+        "800G SR8": 1222,
+        "800G XDR8": 9007,
+        "400G DR4": 444,
+        "1.6T OSFP(估)": 1988
+      },
+      {
+        "date": "2026-10-15",
+        "800G SR8": 1247,
+        "800G XDR8": 8800,
+        "400G DR4": 455,
+        "1.6T OSFP(估)": 1975
+      },
+      {
+        "date": "2026-10-16",
+        "800G SR8": 1227,
+        "800G XDR8": 9027,
+        "400G DR4": 444,
+        "1.6T OSFP(估)": 1983
+      },
+      {
+        "date": "2026-10-17",
+        "800G SR8": 1221,
+        "800G XDR8": 8707,
+        "400G DR4": 449,
+        "1.6T OSFP(估)": 2025
+      },
+      {
+        "date": "2026-10-18",
+        "800G SR8": 1251,
+        "800G XDR8": 8933,
+        "400G DR4": 445,
+        "1.6T OSFP(估)": 1999
+      },
+      {
+        "date": "2026-10-19",
+        "800G SR8": 1249,
+        "800G XDR8": 8724,
+        "400G DR4": 452,
+        "1.6T OSFP(估)": 2035
+      },
+      {
+        "date": "2026-10-20",
+        "800G SR8": 1241,
+        "800G XDR8": 8717,
+        "400G DR4": 458,
+        "1.6T OSFP(估)": 1969
+      },
+      {
+        "date": "2026-10-21",
+        "800G SR8": 1243,
+        "800G XDR8": 9004,
+        "400G DR4": 445,
+        "1.6T OSFP(估)": 2001
       }
     ]
   }

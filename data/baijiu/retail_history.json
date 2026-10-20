@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-08",
- "count": 133,
+ "updated": "2026-10-20",
+ "count": 145,
  "points": [
   {
    "date": "2026-05-17",
@@ -929,6 +929,90 @@
   {
    "date": "2026-10-09",
    "retail": 876,
+   "batch": 820,
+   "platform": "web_search",
+   "tag": "neican"
+  },
+  {
+   "date": "2026-10-10",
+   "retail": 875,
+   "batch": 820,
+   "platform": "web_search",
+   "tag": "neican"
+  },
+  {
+   "date": "2026-10-11",
+   "retail": 875,
+   "batch": 820,
+   "platform": "web_search",
+   "tag": "neican"
+  },
+  {
+   "date": "2026-10-12",
+   "retail": 876,
+   "batch": 820,
+   "platform": "web_search",
+   "tag": "neican"
+  },
+  {
+   "date": "2026-10-13",
+   "retail": 882,
+   "batch": null,
+   "platform": "web_search",
+   "tag": "ecom"
+  },
+  {
+   "date": "2026-10-14",
+   "retail": 884,
+   "batch": 820,
+   "platform": "web_search",
+   "tag": "neican"
+  },
+  {
+   "date": "2026-10-15",
+   "retail": 890,
+   "batch": 820,
+   "platform": "web_search",
+   "tag": "neican"
+  },
+  {
+   "date": "2026-10-16",
+   "retail": 887,
+   "batch": 820,
+   "platform": "web_search",
+   "tag": "ecom"
+  },
+  {
+   "date": "2026-10-17",
+   "retail": 887,
+   "batch": 820,
+   "platform": "web_search",
+   "tag": "ecom"
+  },
+  {
+   "date": "2026-10-18",
+   "retail": 892,
+   "batch": 820,
+   "platform": "web_search",
+   "tag": "neican"
+  },
+  {
+   "date": "2026-10-19",
+   "retail": 892,
+   "batch": 820,
+   "platform": "web_search",
+   "tag": "neican"
+  },
+  {
+   "date": "2026-10-20",
+   "retail": 897,
+   "batch": 820,
+   "platform": "web_search",
+   "tag": "neican"
+  },
+  {
+   "date": "2026-10-21",
+   "retail": 894,
    "batch": 820,
    "platform": "web_search",
    "tag": "neican"
