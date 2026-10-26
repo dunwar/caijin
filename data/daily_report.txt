@@ -2,26 +2,22 @@
 🔗 [caijin.gaozhong.online](http://caijin.gaozhong.online)
 
 🍶 **白酒 · 泸州老窖**
-📈 较1月前(09-20): 零售 ¥894(1月前 ¥881,↑13) | 批价 ¥820(1月前 ¥830,↓10)
-📦 国窖1573 批价: ¥820 | 零售参考: ¥894 | 批零差: 74
+📈 较1月前(09-25): 零售 ¥885(1月前 ¥881,↑4) | 批价 ¥820(1月前 ¥830,↓10)
+📦 国窖1573 批价: ¥820 | 零售参考: ¥885 | 批零差: 65
 📊 存货周转: 1206.4天 | 毛利率: 61.3%
 
 🔧 **AI硬件**
-📈 较1月前: DDR5 16Gb $60.7(1月前 $56.0,+4.7/+8.4%) | DDR5 eTT $28.5(1月前 $24.6,+3.9/+15.9%) | DDR4 16Gb $12.3(1月前 $11.8,+0.5/+4.2%) | DDR4 eTT $6.0(1月前 $5.8,+0.2/+3.4%)
-  DDR5 16Gb (2Gx8) 4800/5600: $60.7 
-  DDR5 16Gb (2Gx8) eTT: $28.5 
-  DDR4 16Gb (2Gx8) 3200: $83.364 
-  DDR4 16Gb (2Gx8) eTT: $14.1 
+📈 较1月前: DDR5 16Gb $61.3(1月前 $57.7,+3.6/+6.2%) | DDR5 eTT $29.0(1月前 $25.5,+3.5/+13.7%) | DDR4 16Gb $12.3(1月前 $11.8,+0.5/+4.2%) | DDR4 eTT $6.0(1月前 $5.9,+0.1/+1.7%)
+  DDR5 16Gb (2Gx8) 4800/5600: $61.267 
+  DDR5 16Gb (2Gx8) eTT: $29.0 
+  DDR4 16Gb (2Gx8) 3200: $82.87 
+  DDR4 16Gb (2Gx8) eTT: $13.925 
 
 📡 要闻 (15条):
-  · AI infrastructure faces four hurdles: Power, construction, t
-  · Musk and Anthropic test rival models for sharing AI wealth w
-  · Unimicron chairman sees substrate sizes reaching 14x current
+  · Nvidia unveils OOI CPO prototype for post-2028 AI needs
+  · China clears DeepSeek, MiniMax for overseas AI deployment
+  · Namuga expands beyond Samsung with humanoid robot camera mod
 
 💻 **AI软件**
-📈 Token份额 较1月前: AWS Bedrock 23.7%(1月前 22.2%,+1.5pp) | Azure AI 18.6%(1月前 20.0%,-1.4pp) | GCP Vertex 17.4%(1月前 16.2%,+1.2pp) | OpenAI直营 9.5%(1月前 10.7%,-1.2pp)
-🏆 Elo Top3:
-  #1 GPT-5 (OpenAI) — 1420
-  #2 Claude Opus 4 (Anthropic) — 1405
-  #3 Gemini 3 Ultra (Google) — 1398
-☁️ Token份额 Top3: AWS Bedrock 23.7% | Azure AI 18.6% | GCP Vertex 17.4%
+📈 Token份额 较1月前: AWS Bedrock 21.1%(1月前 21.9%,-0.8pp) | Azure AI 17.8%(1月前 19.1%,-1.3pp) | GCP Vertex 16.2%(1月前 16.7%,-0.5pp) | OpenAI直营 10.1%(1月前 9.5%,+0.6pp)
+☁️ Token份额 Top3: AWS Bedrock 21.1% | Azure AI 17.8% | GCP Vertex 16.2%

@@ -1,48 +1,48 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-26",
   "dram": {
-    "date": "2026-10-21",
+    "date": "2026-10-26",
     "items": [
       {
         "name": "DDR5 16Gb (2Gx8) 4800/5600",
-        "avgPrice": 60.7,
+        "avgPrice": 61.267,
         "dayHigh": 71.0,
-        "dayLow": 46.5
+        "dayLow": 47.0
       },
       {
         "name": "DDR5 16Gb (2Gx8) eTT",
-        "avgPrice": 28.5,
+        "avgPrice": 29.0,
         "dayHigh": 30.0,
-        "dayLow": 28.0
+        "dayLow": 28.3
       },
       {
         "name": "DDR4 16Gb (2Gx8) 3200",
-        "avgPrice": 83.364,
-        "dayHigh": 117.0,
-        "dayLow": 45.8
+        "avgPrice": 82.87,
+        "dayHigh": 116.0,
+        "dayLow": 45.5
       },
       {
         "name": "DDR4 16Gb (2Gx8) eTT",
-        "avgPrice": 14.1,
+        "avgPrice": 13.925,
         "dayHigh": 15.5,
-        "dayLow": 13.5
+        "dayLow": 13.0
       },
       {
         "name": "DDR4 8Gb (1Gx8) 3200",
-        "avgPrice": 46.357,
+        "avgPrice": 47.107,
         "dayHigh": 85.0,
-        "dayLow": 24.7
+        "dayLow": 25.5
       },
       {
         "name": "DDR4 8Gb (1Gx8) eTT",
-        "avgPrice": 5.96,
-        "dayHigh": 6.25,
+        "avgPrice": 5.97,
+        "dayHigh": 6.2,
         "dayLow": 5.8
       },
       {
         "name": "DDR3 4Gb 512Mx8 1600/1866",
-        "avgPrice": 13.751,
-        "dayHigh": 20.8,
+        "avgPrice": 13.842,
+        "dayHigh": 21.0,
         "dayLow": 9.9
       },
       {
@@ -1063,6 +1063,41 @@
         "DDR5_eTT": 28.5,
         "DDR4_16Gb": 12.291,
         "DDR4_eTT": 5.96
+      },
+      {
+        "date": "2026-10-22",
+        "DDR5_16Gb": 60.867,
+        "DDR5_eTT": 28.6,
+        "DDR4_16Gb": 12.291,
+        "DDR4_eTT": 5.962
+      },
+      {
+        "date": "2026-10-23",
+        "DDR5_16Gb": 61.1,
+        "DDR5_eTT": 28.8,
+        "DDR4_16Gb": 12.291,
+        "DDR4_eTT": 5.97
+      },
+      {
+        "date": "2026-10-24",
+        "DDR5_16Gb": 61.267,
+        "DDR5_eTT": 29.0,
+        "DDR4_16Gb": 12.291,
+        "DDR4_eTT": 5.97
+      },
+      {
+        "date": "2026-10-25",
+        "DDR5_16Gb": 61.267,
+        "DDR5_eTT": 29.0,
+        "DDR4_16Gb": 12.291,
+        "DDR4_eTT": 5.97
+      },
+      {
+        "date": "2026-10-26",
+        "DDR5_16Gb": 61.267,
+        "DDR5_eTT": 29.0,
+        "DDR4_16Gb": 12.291,
+        "DDR4_eTT": 5.97
       }
     ],
     "source": "TrendForce集邦"
@@ -1070,154 +1105,154 @@
   "news": {
     "articles": [
       {
-        "title": "AI infrastructure faces four hurdles: Power, construction, technology, funding",
-        "link": "https://www.digitimes.com/news/a20261020PD238/funding-semicon-west-2026-infrastructure-outlook.html",
-        "date": "Tue, 20 Oct 2026",
-        "snippet": "At last week's SEMICON West 2026 industry outlook forum, research firms said investment in US AI data centers continues to accelerate, but the industr",
+        "title": "Nvidia unveils OOI CPO prototype for post-2028 AI needs",
+        "link": "https://www.digitimes.com/news/a20261023PD240/nvidia-cpo-interposer-technology-2026.html",
+        "date": "Sun, 25 Oct 2026",
+        "snippet": "Nvidia has unveiled a prototype of its next-generation co-packaged optics (CPO) technology, Optics-on-Interposer (OOI), at SEMICON West 2026. The desi",
         "source": "DigiTimes"
       },
       {
-        "title": "Musk and Anthropic test rival models for sharing AI wealth with the public",
-        "link": "https://www.digitimes.com/news/a20261020VL217/anthropic-spacex-technology-infrastructure.html",
-        "date": "Tue, 20 Oct 2026",
-        "snippet": "The advent of artificial intelligence (AI) is best understood as revolutionary in modern society, transforming industries and reshaping daily life as ",
+        "title": "China clears DeepSeek, MiniMax for overseas AI deployment",
+        "link": "https://www.digitimes.com/news/a20261023PD242/deepseek-beijing-tv-technology.html",
+        "date": "Sun, 25 Oct 2026",
+        "snippet": "DeepSeek and MiniMax have received approval to deploy their artificial intelligence models overseas, according to a post published October 22 by China",
         "source": "DigiTimes"
       },
       {
-        "title": "Unimicron chairman sees substrate sizes reaching 14x current scale by 2030",
-        "link": "https://www.digitimes.com/news/a20261020PD247/unimicron-substrate-tpca-2026.html",
-        "date": "Tue, 20 Oct 2026",
-        "snippet": "TPCA Show 2026 officially opened, with Unimicron Chairman Shan-Chieh Chien saying in his opening address that solving the three major challenges facin",
+        "title": "Namuga expands beyond Samsung with humanoid robot camera modules",
+        "link": "https://www.digitimes.com/news/a20261023PD237/robot-camera-samsung-production-revenue.html",
+        "date": "Sun, 25 Oct 2026",
+        "snippet": "South Korean image-sensing module maker Namuga is accelerating its physical AI strategy after securing a supply deal with a global humanoid robot comp",
         "source": "DigiTimes"
       },
       {
-        "title": "Jensen Huang urges Germany to embrace physical AI at Berlin summit",
-        "link": "https://www.digitimes.com/news/a20261020PD246/nvidia-germany-jensen-huang-berlin-manufacturing.html",
-        "date": "Tue, 20 Oct 2026",
-        "snippet": "German Chancellor Friedrich Merz and Nvidia CEO Jensen Huang urged German businesses to embrace AI at an industry summit in Berlin on October 19, aimi",
+        "title": "AI data centers drive Taiwan's electrical firms into modular, EPC markets",
+        "link": "https://www.digitimes.com/news/a20261023PD233/data-equipment-epc-demand-taiwan.html",
+        "date": "Sun, 25 Oct 2026",
+        "snippet": "As demand for AI data centers expands, next-generation AI servers are raising requirements for power supply, cooling efficiency, and deployment speed.",
         "source": "DigiTimes"
       },
       {
-        "title": "Samsung eyes six foldables for 2027, including a rollable phone",
-        "link": "https://www.digitimes.com/news/a20261020PD245/samsung-galaxy-2027-foldable-smartphone-foldable.html",
-        "date": "Tue, 20 Oct 2026",
-        "snippet": "Samsung Electronics is reportedly planning its largest-ever foldable smartphone lineup in 2027, expanding the Galaxy Z series to as many as six models",
+        "title": "Texas Instruments sees up to $1,000 in chip content per humanoid robot as analog supply tightens",
+        "link": "https://www.digitimes.com/news/a20261023PD218/texas-instruments-robot-earnings-2026-revenue.html",
+        "date": "Sun, 25 Oct 2026",
+        "snippet": "Texas Instruments (TI) held its latest earnings call this week, projecting fourth-quarter 2026 revenue of US$5.8 billion to US$6.3 billion. The midpoi",
         "source": "DigiTimes"
       },
       {
-        "title": "Intel requests FCC waiver from US foreign robot ban, citing impact on US chipmaking",
-        "link": "https://www.digitimes.com/news/a20261020VL221/intel-ban-fcc-robot-security.html",
-        "date": "Tue, 20 Oct 2026",
-        "snippet": "Intel has asked the Federal Communications Commission (FCC) for a waiver to the US ban on advanced foreign robots, citing worries that its machines wi",
+        "title": "Magnate Technology sees aerospace, semiconductor growth opportunities",
+        "link": "https://www.digitimes.com/news/a20261023PD207/growth-revenue-aircraft-demand-equipment.html",
+        "date": "Sun, 25 Oct 2026",
+        "snippet": "Magnate Technology expects rising aircraft engine demand and semiconductor equipment opportunities to support growth as it expands production capacity",
         "source": "DigiTimes"
       },
       {
-        "title": "Chief Telecom starts NT$3.3 billion AI data center in Taiwan",
-        "link": "https://www.digitimes.com/news/a20261020PD243/chief-telecom-data-center-taiwan-infrastructure-capacity.html",
-        "date": "Tue, 20 Oct 2026",
-        "snippet": "Chief Telecom broke ground on a new AI data center at the Central Taiwan Science Park on the 20th, committing approximately NT$3.3 billion (US$101.7 m",
+        "title": "Nvidia rejects near-term memory glut fears, leaves CXMT cooperation open",
+        "link": "https://www.digitimes.com/news/a20261023PD243/nvidia-cxmt-demand-technology-market.html",
+        "date": "Sat, 24 Oct 2026",
+        "snippet": "Nvidia CEO Jensen Huang said the company did not expect memory supply to exceed demand in the coming years and remained open to working with China's C",
         "source": "DigiTimes"
       },
       {
-        "title": "AI server demand lifts Tongtai drilling orders through 2027",
-        "link": "https://www.digitimes.com/news/a20261020PD241/tongtai-demand-2027-ai-server-pcb.html",
-        "date": "Tue, 20 Oct 2026",
-        "snippet": "Tongtai Machine &#38;amp; Tool said it had order visibility for its printed circuit board (PCB) drilling equipment through the end of 2027 as AI infra",
+        "title": "Doosan Robotics targets automakers, chipmakers as Chinese rivals cut prices",
+        "link": "https://www.digitimes.com/news/a20261023VL222/doosan-sales-robot-2026-automotive.html",
+        "date": "Fri, 23 Oct 2026",
+        "snippet": "Doosan Robotics is focusing its sales efforts on large automotive and semiconductor manufacturers as it develops AI-powered systems capable of handlin",
         "source": "DigiTimes"
       },
       {
-        "title": "AUO selects glass substrate specs for semiconductor processes, not size rivalry",
-        "link": "https://www.digitimes.com/news/a20261020PD237/auo-substrate-lcd-packaging-osat.html",
-        "date": "Tue, 20 Oct 2026",
-        "snippet": "AUO is tailoring its glass core substrate specifications specifically to semiconductor process requirements rather than competing on panel dimensions ",
+        "title": "Taiwan's inaugural semiconductor strike pauses as nearly 70% of Micron Taoyuan Union rejects new bonus offer",
+        "link": "https://www.digitimes.com/news/a20261023PD239/strike-taiwan-micron-management-2026.html",
+        "date": "Fri, 23 Oct 2026",
+        "snippet": "Taiwan's first-ever strike in the semiconductor industry has temporarily drawn to a close. A 24-hour warning strike spearheaded by Micron Technology's",
         "source": "DigiTimes"
       },
       {
-        "title": "Taiwan anchors US chip revival, SEMICON West spotlights trusted partners",
-        "link": "https://www.digitimes.com/news/a20261020PD231/taiwan-semicon-west-2026-investment-equipment.html",
-        "date": "Tue, 20 Oct 2026",
-        "snippet": "SEMICON West 2026 wrapped up in San Francisco last week, with US officials, industry executives, equipment and materials suppliers, and workforce-deve",
+        "title": "Semco's 61-week MLCC lead times give suppliers upper hand in AI supply chain",
+        "link": "https://www.digitimes.com/news/a20261023VL202/semco-mlcc-ai-server-2027-demand.html",
+        "date": "Fri, 23 Oct 2026",
+        "snippet": "Samsung Electro-Mechanics (Semco) is gaining pricing power as AI server demand extends multilayer ceramic capacitor (MLCC) lead times beyond a year. S",
         "source": "DigiTimes"
       },
       {
-        "title": "AI servers drive TVS and ESD demand for Yea Shin Tech",
-        "link": "https://www.digitimes.com/news/a20261020PD239/demand-esd-capacity-power-components-eris-tech.html",
-        "date": "Tue, 20 Oct 2026",
-        "snippet": "AI servers are driving demand for power components, transient voltage suppressors (TVS), and electrostatic discharge (ESD) protection devices. Yea Shi",
+        "title": "Lenovo mounts AI comeback with Nvidia Vera Rubin NVL72 deliveries and US plant expansion",
+        "link": "https://www.digitimes.com/news/a20261023PD225/lenovo-nvidia-infrastructure-rubin-manufacturing.html",
+        "date": "Fri, 23 Oct 2026",
+        "snippet": "More than 30 years ago, Lenovo set out with a vision to bring personal computers into every household. Today, Chairman and CEO Yuanqing Yang has defin",
         "source": "DigiTimes"
       },
       {
-        "title": "Samsung's HBM4 supply lock-in exposes limits of China's CXMT as Apple and Tesla seek DRAM alternatives",
-        "link": "https://www.digitimes.com/news/a20261020VL218/samsung-cxmt-dram-hbm4.html",
-        "date": "Tue, 20 Oct 2026",
-        "snippet": "Samsung Electronics is expected to enter 2027 with approximately 80% of its planned memory production secured under long-term contracts, reinforcing i",
+        "title": "Japan targets 2nm medical AI chip with IBM design, Rapidus eyed for foundry",
+        "link": "https://www.digitimes.com/news/a20261023PD230/medical-2nm-ibm-rapidus-design.html",
+        "date": "Fri, 23 Oct 2026",
+        "snippet": "Japan's Leading-edge Semiconductor Technology Center (LSTC), Hokkaido University, Fujifilm Corporation, GE HealthCare Japan, and imec announced a join",
         "source": "DigiTimes"
       },
       {
-        "title": "Daeduck Electronics targets 2029 ceramic substrates for AI packaging",
-        "link": "https://www.digitimes.com/news/a20261020PD235/substrate-packaging-development-production-performance.html",
-        "date": "Tue, 20 Oct 2026",
-        "snippet": "South Korean substrate maker Daeduck Electronics is accelerating development of ceramic core substrates (CCS) to address warpage and thermal-managemen",
+        "title": "Nvidia B300 chips reportedly surface on China Telecom-linked network, raising export-control questions",
+        "link": "https://www.digitimes.com/news/a20261023VL220/nvidia-chips-security-blackwell-china-telecom.html",
+        "date": "Fri, 23 Oct 2026",
+        "snippet": "Israeli security firm Lava identified 32 Nvidia Blackwell Ultra B300 GPUs through monitoring endpoints linked to China Telecom, a state-owned carrier.",
         "source": "DigiTimes"
       },
       {
-        "title": "Genius Electronic Optical partners with 3M on EBO development",
-        "link": "https://www.digitimes.com/news/a20261020PD236/3m-gseo-partnership-production-optical-components.html",
-        "date": "Tue, 20 Oct 2026",
-        "snippet": "Genius Electronic Optical (GSEO), a leading manufacturer of optical lenses and precision optical components, has entered into a strategic partnership ",
+        "title": "First chip-level device on the list: US FCC bans two devices with Huawei HiSilicon chips under new rule",
+        "link": "https://www.digitimes.com/news/a20261023PD231/fcc-hisilicon-huawei-surveillance-market.html",
+        "date": "Fri, 23 Oct 2026",
+        "snippet": "The US Federal Communications Commission (FCC) has banned two electronic devices from entering the US market because both contain surveillance chips m",
         "source": "DigiTimes"
       },
       {
-        "title": "Hygon's revenue jumps 58% on AI chip demand, but growth slows amid 51% stock slump",
-        "link": "https://www.digitimes.com/news/a20261020VL213/revenue-ai-chip-demand-earnings-growth.html",
-        "date": "Tue, 20 Oct 2026",
-        "snippet": "China's Hygon Information Technology reported a 57.58% increase in revenue for the first nine months of 2026, reflecting sustained demand for domestic",
+        "title": "Samsung reportedly orders final tools for first Taylor fab as Texas site nears 2nm output cap",
+        "link": "https://www.digitimes.com/news/a20261023VL219/samsung-texas-2nm-fab.html",
+        "date": "Fri, 23 Oct 2026",
+        "snippet": "Samsung Electronics has ordered additional equipment to fill the remaining space at its first foundry fab in Taylor, Texas, a move that would lift the",
         "source": "DigiTimes"
       }
     ],
-    "total": 22,
+    "total": 21,
     "source": "DigiTimes RSS"
   },
   "gpuOptical": {
-    "date": "2026-10-21",
+    "date": "2026-10-26",
     "gpuCloud": [
       {
         "name": "AWS H100",
-        "price": "$3.10/hr",
+        "price": "$3.09/hr",
         "note": "p5.48xlarge"
       },
       {
         "name": "Azure H100",
-        "price": "$3.73/hr",
+        "price": "$3.81/hr",
         "note": "ND H100 v5"
       },
       {
         "name": "GCP H100",
-        "price": "$3.29/hr",
+        "price": "$3.32/hr",
         "note": "A3 on-demand"
       },
       {
         "name": "AWS A100",
-        "price": "$1.94/hr",
+        "price": "$1.91/hr",
         "note": "p4d.24xlarge"
       }
     ],
     "opticalModules": [
       {
         "name": "800G SR8",
-        "price": "$1,243"
+        "price": "$1,266"
       },
       {
         "name": "800G XDR8",
-        "price": "$9,004"
+        "price": "$8,696"
       },
       {
         "name": "400G DR4",
-        "price": "$445"
+        "price": "$449"
       },
       {
         "name": "1.6T OSFP(估)",
-        "price": "$2,001"
+        "price": "$2,016"
       }
     ],
     "gpuHistory": [
@@ -2417,6 +2452,41 @@
         "Azure H100": 3.73,
         "GCP H100": 3.29,
         "AWS A100": 1.94
+      },
+      {
+        "date": "2026-10-22",
+        "AWS H100": 3.05,
+        "Azure H100": 3.69,
+        "GCP H100": 3.28,
+        "AWS A100": 1.96
+      },
+      {
+        "date": "2026-10-23",
+        "AWS H100": 3.06,
+        "Azure H100": 3.78,
+        "GCP H100": 3.33,
+        "AWS A100": 1.93
+      },
+      {
+        "date": "2026-10-24",
+        "AWS H100": 3.05,
+        "Azure H100": 3.81,
+        "GCP H100": 3.31,
+        "AWS A100": 1.95
+      },
+      {
+        "date": "2026-10-25",
+        "AWS H100": 3.09,
+        "Azure H100": 3.78,
+        "GCP H100": 3.35,
+        "AWS A100": 1.92
+      },
+      {
+        "date": "2026-10-26",
+        "AWS H100": 3.09,
+        "Azure H100": 3.81,
+        "GCP H100": 3.32,
+        "AWS A100": 1.91
       }
     ],
     "opticalHistory": [
@@ -3616,6 +3686,41 @@
         "800G XDR8": 9004,
         "400G DR4": 445,
         "1.6T OSFP(估)": 2001
+      },
+      {
+        "date": "2026-10-22",
+        "800G SR8": 1256,
+        "800G XDR8": 8848,
+        "400G DR4": 442,
+        "1.6T OSFP(估)": 2002
+      },
+      {
+        "date": "2026-10-23",
+        "800G SR8": 1254,
+        "800G XDR8": 8889,
+        "400G DR4": 452,
+        "1.6T OSFP(估)": 2032
+      },
+      {
+        "date": "2026-10-24",
+        "800G SR8": 1233,
+        "800G XDR8": 8797,
+        "400G DR4": 459,
+        "1.6T OSFP(估)": 2009
+      },
+      {
+        "date": "2026-10-25",
+        "800G SR8": 1233,
+        "800G XDR8": 8841,
+        "400G DR4": 448,
+        "1.6T OSFP(估)": 1997
+      },
+      {
+        "date": "2026-10-26",
+        "800G SR8": 1266,
+        "800G XDR8": 8696,
+        "400G DR4": 449,
+        "1.6T OSFP(估)": 2016
       }
     ]
   }
